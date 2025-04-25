@@ -1,0 +1,38 @@
+analisis_penyakit_dari_gejala_task:
+    description: >
+      Menganalisa gejala yang dilaporkan pengguna dan mendiagnosis penyakit berdasarkan gejala tersebut.
+      Gunakan data dari csv untuk memastikan akurasi, namun abaikan penyakit yang tidak memiliki hubungan langsung dengan gejala.
+    expected_output: >
+      Diagnosis penyakit, tingkat risiko penyakit, efek samping yang umum terjadi, dan gejala terkait lainnya.
+      urutkan nama penyakit berdasarkan relevansi dengan gejala.
+      Jika input pengguna tidak ada kaitannya dengan penyakit, gejala, dan obat. berikan output "Tidak ada kaitannya dengan penyakit, gejala, dan obat."
+    agent: analisa_penyakit
+    # inputs:
+    #   query: "{gejala_user}"
+
+# analisa_medis_task:
+#     description: >
+#       Menganalisis tingkat bahaya dari penyakit yang telah didiagnosis serta mendeteksi kemungkinan interaksi berbahaya antara beberapa obat jika ada.
+#     expected_output: >
+#       Penilaian tingkat risiko penyakit, informasi interaksi antar obat, serta rekomendasi tindakan medis atau alternatif.
+#     agent: analis_medis
+
+rekomendasi_obat_task:
+    description: >
+      Menyediakan informasi farmasi berdasarkan penyakit yang telah didiagnosis, termasuk rekomendasi obat, dosis, aturan pakai, dan potensi efek sampingnya.
+    expected_output: >
+      Rincian nama obat yang direkomendasikan, dosis yang disarankan, cara pemakaian, dan efek samping yang harus diwaspadai.
+    agent: apoteker_virtual
+
+output_manager_task:
+  description: >
+    Merapihkan output dari agent lain agar lebih mudah dipahami oleh manusia. 
+  expected_output: >
+    Output agent lainnya dalam format yang sudah dirapihkan. hilangkan tanda bintang pada output. Contoh:
+    1. Nama penyakit: 
+       Rekomendasi obat:
+       Dosis:
+       Aturan pakai:
+       Efek samping:
+  agent: output_manager
+  context: [analisis_penyakit_dari_gejala_task, rekomendasi_obat_task]

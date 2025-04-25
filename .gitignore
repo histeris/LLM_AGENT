@@ -1,0 +1,8 @@
+.env
+__pycache__/
+.DS_Store
+db/openai/chroma.sqlite3
+*.bin
+db/
+myenv
+db/data_level0.bin
