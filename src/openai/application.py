@@ -15,6 +15,8 @@ from dotenv import load_dotenv
 
 MEMORY_FILE = "memory.json"
 
+MAX_MESSAGE_LENGTH = 4096
+
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logging.info('Starting Bot...')
 
@@ -83,8 +85,16 @@ async def history(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 formatted_history += f"User: {item['user']}\nAgent: {item['agent']}\n\n"
             else:
                 formatted_history += f"[Format tidak valid]: {str(item)}\n\n"
+        try:
+            if len(formatted_history) > MAX_MESSAGE_LENGTH:
+                for i in range(0, len(formatted_history), MAX_MESSAGE_LENGTH):
+                    await update.message.reply_text(formatted_history[i:i+MAX_MESSAGE_LENGTH])
+            else:
+                await update.message.reply_text(f"Histori: \n{formatted_history.strip()}")
         # await update.message.reply_text(f"Histori: \n{history_text}", parse_mode="Markdown")
-        await update.message.reply_text(f"Histori: \n{formatted_history.strip()}")
+        # await update.message.reply_text(f"Histori: \n{formatted_history.strip()}")
+        except Exception as e:
+            await update.message.reply_text("Pesan terlalu panjang untuk dikirim.")
     else:
         await update.message.reply_text("Belum ada histori percakapan.")
             
