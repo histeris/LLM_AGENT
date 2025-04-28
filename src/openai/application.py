@@ -1,8 +1,7 @@
 import logging
 import json
-import nest_asyncio
 from telegram.ext import *
-from telegram import Update
+from telegram import Update, ReplyKeyboardMarkup
 from crew import researcher
 import asyncio
 import pytz
@@ -12,6 +11,7 @@ import sys
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 from dotenv import load_dotenv
+from memoryParser import parse_agent_text
 
 MEMORY_FILE = "memory.json"
 
@@ -32,8 +32,17 @@ async def start_command(update: Update, context: CallbackContext):
     if user_id not in memory["started_users"]:
         memory["started_users"].append(user_id)
         save_memory(memory)
-    await update.message.reply_text("Halo Silahkan ketik gejala apa yang ada alami maka kami akan rekomendasikan obatnya untuk anda.")
-
+    
+    keyboard = [
+        ["/start"],
+        ["/history", "/newchat"]
+    ]
+    reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+    await update.message.reply_text(
+        "Halo, selamat datang di aplikasi ini.\nSilahkan pilih menu yang tersedia:",
+        reply_markup=reply_markup
+    )
+    
 def run_crew_blocking(user_input):
     inputs = {
         "gejala_user": user_input,
@@ -53,6 +62,16 @@ async def handle_message(update: Update, context: CallbackContext):
         await update.message.reply_text("Ketik command terlebih dahulu sebelum memulai chat.")
         return
     
+    if user_text == "start":
+        await update.message.reply_text("Silakan ketik gejala yang anda alami.")
+        return
+    elif user_text == "history":
+        await history(update, context)
+        return
+    elif user_text == "newchat":
+        await new_chat(update,context)
+        return
+    
     await update.message.reply_text("Sedang memproses dengan CrewAI, tunggu sebentar...") 
 
     loop = asyncio.get_event_loop()
@@ -66,7 +85,7 @@ async def handle_message(update: Update, context: CallbackContext):
         
     memory[user_id].append({
         "user": user_text,
-        "agent": result
+        "agent": parse_agent_text(result)
     })
     save_memory(memory)
 
@@ -111,7 +130,7 @@ def load_memory():
 
 def save_memory(memory):
     with open(MEMORY_FILE, "w") as f:
-        json.dump(memory,f)
+        json.dump(memory,f,indent=4)
 
 async def new_chat(update: Update, context: CallbackContext):
     user_id = str(update.message.from_user.id)
@@ -144,8 +163,8 @@ def main():
     application.add_error_handler(error)
 
     print("Bot is running...")
+    logging.info("Running polling...")
     application.run_polling()
 
 if __name__ == "__main__":
-    # asyncio.run(main())
     main()
