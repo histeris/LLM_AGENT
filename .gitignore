@@ -1,0 +1,10 @@
+.env
+__pycache__/
+.DS_Store
+db/chroma.sqlite3
+db/3247ea5c-42f6-4982-822e-feb1964134c7/data_level0.bin
+db/openai/chroma.sqlite3
+*.bin
+db/
+myenv
+db/data_level0.bin

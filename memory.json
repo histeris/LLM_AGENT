@@ -1,0 +1,89 @@
+{
+    "started_users": [
+        "5708441153",
+        "7116300622"
+    ],
+    "history_backup": {
+        "5708441153_20250428_190001": []
+    },
+    "5708441153": [
+        {
+            "user": "saya sulit tidur dan kadang mengalami sesak napas",
+            "agent": [
+                {
+                    "nama_penyakit": "Sleep Apnea",
+                    "rekomendasi_obat": "Modafinil",
+                    "dosis": "",
+                    "-_dosis_awal": "0,5 mg, 2 kali sehari, dikonsumsi sebelum tidur, selama 3\u20137 hari.",
+                    "-_dosis_maksimal": "2 mg, 2 kali sehari.",
+                    "-_untuk_bentuk_tablet_biasa": "Dosis awal 0,125 mg, 1 kali sehari, dikonsumsi 2\u20133 jam sebelum tidur. Dosis dapat ditingkatkan tiap 4\u20137 hari dengan maksimal dosis 0,75 mg per hari.",
+                    "aturan_pakai": "Modafinil diambil sesuai dosis yang diresepkan dokter tergantung kondisi pasien. Pastikan untuk mengikuti instruksi serta waktu dan cara penggunaan yang tepat.",
+                    "efek_samping": ""
+                },
+                {
+                    "nama_penyakit": "Asthma",
+                    "rekomendasi_obat": "- (Belum ada rekomendasi obat yang diberikan)",
+                    "dosis": "- (Belum ada dosis yang diberikan)",
+                    "aturan_pakai": "- (Belum ada aturan pakai yang diberikan)",
+                    "efek_samping": ""
+                },
+                {
+                    "nama_penyakit": "Anxiety Disorders",
+                    "rekomendasi_obat": "- (Belum ada rekomendasi obat yang diberikan)",
+                    "dosis": "- (Belum ada dosis yang diberikan)",
+                    "aturan_pakai": "- (Belum ada aturan pakai yang diberikan)",
+                    "efek_samping": ""
+                }
+            ]
+        }
+    ],
+    "7116300622": [
+        {
+            "user": "Gejala saya pinggang kana saya sakit setiap kali saya bernafas",
+            "agent": [
+                {
+                    "**anemia**_-_**tingkat_risiko**": "Menengah - **Gejala Terkait**: Kelelahan, pusing, kulit pucat, palpitasi jantung, sesak napas. - **Efek Samping Umum**: Mual, sembelit, diare, sakit perut. - **Rekomendasi Obat**:",
+                    "-_**nama_obat**": "Ferrous Sulfate",
+                    "-_**dosis**": "325 mg, diminum 1-2 kali sehari",
+                    "-_**aturan_pakai**": "Sebaiknya diminum setelah makan untuk meminimalisir efek samping gastrointestinal.",
+                    "-_**efek_samping_obat**": "Mual, sembelit, diare, sakit perut."
+                },
+                {
+                    "**hipotensi_(tekanan_darah_rendah)**_-_**tingkat_risiko**": "Menengah - **Gejala Terkait**: Pusing, pingsan, lemas, kebingungan. - **Efek Samping Umum**: Tekanan darah tinggi, gatal, pusing. - **Rekomendasi Obat**:",
+                    "-_**nama_obat**": "Midodrine",
+                    "-_**dosis**": "2.5 mg, diminum 3 kali sehari",
+                    "-_**aturan_pakai**": "Diminum 3-4 jam sebelum tidur untuk menghindari hipertensi supine.",
+                    "-_**efek_samping_obat**": "Tekanan darah tinggi, gatal, pusing."
+                },
+                {
+                    "**gangguan_tiroid_(hipotiroidisme)**_-_**tingkat_risiko**": "Menengah hingga tinggi - **Gejala Terkait**: Kelelahan, kenaikan berat badan, depresi, pusing, kulit kering. - **Efek Samping Umum**: Keringat berlebih, kehilangan berat badan, napas pendek. - **Rekomendasi Obat**:",
+                    "-_**nama_obat**": "Levothyroxine",
+                    "-_**dosis**": "1.6 mikrogram/kg berat badan per hari",
+                    "-_**aturan_pakai**": "Diminum di pagi hari dengan perut kosong, minimal 30 menit sebelum makan.",
+                    "-_**efek_samping_obat**": "Keringat berlebih, kehilangan berat badan, napas pendek."
+                },
+                {
+                    "**depresi_atau_gangguan_kecemasan**_-_**tingkat_risiko**": "Menengah - **Gejala Terkait**: Kelelahan, kurang minat dalam aktivitas sehari-hari, gangguan tidur, pusing, sesak napas. - **Efek Samping Umum**: Mual, diare, kehilangan nafsu makan. - **Rekomendasi Obat**:",
+                    "-_**nama_obat**": "Sertraline",
+                    "-_**dosis**": "50 mg, diminum satu kali sehari",
+                    "-_**aturan_pakai**": "Dapat diminum dengan atau tanpa makanan.",
+                    "-_**efek_samping_obat**": "Mual, diare, kehilangan nafsu makan."
+                },
+                {
+                    "**diabetes_(hiperglikemia_atau_hipoglikemia)**_-_**tingkat_risiko**": "Menengah hingga tinggi - **Gejala Terkait**: Kelelahan, pusing, kebingungan, berkeringat berlebihan, haus yang berlebihan. - **Efek Samping Umum**: Mual, muntah, diare, nyeri perut. - **Rekomendasi Obat**:",
+                    "-_**nama_obat**": "Metformin",
+                    "-_**dosis**": "500 mg, diminum 2 kali sehari",
+                    "-_**aturan_pakai**": "Diminum saat makan untuk mengurangi efek samping gastrointestinal.",
+                    "-_**efek_samping_obat**": "Mual, muntah, diare, nyeri perut."
+                },
+                {
+                    "**dehidrasi**_-_**tingkat_risiko**": "Rendah - **Gejala Terkait**: Pusing, mulut kering, kelelahan, urin gelap. - **Efek Samping Umum**: Jarang terjadi, pada beberapa orang mungkin menimbulkan kembung atau mual jika diminum terlalu cepat. - **Rekomendasi Obat**:",
+                    "-_**nama_obat**": "Oral Rehydration Salts (ORS)",
+                    "-_**dosis**": "1 paket dalam 1 liter air, diminum perlahan-lahan.",
+                    "-_**aturan_pakai**": "Diminum segera setelah pencampuran.",
+                    "-_**efek_samping_obat**": "Jarang terjadi, pada beberapa orang mungkin menimbulkan kembung atau mual jika diminum terlalu cepat."
+                }
+            ]
+        }
+    ]
+}
