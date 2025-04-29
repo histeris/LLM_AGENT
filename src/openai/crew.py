@@ -1,7 +1,7 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 # from src.openai.tools.Rag import Search_tool, alo_dokter, halo_doc, halo_sehat, bpom_id, interaksi_obat, penyakit_alo_dokter, penyakit_halo_sehat, icd, who
-from tools.Rag import data_penyakit, data_obat
+from tools.rag import data_penyakit, data_obat
 
 # If you want to run a snippet of code before or after the crew starts, 
 # you can use the @before_kickoff and @after_kickoff decorators

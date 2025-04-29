@@ -45,5 +45,5 @@ data_obat = CSVSearchTool()
 # Search_tool = WebsiteSearchTool()
 
 # Jalankan
-batch_load_csv(data_penyakit, "penyakit_alodokter.csv")
+batch_load_csv(data_penyakit, "data_alo_dokter(Cleaned).csv")
 batch_load_csv(data_obat, "obat_alodokter_new.csv")
