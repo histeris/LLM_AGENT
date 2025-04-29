@@ -17,7 +17,16 @@ class researcher():
 	# Tasks: https://docs.crewai.com/concepts/tasks#yaml-configuration-recommended
 	agents_config = 'config/agents.yaml'
 	tasks_config = 'config/tasks.yaml'
-	
+
+	@agent
+	def classification_agent(self) -> Agent:
+		return Agent(
+			config=self.agents_config['classification_agent'],
+			verbose=True,
+   			allow_delegation=True,
+			max_iter=30
+		)
+		
 	@agent
 	def analisa_penyakit(self) -> Agent:
 		return Agent(
@@ -57,6 +66,12 @@ class researcher():
 			allow_delegation=False,
 			max_iter=30
 		)
+
+	@task
+	def classification_task(self) -> Task:
+		return Task(
+			config=self.tasks_config['classification_task'],
+		)
   
 	@task
 	def analisis_penyakit_dari_gejala_task(self) -> Task:
@@ -88,6 +103,7 @@ class researcher():
 		return Crew(
 			agents=[
 				# self.manager(),
+				self.classification_agent(),
 				self.analisa_penyakit(),
 				# self.analis_medis(),
 				self.apoteker_virtual(),
@@ -95,6 +111,7 @@ class researcher():
 			],
 			tasks=[
 				# self.koordinasi_diagnosis_task(),
+				self.classification_task(),
 				self.analisis_penyakit_dari_gejala_task(),
 				# self.analisa_medis_task(),
 				self.rekomendasi_obat_task(),
