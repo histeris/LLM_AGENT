@@ -1,38 +1,57 @@
-analisis_penyakit_dari_gejala_task:
-    description: >
-      Menganalisa gejala yang dilaporkan pengguna dan mendiagnosis penyakit berdasarkan gejala tersebut.
-      Gunakan data dari csv untuk memastikan akurasi, namun abaikan penyakit yang tidak memiliki hubungan langsung dengan gejala.
-    expected_output: >
-      Diagnosis penyakit, tingkat risiko penyakit, efek samping yang umum terjadi, dan gejala terkait lainnya.
-      urutkan nama penyakit berdasarkan relevansi dengan gejala.
-      Jika input pengguna tidak ada kaitannya dengan penyakit, gejala, dan obat. berikan output "Tidak ada kaitannya dengan penyakit, gejala, dan obat."
-    agent: analisa_penyakit
-    # inputs:
-    #   query: "{gejala_user}"
+classification_task:
+  description: >
+    Klasifikasikan input dari pengguna apakah termasuk gejala, penyakit, atau penyebab/faktor risiko.
+    Informasi ini akan menentukan agen selanjutnya yang akan menangani kasus pengguna.
+  expected_output: >
+    Label klasifikasi dari input pengguna (gejala, penyakit, atau penyebab),
+    serta informasi siap diteruskan ke agen analisa atau rekomendasi obat.
+  agent: classification_agent
 
-# analisa_medis_task:
-#     description: >
-#       Menganalisis tingkat bahaya dari penyakit yang telah didiagnosis serta mendeteksi kemungkinan interaksi berbahaya antara beberapa obat jika ada.
-#     expected_output: >
-#       Penilaian tingkat risiko penyakit, informasi interaksi antar obat, serta rekomendasi tindakan medis atau alternatif.
-#     agent: analis_medis
+analisis_penyakit_dari_gejala_task:
+  description: >
+    Menganalisa gejala yang dilaporkan pengguna dan mendiagnosis penyakit berdasarkan gejala tersebut.
+    Gunakan database CSV atau pengetahuan medis untuk meningkatkan akurasi diagnosis.
+    Abaikan penyakit yang tidak memiliki hubungan langsung dengan gejala pengguna.
+  expected_output: >
+    Diagnosis utama, tingkat risiko penyakit, gejala terkait lainnya, dan efek samping umum.
+    Urutkan penyakit berdasarkan relevansi tertinggi dengan gejala.
+    Jika input tidak ada kaitannya dengan penyakit/gejala/obat, jawab: "Tidak ada kaitannya dengan penyakit, gejala, dan obat."
+  agent: analisa_penyakit
 
 rekomendasi_obat_task:
-    description: >
-      Menyediakan informasi farmasi berdasarkan penyakit yang telah didiagnosis, termasuk rekomendasi obat, dosis, aturan pakai, dan potensi efek sampingnya.
-    expected_output: >
-      Rincian nama obat yang direkomendasikan, dosis yang disarankan, cara pemakaian, dan efek samping yang harus diwaspadai.
-    agent: apoteker_virtual
+  description: >
+    Berdasarkan daftar penyakit yang telah didiagnosis, berikan rekomendasi obat untuk masing-masing penyakit.
+    Setiap penyakit harus memiliki: nama obat, dosis, aturan pakai, dan efek samping yang umum.
+  expected_output: >
+    Untuk setiap penyakit:
+    - Nama penyakit
+    - Nama obat
+    - Dosis
+    - Aturan pakai
+    - Efek samping
+  agent: apoteker_virtual
+
 
 output_manager_task:
   description: >
-    Merapihkan output dari agent lain agar lebih mudah dipahami oleh manusia. 
+    Merapikan output dari agent lain agar mudah dipahami manusia dalam format yang konsisten dan profesional.
   expected_output: >
-    Output agent lainnya dalam format yang sudah dirapihkan. hilangkan tanda bintang pada output. Contoh:
-    1. Nama penyakit: 
-       Rekomendasi obat:
-       Dosis:
-       Aturan pakai:
-       Efek samping:
+    Rangkuman output agent lain dalam format yang ditentukan. Hilangkan tanda bintang pada output Contoh output:
+
+    1. Nama Penyakit (dengan nama lokal jika ada)
+    - Tingkat Risiko: Tingkat Risiko Penyakit
+    - Gejala Terkait: Daftar Gejala
+    - Efek Samping Umum: Daftar Efek Samping Umum
+    - Rekomendasi Obat:
+      - Nama Obat: Nama Obat
+      - Dosis: Dosis
+      - Aturan Pakai: Aturan Pakai
+      - Efek Samping Obat: Efek Samping dari Obat
+
+    Pastikan:
+    - Tidak ada pengulangan seperti "Diagnosis Utama".
+    - Tidak ada tanda bintang (*).
+    - Setiap diagnosis dipisahkan dengan garis "---" setelahnya.
+    - Format menggunakan bullet point dan bold untuk heading penting.
   agent: output_manager
   context: [analisis_penyakit_dari_gejala_task, rekomendasi_obat_task]
