@@ -1,12 +1,15 @@
 {
     "started_users": [
-        "5708441153",
-        "7116300622"
+        "5708441153"
     ],
     "history_backup": {
         "5708441153_20250428_190001": []
     },
     "5708441153": [
+        {
+            "user": "saya sakit kepala dan sedikit pusing juga mual",
+            "agent": "1. Nama penyakit: Migrain  \n   Rekomendasi obat: Sumatriptan  \n   Dosis: 50-100 mg oral saat gejala muncul, dapat diulang setelah 2 jam (maksimum 200 mg/hari)  \n   Aturan pakai: Minum saat sakit kepala muncul  \n   Efek samping: Sakit kepala rebound, mual, kemerahan pada kulit.  \n\n2. Nama penyakit: Vertigo  \n   Rekomendasi obat: Meclizine  \n   Dosis: 25-100 mg/hari, tergantung keparahan  \n   Aturan pakai: Minum oral, biasanya sekali sehari  \n   Efek samping: Mengantuk, mulut kering, kabur penglihatan.  \n\n3. Nama penyakit: Gastritis  \n   Rekomendasi obat: Omeprazole  \n   Dosis: 20-40 mg/hari  \n   Aturan pakai: Minum 30 menit sebelum makan  \n   Efek samping: Sakit kepala, mual, diare.  \n\n4. Nama penyakit: Penyakit Meniere  \n   Rekomendasi obat: Amlodipine  \n   Dosis: 5 mg/hari  \n   Aturan pakai: Minum setiap hari pada waktu yang sama  \n   Efek samping: Pembengkakan, pusing, detak jantung cepat.  \n\n5. Nama penyakit: Cidera Kepala  \n   Rekomendasi obat: Analgesik seperti Paracetamol  \n   Dosis: 500-1000 mg setiap 4-6 jam, maksimal 4000 mg/hari  \n   Aturan pakai: Minum saat sakit kepala muncul  \n   Efek samping: Kerusakan hati (jika dosis berlebihan).  \n\n6. Nama penyakit: Stroke  \n   Rekomendasi obat: Aspirin  \n   Dosis: 160-325 mg/hari  \n   Aturan pakai: Mengambil aspirin setelah serangan stroke  \n   Efek samping: Pendarahan gastrointestinal, reaksi alergi.  \n\nInformasi ini sebaiknya digunakan untuk evaluasi lanjut dan manajemen yang tepat dari gejala yang dilaporkan, pastikan konsultasi dengan dokter sebelum memulai pengobatan."
+        },
         {
             "user": "saya sulit tidur dan kadang mengalami sesak napas",
             "agent": [
@@ -33,55 +36,6 @@
                     "dosis": "- (Belum ada dosis yang diberikan)",
                     "aturan_pakai": "- (Belum ada aturan pakai yang diberikan)",
                     "efek_samping": ""
-                }
-            ]
-        }
-    ],
-    "7116300622": [
-        {
-            "user": "Gejala saya pinggang kana saya sakit setiap kali saya bernafas",
-            "agent": [
-                {
-                    "**anemia**_-_**tingkat_risiko**": "Menengah - **Gejala Terkait**: Kelelahan, pusing, kulit pucat, palpitasi jantung, sesak napas. - **Efek Samping Umum**: Mual, sembelit, diare, sakit perut. - **Rekomendasi Obat**:",
-                    "-_**nama_obat**": "Ferrous Sulfate",
-                    "-_**dosis**": "325 mg, diminum 1-2 kali sehari",
-                    "-_**aturan_pakai**": "Sebaiknya diminum setelah makan untuk meminimalisir efek samping gastrointestinal.",
-                    "-_**efek_samping_obat**": "Mual, sembelit, diare, sakit perut."
-                },
-                {
-                    "**hipotensi_(tekanan_darah_rendah)**_-_**tingkat_risiko**": "Menengah - **Gejala Terkait**: Pusing, pingsan, lemas, kebingungan. - **Efek Samping Umum**: Tekanan darah tinggi, gatal, pusing. - **Rekomendasi Obat**:",
-                    "-_**nama_obat**": "Midodrine",
-                    "-_**dosis**": "2.5 mg, diminum 3 kali sehari",
-                    "-_**aturan_pakai**": "Diminum 3-4 jam sebelum tidur untuk menghindari hipertensi supine.",
-                    "-_**efek_samping_obat**": "Tekanan darah tinggi, gatal, pusing."
-                },
-                {
-                    "**gangguan_tiroid_(hipotiroidisme)**_-_**tingkat_risiko**": "Menengah hingga tinggi - **Gejala Terkait**: Kelelahan, kenaikan berat badan, depresi, pusing, kulit kering. - **Efek Samping Umum**: Keringat berlebih, kehilangan berat badan, napas pendek. - **Rekomendasi Obat**:",
-                    "-_**nama_obat**": "Levothyroxine",
-                    "-_**dosis**": "1.6 mikrogram/kg berat badan per hari",
-                    "-_**aturan_pakai**": "Diminum di pagi hari dengan perut kosong, minimal 30 menit sebelum makan.",
-                    "-_**efek_samping_obat**": "Keringat berlebih, kehilangan berat badan, napas pendek."
-                },
-                {
-                    "**depresi_atau_gangguan_kecemasan**_-_**tingkat_risiko**": "Menengah - **Gejala Terkait**: Kelelahan, kurang minat dalam aktivitas sehari-hari, gangguan tidur, pusing, sesak napas. - **Efek Samping Umum**: Mual, diare, kehilangan nafsu makan. - **Rekomendasi Obat**:",
-                    "-_**nama_obat**": "Sertraline",
-                    "-_**dosis**": "50 mg, diminum satu kali sehari",
-                    "-_**aturan_pakai**": "Dapat diminum dengan atau tanpa makanan.",
-                    "-_**efek_samping_obat**": "Mual, diare, kehilangan nafsu makan."
-                },
-                {
-                    "**diabetes_(hiperglikemia_atau_hipoglikemia)**_-_**tingkat_risiko**": "Menengah hingga tinggi - **Gejala Terkait**: Kelelahan, pusing, kebingungan, berkeringat berlebihan, haus yang berlebihan. - **Efek Samping Umum**: Mual, muntah, diare, nyeri perut. - **Rekomendasi Obat**:",
-                    "-_**nama_obat**": "Metformin",
-                    "-_**dosis**": "500 mg, diminum 2 kali sehari",
-                    "-_**aturan_pakai**": "Diminum saat makan untuk mengurangi efek samping gastrointestinal.",
-                    "-_**efek_samping_obat**": "Mual, muntah, diare, nyeri perut."
-                },
-                {
-                    "**dehidrasi**_-_**tingkat_risiko**": "Rendah - **Gejala Terkait**: Pusing, mulut kering, kelelahan, urin gelap. - **Efek Samping Umum**: Jarang terjadi, pada beberapa orang mungkin menimbulkan kembung atau mual jika diminum terlalu cepat. - **Rekomendasi Obat**:",
-                    "-_**nama_obat**": "Oral Rehydration Salts (ORS)",
-                    "-_**dosis**": "1 paket dalam 1 liter air, diminum perlahan-lahan.",
-                    "-_**aturan_pakai**": "Diminum segera setelah pencampuran.",
-                    "-_**efek_samping_obat**": "Jarang terjadi, pada beberapa orang mungkin menimbulkan kembung atau mual jika diminum terlalu cepat."
                 }
             ]
         }
