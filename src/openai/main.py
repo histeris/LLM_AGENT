@@ -18,7 +18,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'gejala_user': 'gejala saya sakit kepala dan pusing',
+        'gejala_user': 'Saya sakit disentri',
     }
     
     try:

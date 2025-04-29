@@ -41,7 +41,6 @@ output_manager_task:
     1. Nama Penyakit (dengan nama lokal jika ada)\n
     - Tingkat Risiko: Tingkat Risiko Penyakit\n
     - Gejala Terkait: Daftar Gejala\n
-    - Efek Samping Umum: Daftar Efek Samping Umum
     - Rekomendasi Obat:
       - Nama Obat: Nama Obat
       - Dosis: Dosis
