@@ -33,20 +33,9 @@ class researcher():
 			config=self.agents_config['analisa_penyakit'],
 			verbose=True,
 			tools=[data_penyakit],
-			# tools=[penyakit_halo_sehat, penyakit_alo_dokter],
    			allow_delegation=True,
 			max_iter=30
 		)
-
-	# @agent
-	# def analis_medis(self) -> Agent:
-	# 	return Agent(
-	# 		config=self.agents_config['analis_medis'],
-	# 		verbose=True,
-	# 		tools=[data_penyakit, data_obat],
-	# 		allow_delegation=False,
-	# 		# max_iter=30
-	# 	)
 
 	@agent
 	def apoteker_virtual(self) -> Agent:
@@ -79,12 +68,6 @@ class researcher():
 			config=self.tasks_config['analisis_penyakit_dari_gejala_task'],
 		)
 
-	# @task
-	# def analisa_medis_task(self) -> Task:
-	# 	return Task(
-	# 		config=self.tasks_config['analisa_medis_task'],
-	# 	)
-
 	@task
 	def rekomendasi_obat_task(self) -> Task:
 		return Task(
@@ -102,18 +85,14 @@ class researcher():
 		"""Kru AI Virtual Dokter"""
 		return Crew(
 			agents=[
-				# self.manager(),
 				self.classification_agent(),
 				self.analisa_penyakit(),
-				# self.analis_medis(),
 				self.apoteker_virtual(),
 				self.output_manager()
 			],
 			tasks=[
-				# self.koordinasi_diagnosis_task(),
 				self.classification_task(),
 				self.analisis_penyakit_dari_gejala_task(),
-				# self.analisa_medis_task(),
 				self.rekomendasi_obat_task(),
 				self.output_manager_task()
 			],
