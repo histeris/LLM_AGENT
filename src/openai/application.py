@@ -13,6 +13,11 @@ from concurrent.futures import ThreadPoolExecutor
 from dotenv import load_dotenv
 from memoryParser import parse_agent_text
 
+import re
+
+def remove_character(text):
+    return re.sub(r'\*\*(.*?)\*\*', r'\1', text)
+
 MEMORY_FILE = "memory.json"
 
 MAX_MESSAGE_LENGTH = 4096
@@ -21,6 +26,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logging.info('Starting Bot...')
 
 executor = ThreadPoolExecutor()
+
  
 async def start_command(update: Update, context: CallbackContext):
     user_id = str(update.message.from_user.id)
@@ -53,6 +59,25 @@ def run_crew_blocking(user_input):
     except Exception as e:
         return f"Error saat menjalankan CrewAI: {e}"
 
+def format_agent_output(agent_data):
+    try:
+        data = json.loads(agent_data)
+        if isinstance(data, list):
+            formatted = ""
+            for i, item in enumerate(data,start=1):
+                formatted += (
+                    f"Nama penyakit: {item.get('nama_penyakit', '')}\n"
+                    f"Rekomendasi obat: {item.get('rekomendasi_obat', '')}\n"
+                    f"Dosis: {item.get('dosis', '')}\n"
+                    f"Aturan pakai: {item.get('aturan_pakai', '')}\n"
+                    f"Efek samping: {item.get('efek_samping', '')}\n\n"
+                )
+            return formatted.strip()
+        else:
+            return agent_data
+    except Exception as e:
+        return agent_data
+        
 async def handle_message(update: Update, context: CallbackContext):
     user_id = str(update.message.from_user.id)
     user_text = update.message.text
@@ -77,7 +102,9 @@ async def handle_message(update: Update, context: CallbackContext):
     loop = asyncio.get_event_loop()
     result = await loop.run_in_executor(executor, run_crew_blocking, user_text)
 
-    await update.message.reply_text(result)
+    formatted_result = format_agent_output(result)
+    cleaned_result = remove_character(formatted_result)
+    await update.message.reply_text(cleaned_result)
     memory = load_memory()
     
     if user_id not in memory:
@@ -85,7 +112,7 @@ async def handle_message(update: Update, context: CallbackContext):
         
     memory[user_id].append({
         "user": user_text,
-        "agent": parse_agent_text(result)
+        "agent": parse_agent_text(cleaned_result)
     })
     save_memory(memory)
 

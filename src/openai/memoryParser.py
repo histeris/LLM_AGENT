@@ -1,15 +1,20 @@
 import re
 
+def clean_key(key):
+    # Hilangkan simbol markdown dan ubah ke snake_case
+    key = re.sub(r'[^a-zA-Z0-9 ]', '', key)  # hapus simbol seperti -, *, _
+    key = key.strip().lower().replace(' ', '_')
+    return key
+
 def parse_agent_text(text_agent):
     """
     Fungsi untuk parsing text agent menjadi list of dictionary yang rapi.
     """
     if not isinstance(text_agent, str):
-        return text_agent  # Kalau sudah format bagus, return apa adanya
+        return text_agent
 
-    # Pisahkan berdasarkan nomor
     blocks = re.split(r'\n?\d+\.\s+', text_agent.strip())
-    blocks = [block.strip() for block in blocks if block.strip()]  # buang kosong
+    blocks = [block.strip() for block in blocks if block.strip()]
 
     result = []
     for block in blocks:
@@ -18,10 +23,10 @@ def parse_agent_text(text_agent):
         for line in lines:
             if ':' in line:
                 key, value = line.split(':', 1)
-                key = key.strip().lower().replace(' ', '_')  # nama key jadi snake_case
+                key = clean_key(key)
                 value = value.strip()
                 penyakit[key] = value
-        if penyakit:  # hanya append kalau ada data
+        if penyakit:
             result.append(penyakit)
 
-    return result if result else text_agent  # kalau parsing gagal, tetap return teks original
+    return result if result else text_agent
