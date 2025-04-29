@@ -1,6 +1,4 @@
 .env
-.venv
-/crewai_project
 __pycache__/
 .DS_Store
 db/openai/chroma.sqlite3
