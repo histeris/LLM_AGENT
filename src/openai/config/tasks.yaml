@@ -36,22 +36,16 @@ output_manager_task:
   description: >
     Merapikan output dari agent lain agar mudah dipahami manusia dalam format yang konsisten dan profesional.
   expected_output: >
-    Rangkuman output agent lain dalam format yang ditentukan. Hilangkan tanda bintang pada output Contoh output:
+    Rangkuman output agent lain dalam format yang ditentukan. Hilangkan tanda bintang pada output, dan berikan new line pada akhir baris. Contoh output:
 
-    1. Nama Penyakit (dengan nama lokal jika ada)
-    - Tingkat Risiko: Tingkat Risiko Penyakit
-    - Gejala Terkait: Daftar Gejala
+    1. Nama Penyakit (dengan nama lokal jika ada)\n
+    - Tingkat Risiko: Tingkat Risiko Penyakit\n
+    - Gejala Terkait: Daftar Gejala\n
     - Efek Samping Umum: Daftar Efek Samping Umum
     - Rekomendasi Obat:
       - Nama Obat: Nama Obat
       - Dosis: Dosis
       - Aturan Pakai: Aturan Pakai
       - Efek Samping Obat: Efek Samping dari Obat
-
-    Pastikan:
-    - Tidak ada pengulangan seperti "Diagnosis Utama".
-    - Tidak ada tanda bintang (*).
-    - Setiap diagnosis dipisahkan dengan garis "---" setelahnya.
-    - Format menggunakan bullet point dan bold untuk heading penting.
   agent: output_manager
   context: [analisis_penyakit_dari_gejala_task, rekomendasi_obat_task]
