@@ -40,8 +40,8 @@ async def start_command(update: Update, context: CallbackContext):
         save_memory(memory)
     
     keyboard = [
-        ["/start"],
-        ["/history", "/newchat"]
+        ["Konsultasi"],
+        ["history", "newchat"]
     ]
     reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
     await update.message.reply_text(
@@ -87,7 +87,7 @@ async def handle_message(update: Update, context: CallbackContext):
         await update.message.reply_text("Ketik command terlebih dahulu sebelum memulai chat.")
         return
     
-    if user_text == "start":
+    if user_text.lower() in ["start", "konsultasi"]:
         await update.message.reply_text("Silakan ketik gejala yang anda alami.")
         return
     elif user_text == "history":
