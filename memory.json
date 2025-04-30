@@ -1,14 +1,11 @@
 {
     "started_users": [
-        "5708441153"
+        "5708441153",
+        "7116300622"
     ],
     "history_backup": {
         "5708441153_20250428_190001": [],
         "5708441153_20250429_193629": [
-            {
-                "user": "saya sakit kepala dan sedikit pusing juga mual",
-                "agent": "1. Nama penyakit: Migrain  \n   Rekomendasi obat: Sumatriptan  \n   Dosis: 50-100 mg oral saat gejala muncul, dapat diulang setelah 2 jam (maksimum 200 mg/hari)  \n   Aturan pakai: Minum saat sakit kepala muncul  \n   Efek samping: Sakit kepala rebound, mual, kemerahan pada kulit.  \n\n2. Nama penyakit: Vertigo  \n   Rekomendasi obat: Meclizine  \n   Dosis: 25-100 mg/hari, tergantung keparahan  \n   Aturan pakai: Minum oral, biasanya sekali sehari  \n   Efek samping: Mengantuk, mulut kering, kabur penglihatan.  \n\n3. Nama penyakit: Gastritis  \n   Rekomendasi obat: Omeprazole  \n   Dosis: 20-40 mg/hari  \n   Aturan pakai: Minum 30 menit sebelum makan  \n   Efek samping: Sakit kepala, mual, diare.  \n\n4. Nama penyakit: Penyakit Meniere  \n   Rekomendasi obat: Amlodipine  \n   Dosis: 5 mg/hari  \n   Aturan pakai: Minum setiap hari pada waktu yang sama  \n   Efek samping: Pembengkakan, pusing, detak jantung cepat.  \n\n5. Nama penyakit: Cidera Kepala  \n   Rekomendasi obat: Analgesik seperti Paracetamol  \n   Dosis: 500-1000 mg setiap 4-6 jam, maksimal 4000 mg/hari  \n   Aturan pakai: Minum saat sakit kepala muncul  \n   Efek samping: Kerusakan hati (jika dosis berlebihan).  \n\n6. Nama penyakit: Stroke  \n   Rekomendasi obat: Aspirin  \n   Dosis: 160-325 mg/hari  \n   Aturan pakai: Mengambil aspirin setelah serangan stroke  \n   Efek samping: Pendarahan gastrointestinal, reaksi alergi.  \n\nInformasi ini sebaiknya digunakan untuk evaluasi lanjut dan manajemen yang tepat dari gejala yang dilaporkan, pastikan konsultasi dengan dokter sebelum memulai pengobatan."
-            },
             {
                 "user": "saya sulit tidur dan kadang mengalami sesak napas",
                 "agent": [
@@ -37,283 +34,66 @@
                         "efek_samping": ""
                     }
                 ]
-            },
-            {
-                "user": "Saya mengalami sesak napas",
-                "agent": [
-                    {
-                        "error_saat_menjalankan_crewai": "'classification_agent'"
-                    }
-                ]
-            },
-            {
-                "user": "saya mengalami sesak napas dan gangguan tidur",
-                "agent": [
-                    {
-                        "-_**tingkat_risiko**": "Moderate to high",
-                        "-_**gejala_terkait**": "Loud snoring, gasping for air during sleep, excessive daytime sleepiness, irritability, difficulty focusing, morning headaches, recurrent awakenings, dry mouth upon waking",
-                        "-_**efek_samping_umum**": "Increased risk of cardiovascular issues, hypertension, poor quality of life",
-                        "-_**rekomendasi_obat**": "",
-                        "-_**nama_obat**": "CPAP (Continuous Positive Airway Pressure)",
-                        "-_**dosis**": "Sesuai dengan petunjuk dokter",
-                        "-_**aturan_pakai**": "Digunakan saat tidur",
-                        "-_**efek_samping_obat**": "Hidung kering, iritasi pada kulit wajah, ketidaknyamanan"
-                    },
-                    {
-                        "-_**tingkat_risiko**": "High",
-                        "-_**gejala_terkait**": "Chronic cough, mucus production, wheezing, increased shortness of breath, fatigue, frequent respiratory infections, cyanosis",
-                        "-_**efek_samping_umum**": "Increased anxiety, depression, exacerbation of respiratory issues",
-                        "-_**rekomendasi_obat**": "",
-                        "-_**nama_obat**": "Bronchodilators dan inhaled corticosteroids",
-                        "-_**dosis**": "Sesuai dengan petunjuk dokter",
-                        "-_**aturan_pakai**": "Disemprotkan ke saluran napas sesuai kebutuhan",
-                        "-_**efek_samping_obat**": "Jantung berdebar, gangguan tidur, infeksi mulut"
-                    },
-                    {
-                        "-_**tingkat_risiko**": "Moderate to severe",
-                        "-_**gejala_terkait**": "Wheezing, chest tightness, shortness of breath, coughing at night or early morning, increased mucus production",
-                        "-_**efek_samping_umum**": "Frequent respiratory infections, decreased physical endurance",
-                        "-_**rekomendasi_obat**": "",
-                        "-_**nama_obat**": "Inhaled corticosteroids, leukotriene modifiers",
-                        "-_**dosis**": "Sesuai dengan petunjuk dokter",
-                        "-_**aturan_pakai**": "Disemprotkan saat serangan asma atau secara teratur",
-                        "-_**efek_samping_obat**": "Iritasi tenggorokan, suara serak, infeksi mulut"
-                    },
-                    {
-                        "-_**tingkat_risiko**": "High",
-                        "-_**gejala_terkait**": "Shortness of breath during activity or lying down, fatigue, swelling in legs and ankles, rapid or irregular heartbeat, persistent coughing, feeling lightheaded",
-                        "-_**efek_samping_umum**": "Reduced exercise tolerance, increased hospitalization due to heart-related issues",
-                        "-_**rekomendasi_obat**": "",
-                        "-_**nama_obat**": "Diuretics dan ACE inhibitors",
-                        "-_**dosis**": "Sesuai dengan petunjuk dokter",
-                        "-_**aturan_pakai**": "Sesuai jadwal yang ditentukan oleh dokter",
-                        "-_**efek_samping_obat**": "Dehidrasi, hipotensi, pening"
-                    },
-                    {
-                        "-_**tingkat_risiko**": "Tidak diketahui",
-                        "-_**gejala_terkait**": "Kulit dan mata berwarna kuning, urin kegelapan, feses pucat, kelelahan",
-                        "-_**efek_samping_umum**": "Gangguan pencernaan, demam",
-                        "-_**rekomendasi_obat**": "",
-                        "-_**nama_obat**": "Tidak ada informasi spesifik",
-                        "-_**dosis**": "Tidak ada informasi spesifik",
-                        "-_**aturan_pakai**": "Tidak ada informasi spesifik",
-                        "-_**efek_samping_obat**": "Tidak ada informasi spesifik"
-                    },
-                    {
-                        "-_**tingkat_risiko**": "Tidak diketahui",
-                        "-_**gejala_terkait**": "Nyeri sendi, pembengkakan, kekakuan, kemerahan di sendi",
-                        "-_**efek_samping_umum**": "Gangguan mobilitas, kelelahan",
-                        "-_**rekomendasi_obat**": "",
-                        "-_**nama_obat**": "NSAIDs (Non-steroidal anti-inflammatory drugs)",
-                        "-_**dosis**": "Sesuai dengan petunjuk dokter",
-                        "-_**aturan_pakai**": "Sesuai jadwal yang ditentukan oleh dokter",
-                        "-_**efek_samping_obat**": "Gangguan pencernaan, nyeri perut, reaksi alergi"
-                    },
-                    {
-                        "-_**tingkat_risiko**": "Tidak diketahui",
-                        "-_**gejala_terkait**": "Demam, menggigil, nyeri, kelelahan",
-                        "-_**efek_samping_umum**": "Kelelahan, kehilangan nafsu makan",
-                        "-_**rekomendasi_obat**": "",
-                        "-_**nama_obat**": "Antibiotik jika bakteri",
-                        "-_**dosis**": "Sesuai dengan petunjuk dokter",
-                        "-_**aturan_pakai**": "Minum sampai habis seperti yang ditentukan",
-                        "-_**efek_samping_obat**": "Mual, diare, reaksi alergi"
-                    }
-                ]
-            }
-        ],
-        "5708441153_20250429_194848": [
-            {
-                "user": "saya sakit tenggorokan dan batuk terus menerus",
-                "agent": [
-                    {
-                        "tingkat_risiko": "Rendah",
-                        "gejala_terkait": "Kelelahan, Demam dan menggigil, Kesulitan menelan atau berbicara",
-                        "efek_samping_umum": "Jika antibiotik diresepkan, efek samping dapat mencakup gangguan gastrointestinal, ruam, atau reaksi alergi.",
-                        "rekomendasi_obat": "",
-                        "nama_obat": "Ibuprofen",
-                        "dosis": "400 mg setiap 6-8 jam sesuai kebutuhan",
-                        "aturan_pakai": "Diminum dengan makanan untuk mengurangi risiko gangguan lambung",
-                        "efek_samping_obat": "Nyeri perut, mual, pusing, atau masalah gastrointestinal lainnya."
-                    },
-                    {
-                        "tingkat_risiko": "Tinggi",
-                        "gejala_terkait": "Kelenjar getah bening membengkak di leher, Demam dan menggigil, Kesulitan menelan atau berbicara",
-                        "efek_samping_umum": "Jika antibiotik diresepkan, efek samping dapat mencakup gangguan gastrointestinal, ruam, atau reaksi alergi.",
-                        "rekomendasi_obat": "",
-                        "nama_obat": "Amoksisilin",
-                        "dosis": "500 mg setiap 12 jam atau 250 mg setiap 8 jam",
-                        "aturan_pakai": "Diminum secara oral selama 10 hari",
-                        "efek_samping_obat": "Ruam, diare, atau reaksi alergi."
-                    },
-                    {
-                        "tingkat_risiko": "Rendah",
-                        "gejala_terkait": "Hidung tersumbat atau keluarnya lendir, Kelelahan",
-                        "efek_samping_umum": "Dapat menyebabkan kantuk, mulut kering, atau gangguan gastrointestinal.",
-                        "rekomendasi_obat": "",
-                        "nama_obat": "Pseudoefedrin",
-                        "dosis": "30-60 mg setiap 4-6 jam",
-                        "aturan_pakai": "Diminum dengan atau tanpa makanan",
-                        "efek_samping_obat": "Mual, pusing, atau gangguan tidur."
-                    },
-                    {
-                        "tingkat_risiko": "Sedang",
-                        "gejala_terkait": "Kelenjar getah bening membengkak di leher, Demam dan menggigil, Kesulitan menelan atau berbicara",
-                        "efek_samping_umum": "Jika antibiotik diresepkan, efek samping dapat mencakup gangguan gastrointestinal, ruam, atau reaksi alergi.",
-                        "rekomendasi_obat": "",
-                        "nama_obat": "Amoksisilin",
-                        "dosis": "500 mg setiap 12 jam",
-                        "aturan_pakai": "Diminum selama 10 hari",
-                        "efek_samping_obat": "Diare, sakit kepala, atau reaksi alergi."
-                    },
-                    {
-                        "tingkat_risiko": "Rendah",
-                        "gejala_terkait": "Hidung tersumbat atau keluarnya lendir, Kelelahan",
-                        "efek_samping_umum": "Dapat menyebabkan kantuk, mulut kering, atau gangguan gastrointestinal.",
-                        "rekomendasi_obat": "",
-                        "nama_obat": "Loratadine",
-                        "dosis": "10 mg sekali sehari",
-                        "aturan_pakai": "Diminum secara oral",
-                        "efek_samping_obat": "Sakit kepala, mulut kering, atau rasa mengantuk."
-                    }
-                ]
-            }
-        ],
-        "5708441153_20250429_200050": [
-            {
-                "user": "saya sakit tenggorokan dan lemas",
-                "agent": [
-                    {
-                        "viral_pharyngitis__tingkat_risiko": "Rendah - Gejala Terkait: Sakit tenggorokan, demam ringan, batuk, kelelahan - Efek Samping Umum: Gejala sistemik ringan (demam, nyeri tubuh) yang biasanya hilang dengan istirahat dan hidrasi - Rekomendasi Obat:",
-                        "nama_obat": "Tidak dibutuhkan obat khusus",
-                        "dosis": "-",
-                        "aturan_pakai": "-",
-                        "efek_samping_obat": "-"
-                    },
-                    {
-                        "streptococcal_pharyngitis_strep_throat__tingkat_risiko": "Menengah - Gejala Terkait: Sakit tenggorokan parah, demam, amandel merah dan bengkak, bintik merah kecil di langit-langit mulut - Efek Samping Umum: Efek samping potensial dari antibiotik (jika diresepkan), seperti gangguan pencernaan atau reaksi alergi - Rekomendasi Obat:",
-                        "nama_obat": "Amoxicillin",
-                        "dosis": "500 mg, 3 kali sehari",
-                        "aturan_pakai": "Diminum sesuai dosis yang ditentukan dengan air",
-                        "efek_samping_obat": "Mual, diare, reaksi alergi"
-                    },
-                    {
-                        "mononucleosis__tingkat_risiko": "Rendah - Gejala Terkait: Kelelahan ekstrem, pembengkakan kelenjar getah bening, demam, sakit kepala, ruam - Efek Samping Umum: Kelelahan berkepanjangan mungkin berlanjut bahkan setelah gejala lain hilang - Rekomendasi Obat:",
-                        "nama_obat": "Tidak diperlukan obat khusus",
-                        "dosis": "-",
-                        "aturan_pakai": "-",
-                        "efek_samping_obat": "-"
-                    },
-                    {
-                        "covid19__tingkat_risiko": "Variabel - Gejala Terkait: Demam, batuk kering, nyeri tubuh, kehilangan rasa atau penciuman - Efek Samping Umum: Gejala bisa memburuk dan dapat menyebabkan long COVID, dengan kelelahan dan masalah pernapasan yang bertahan - Rekomendasi Obat:",
-                        "nama_obat": "Remdesivir",
-                        "dosis": "200 mg pada hari pertama, diikuti dengan 100 mg setiap hari selama 5-10 hari",
-                        "aturan_pakai": "Diberikan melalui infus IV sesuai petunjuk dokter",
-                        "efek_samping_obat": "Mual, diare, gangguan fungsi hati"
-                    },
-                    {
-                        "arthritis__tingkat_risiko": "Menengah - Gejala Terkait: Nyeri sendi, peradangan, kekakuan - Efek Samping Umum: Nyeri perut, pusing, gangguan lambung - Rekomendasi Obat:",
-                        "nama_obat": "Neo Rheumacyl",
-                        "dosis": "50 mg, 3 kali sehari",
-                        "aturan_pakai": "Diminum sesuai dosis yang ditentukan dengan air",
-                        "efek_samping_obat": "Mual, pusing, gangguan lambung"
-                    },
-                    {
-                        "jaundice_penyakit_kuning__tingkat_risiko": "Menengah - Gejala Terkait: Kulit dan mata berwarna kuning, urin gelap, tinja pucat - Efek Samping Umum: Mual, diare, gangguan fungsi hati - Rekomendasi Obat:",
-                        "nama_obat": "Stavudine",
-                        "dosis": "",
-                        "dewasa": "100 mg, 1 kali sehari. Untuk pasien dengan hepatitis B yang juga terinfeksi HIV, dosis dapat berupa 150 mg 2 kali sehari atau 300 mg 1 kali sehari.",
-                        "anak": "3 mg/kgBB, 1 kali sehari (maksimal 100 mg/hari).",
-                        "aturan_pakai": "Diminum sesuai dosis yang ditentukan dengan air",
-                        "efek_samping_obat": "Mual, diare, gangguan fungsi hati"
-                    }
-                ]
             }
         ]
     },
-    "5708441153": [
+    "7116300622": [
         {
-            "user": "saya merasa pual dan lemas.",
+            "user": "Saya merasa pusing dan mual",
             "agent": [
                 {
-                    "anemia__tingkat_risiko": "Sedang",
-                    "gejala_terkait": "Kelelahan, sesak napas, pusing, denyut jantung yang cepat.",
-                    "efek_samping_umum": "Kadar hemoglobin yang rendah dapat menyebabkan komplikasi jantung.",
+                    "tingkat_risiko": "Moderate; biasanya mempengaruhi orang berusia 30 hingga 60 tahun.",
+                    "gejala_terkait": "Vertigo (sensasi berputar), ketidakseimbangan, kesulitan fokus, dan kadang-kadang muntah.",
                     "rekomendasi_obat": "",
-                    "nama_obat": "Ferrous Sulfate",
-                    "dosis": "325 mg satu kali sehari.",
-                    "aturan_pakai": "Diminum saat perut kosong untuk meningkatkan penyerapan.",
-                    "efek_samping_obat": "Sembelit, mual, dan nyeri lambung."
+                    "nama_obat": "Betaserc (Betahistine)",
+                    "dosis": "8 mg atau 24 mg sesuai resep dokter",
+                    "aturan_pakai": "Konsumsi sesuai petunjuk dokter, biasanya 2-3 kali sehari setelah makan.",
+                    "efek_samping_obat": "Pusing, mual, sakit kepala."
                 },
                 {
-                    "hipotensi_tekanan_darah_rendah__tingkat_risiko": "Sedang",
-                    "gejala_terkait": "Pusing, pingsan, penglihatan kabur, terutama saat berdiri.",
-                    "efek_samping_umum": "Cedera akibat pingsan.",
+                    "tingkat_risiko": "Moderate; biasanya terjadi pada orang dewasa berusia 40-60 tahun.",
+                    "gejala_terkait": "Kehilangan pendengaran, tinnitus (denging di telinga), tekanan di telinga, dan episode pusing berat.",
                     "rekomendasi_obat": "",
-                    "nama_obat": "Midodrine",
-                    "dosis": "10 mg tiga kali sehari.",
-                    "aturan_pakai": "Diminum pada waktu yang sama setiap hari, dengan makanan.",
-                    "efek_samping_obat": "Gatal, peningkatan tekanan darah supine, dan sakit kepala."
+                    "nama_obat": "Diuretik (seperti hidroklorotiazid)",
+                    "dosis": "12.5-50 mg per hari tergantung rekomendasi dokter",
+                    "aturan_pakai": "Ikuti petunjuk dokter, diminum sekali sehari.",
+                    "efek_samping_obat": "Pusing, mual, kehilangan keseimbangan."
                 },
                 {
-                    "penyakit_kronis_mis_penyakit_ginjal_penyakit_hati_kanker__tingkat_risiko": "Tinggi",
-                    "gejala_terkait": "Penurunan berat badan yang tidak dapat dijelaskan, perubahan nafsu makan, demam persisten.",
-                    "efek_samping_umum": "Komplikasi kesehatan jangka panjang tergantung pada penyakit.",
+                    "tingkat_risiko": "Variable; sering terjadi pada individu dengan riwayat migrain.",
+                    "gejala_terkait": "Sakit kepala berat, sensitivitas terhadap cahaya/suara, aura (gangguan visual), dan ketidakseimbangan.",
                     "rekomendasi_obat": "",
-                    "nama_obat": "Diuretics (mis. Furosemide untuk penyakit ginjal)",
-                    "dosis": "20-80 mg per hari tergantung kondisi.",
-                    "aturan_pakai": "Diminum sesuai petunjuk dokter.",
-                    "efek_samping_obat": "Dehidrasi, ketidakseimbangan elektrolit, dan pusing."
+                    "nama_obat": "Bodrex Migra",
+                    "dosis": "1 kaplet mengandung 350 mg Paracetamol, 150 mg Propyphenazone, dan 50 mg Kafein",
+                    "aturan_pakai": "Minum saat serangan migrain mulai terasa, bisa diulang sesuai petunjuk dokter.",
+                    "efek_samping_obat": "Mual, pusing, kelelahan."
                 },
                 {
-                    "infeksi_akut__tingkat_risiko": "Sangat Tinggi",
-                    "gejala_terkait": "Demam, kebingungan, pernapasan cepat.",
-                    "efek_samping_umum": "Dapat mengarah pada sepsis dan memerlukan perhatian medis segera.",
+                    "tingkat_risiko": "Moderate to high; risiko meningkat dengan dehidrasi, obat tertentu, atau berdiri terlalu cepat.",
+                    "gejala_terkait": "Pusing saat berdiri, pingsan, penglihatan kabur, kelelahan, dan mual.",
                     "rekomendasi_obat": "",
-                    "nama_obat": "Antibiotik seperti Ceftriaxone",
-                    "dosis": "1-2 gram setiap 24 jam, tergantung infeksi.",
-                    "aturan_pakai": "Diberikan melalui injeksi intravena atau intramuskular.",
-                    "efek_samping_obat": "Diare, reaksi alergi, dan nyeri lokasi injeksi."
+                    "nama_obat": "Glukosa (dalam bentuk tablet atau suntikan, seperti Glukagon)",
+                    "dosis": "Sesuai kebutuhan, biasanya 15-20 g per episode hipoglikemia",
+                    "aturan_pakai": "Dihirup, dikonsumsi oral, atau suntik sesuai instruksi medis.",
+                    "efek_samping_obat": "Mual, pusing, hiperglikemia jika berlebihan."
                 },
                 {
-                    "malnutrisi__tingkat_risiko": "Sedang",
-                    "gejala_terkait": "Kelelahan, kuku rapuh, kerontokan rambut.",
-                    "efek_samping_umum": "Dampak kesehatan jangka panjang dan fungsi kekebalan yang terganggu.",
+                    "tingkat_risiko": "Moderate; sangat menular dan dapat terjadi dalam wabah.",
+                    "gejala_terkait": "Diare, muntah, kram perut, demam, dan nyeri tubuh.",
                     "rekomendasi_obat": "",
-                    "nama_obat": "Suplemen Nutrisi (mis. Ensure)",
-                    "dosis": "1-2 gelas sehari.",
-                    "aturan_pakai": "Diminum antara waktu makan atau sebagai pengganti makanan.",
-                    "efek_samping_obat": "Mual, diare, dan reaksi alergi pada beberapa individu."
+                    "nama_obat": "Antibiotik (seperti Ciprofloxacin atau Metronidazole)",
+                    "dosis": "Tergantung pada jenis antibiotik, biasanya 500 mg dua kali sehari",
+                    "aturan_pakai": "Ikuti petunjuk dokter, minum sebisa mungkin pada waktu yang sama setiap hari.",
+                    "efek_samping_obat": "Mual, diare, sakit perut."
                 },
                 {
-                    "dehidrasi__tingkat_risiko": "Tinggi",
-                    "gejala_terkait": "Haus yang ekstrem, mulut kering, pengurangan frekuensi buang air kecil.",
-                    "efek_samping_umum": "Dehidrasi berat dapat mengancam jiwa jika tidak diobati.",
+                    "tingkat_risiko": "High; umum terjadi di semua kelompok usia.",
+                    "gejala_terkait": "Palpitasi, berkeringat, gemetar, kesulitan berkonsentrasi, dan gangguan gastrointestinal.",
                     "rekomendasi_obat": "",
-                    "nama_obat": "Larutan Oral Rehidrasi (ORS)",
-                    "dosis": "Sesuai dengan petunjuk penggunaan produk.",
-                    "aturan_pakai": "Diminum sesuai kebutuhan, terutama saat mengalami kehilangan cairan.",
-                    "efek_samping_obat": "Jarang terjadi, tetapi dapat menyebabkan kembung jika dikonsumsi berlebihan."
-                },
-                {
-                    "arthritis__tingkat_risiko": "Sedang",
-                    "gejala_terkait": "Nyeri sendi, kekakuan, bengkak, keterbatasan gerak.",
-                    "efek_samping_umum": "Mengganggu kualitas hidup dan aktivitas harian.",
-                    "rekomendasi_obat": "",
-                    "nama_obat": "Ibuprofen",
-                    "dosis": "200-400 mg setiap 6-8 jam sesuai kebutuhan, tidak lebih dari 1200 mg per hari.",
-                    "aturan_pakai": "Diminum setelah makan untuk mengurangi risiko iritasi lambung.",
-                    "efek_samping_obat": "Nyeri perut, mual, peningkatan risiko perdarahan."
-                },
-                {
-                    "hepatitis__tingkat_risiko": "Sedang",
-                    "gejala_terkait": "Kelelahan, nyeri perut, kehilangan nafsu makan.",
-                    "efek_samping_umum": "Kerusakan hati jangka panjang.",
-                    "rekomendasi_obat": "",
-                    "nama_obat": "Lamivudine",
-                    "dosis": "100 mg sekali sehari.",
-                    "aturan_pakai": "Diminum pada waktu yang sama setiap hari, dengan atau tanpa makanan.",
-                    "efek_samping_obat": "Mual, diare, kelelahan, dan nyeri kepala."
+                    "nama_obat": "Antidepresan atau anxiolytics sesuai rekomendasi dokter.",
+                    "dosis": "Sesuai instruksi dokter.",
+                    "aturan_pakai": "Ikuti petunjuk dokter, biasanya diminum sekali sehari.",
+                    "efek_samping_obat": "Pusing, mual, menyebabkan efek samping fisik lainnya saat serangan panik."
                 }
             ]
         }

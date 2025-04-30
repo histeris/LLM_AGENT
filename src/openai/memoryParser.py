@@ -20,12 +20,14 @@ def parse_agent_text(text_agent):
     for block in blocks:
         penyakit = {}
         lines = block.split('\n')
-        for line in lines:
-            if ':' in line:
-                key, value = line.split(':', 1)
-                key = clean_key(key)
-                value = value.strip()
-                penyakit[key] = value
+        if lines:
+            penyakit['nama_penyakit'] = lines[0].strip()
+            for line in lines[1:]:
+                if ':' in line:
+                    key, value = line.split(':', 1)
+                    key = clean_key(key)
+                    value = value.strip()
+                    penyakit[key] = value
         if penyakit:
             result.append(penyakit)
 
