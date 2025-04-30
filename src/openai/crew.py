@@ -94,6 +94,8 @@ class researcher():
 				self.classification_task(),
 				self.analisis_penyakit_dari_gejala_task(),
 				self.rekomendasi_obat_task(),
+				self.analisis_penyakit_dari_gejala_task(),
+				self.classification_task(),
 				self.output_manager_task()
 			],
 			process=Process.sequential,
