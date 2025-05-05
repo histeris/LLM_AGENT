@@ -49,15 +49,20 @@ async def start_command(update: Update, context: CallbackContext):
         reply_markup=reply_markup
     )
     
-def run_crew_blocking(user_input):
+def run_crew_blocking(user_input, chat_history=None):
+    history_context = ""
+    if chat_history:
+        for item in chat_history[-5:]:  # Ambil 5 percakapan terakhir
+            history_context += f"User: {item.get('user')}\nAgent: {item.get('agent')}\n"
+
     inputs = {
-        "gejala_user": user_input,
+        "gejala_user": f"{history_context}\nUser: {user_input}",
     }
     try:
         result = researcher().crew().kickoff(inputs=inputs)
         return f"{result}"
     except Exception as e:
-        return f"Error saat menjalankan CrewAI: {e}"
+        return f"Error saat menjalankan CrewAI: {e}"
 
 def format_agent_output(agent_data):
     try:
@@ -100,7 +105,13 @@ async def handle_message(update: Update, context: CallbackContext):
     await update.message.reply_text("Sedang memproses dengan CrewAI, tunggu sebentar...") 
 
     loop = asyncio.get_event_loop()
-    result = await loop.run_in_executor(executor, run_crew_blocking, user_text)
+    last_history = []
+    if user_id in memory and isinstance(memory[user_id], list) and memory[user_id]:
+        last_history = memory[user_id][-1:]  # ambil satu item terakhir sebagai list
+    else:
+        last_history = []
+
+    result = await loop.run_in_executor(executor, run_crew_blocking, user_text, last_history)
 
     formatted_result = format_agent_output(result)
     cleaned_result = remove_character(formatted_result)

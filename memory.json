@@ -1,7 +1,8 @@
 {
     "started_users": [
         "5708441153",
-        "7116300622"
+        "7116300622",
+        "714212872"
     ],
     "history_backup": {
         "5708441153_20250428_190001": [],
@@ -32,6 +33,453 @@
                         "dosis": "- (Belum ada dosis yang diberikan)",
                         "aturan_pakai": "- (Belum ada aturan pakai yang diberikan)",
                         "efek_samping": ""
+                    }
+                ]
+            }
+        ],
+        "714212872_20250505_104718": [
+            {
+                "user": "Gejala saya batuk",
+                "agent": [
+                    {
+                        "nama_penyakit": "Infeksi Saluran Pernapasan Atas (ISPA)",
+                        "tingkat_risiko": "Umumnya rendah, namun bisa menjadi lebih serius jika tidak ditangani.",
+                        "gejala_terkait": "Hidung tersumbat, nyeri tenggorokan, demam ringan, dan kelelahan.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "-",
+                        "dosis": "-",
+                        "aturan_pakai": "-",
+                        "efek_samping_obat": "Batuk kering atau berdahak, serta ketidaknyamanan saat menelan."
+                    },
+                    {
+                        "nama_penyakit": "Bronkitis Akut",
+                        "tingkat_risiko": "Rendah, tetapi dapat berlanjut menjadi bronkitis kronis jika terpapar iritan terus-menerus.",
+                        "gejala_terkait": "Nyeri dada, batuk berdahak, dan sesak napas.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "-",
+                        "dosis": "-",
+                        "aturan_pakai": "-",
+                        "efek_samping_obat": "Kelelahan, nyeri otot, dan demam."
+                    },
+                    {
+                        "nama_penyakit": "Pneumonia",
+                        "tingkat_risiko": "Menengah hingga tinggi, tergantung pada usia dan status kesehatan umum pasien.",
+                        "gejala_terkait": "Kesulitan bernapas, nyeri dada tajam, dan demam tinggi.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "-",
+                        "dosis": "-",
+                        "aturan_pakai": "-",
+                        "efek_samping_obat": "Kelelahan yang ekstrem, batuk dengan dahak berwarna, dan menggigil."
+                    },
+                    {
+                        "nama_penyakit": "Asma",
+                        "tingkat_risiko": "Bervariasi, namun dapat dikelola dengan pengobatan yang tepat.",
+                        "gejala_terkait": "Sesak napas, suara napas wheezing, dan tekanan di dada.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "-",
+                        "dosis": "-",
+                        "aturan_pakai": "-",
+                        "efek_samping_obat": "Kelelahan, gejala yang memburuk saat terpapar alergen tertentu."
+                    },
+                    {
+                        "nama_penyakit": "Penyakit Paru Obstruktif Kronis (PPOK)",
+                        "tingkat_risiko": "Tinggi, seringkali terkait dengan merokok atau paparan jangka panjang terhadap polusi atau iritan.",
+                        "gejala_terkait": "Sesak napas yang makin parah, batuk kronis, dan produksi dahak berlebihan.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Oksigen",
+                        "dosis": "Tergantung pada kebutuhan pasien",
+                        "aturan_pakai": "Diberikan melalui alat bantu seperti oksigenator atau tabung oksigen",
+                        "efek_samping_obat": "Kualitas hidup yang menurun dan kelelahan yang ekstrem."
+                    }
+                ]
+            },
+            {
+                "user": "Gejala saya pilek",
+                "agent": [
+                    {
+                        "nama_penyakit": "Nama Penyakit: Pilek Biasa (Common Cold)",
+                        "tingkat_risiko": "Rendah",
+                        "gejala_terkait": "Demam, sakit kepala, pilek atau hidung tersumbat, bersin-bersin, batuk kering.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Procold",
+                        "dosis": "Sesuai petunjuk penggunaan.",
+                        "aturan_pakai": "Digunakan untuk meringankan gejala flu.",
+                        "efek_samping_obat": "Mungkin menyebabkan kantuk atau gangguan pencernaan."
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Rheumatoid Arthritis",
+                        "tingkat_risiko": "Tinggi",
+                        "gejala_terkait": "Nyeri sendi, pembengkakan, kaku di pagi hari.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Baricitinib",
+                        "dosis": "Dewasa: 125 mg, 1 kali seminggu, atau 3000\u20134000 mg per hari, dibagi menjadi beberapa kali konsumsi.",
+                        "aturan_pakai": "Suntikan di bawah otot. Berikan jika gejala radang sendi tidak membaik dengan obat antirematik lain.",
+                        "efek_samping_obat": "Efek samping umumnya mencakup infeksi dan masalah pada sistem kekebalan tubuh."
+                    }
+                ]
+            }
+        ],
+        "714212872_20250505_110321": [
+            {
+                "user": "Halo",
+                "agent": [
+                    {
+                        "nama_penyakit": "Silakan jelaskan apa yang Anda rasakan atau penyakit apa yang telah didiagnosis agar saya dapat memberikan rekomendasi obat yang tepat."
+                    }
+                ]
+            },
+            {
+                "user": "Gejala saya mual dan muntah",
+                "agent": [
+                    {
+                        "nama_penyakit": "Gastroenteritis (peradangan lambung dan usus)",
+                        "tingkat_risiko": "Cukup tinggi, terutama pada anak-anak dan orang tua yang dapat mengalami dehidrasi serius.",
+                        "gejala_terkait": "Mual, muntah, diare, pusing (dehidrasi), kantuk, dan ruam (mungkin dari infeksi atau alergi).",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Loperamide",
+                        "dosis": "2 mg setelah setiap kali buang air besar (maksimal 8 mg/hari).",
+                        "aturan_pakai": "Lakukan sesuai kebutuhan, jangan melebihi dosis yang dianjurkan.",
+                        "efek_samping_obat": "Konstipasi, pusing, dan mual."
+                    },
+                    {
+                        "nama_penyakit": "Migrain atau Sakit Kepala Tipe Cluster",
+                        "tingkat_risiko": "Sedang, perlu penanganan untuk mencegah serangan migrain lebih lanjut.",
+                        "gejala_terkait": "Mual, muntah, pusing, dan sulit tidur (migrain sering mengganggu pola tidur).",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Sumatriptan",
+                        "dosis": "50-100 mg saat serangan, maksimal 300 mg/hari.",
+                        "aturan_pakai": "Minum segera setelah gejala muncul.",
+                        "efek_samping_obat": "Pusing, ngantuk, dan mual."
+                    },
+                    {
+                        "nama_penyakit": "Intoleransi Makanan atau Alergi Makanan",
+                        "tingkat_risiko": "Dapat bervariasi dari rendah hingga tinggi tergantung pada tingkat keparahan reaksi alergi.",
+                        "gejala_terkait": "Mual, muntah, ruam (reaksi alergi), dan diare (reaksi sistem pencernaan).",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Antihistamin (contoh: Loratadine)",
+                        "dosis": "10 mg sekali sehari.",
+                        "aturan_pakai": "Diminum secara oral, dapat dengan atau tanpa makanan.",
+                        "efek_samping_obat": "Mengantuk, mulut kering, dan pusing."
+                    },
+                    {
+                        "nama_penyakit": "Kondisi Metabolik (misalnya, Hipoglikemia)",
+                        "tingkat_risiko": "Tinggi, dapat menyebabkan kehilangan kesadaran jika tidak ditangani.",
+                        "gejala_terkait": "Mual, pusing, kantuk, dan sulit tidur (kebangkitan saat kadar gula darah rendah).",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Glukosa",
+                        "dosis": "15-20 gram untuk meningkatkan kadar gula darah.",
+                        "aturan_pakai": "Diminum atau dikonsumsi saat gejala hipoglikemia muncul.",
+                        "efek_samping_obat": "Gula darah tinggi jika berlebih, dan gejala gastrointestinal."
+                    },
+                    {
+                        "nama_penyakit": "Infeksi Virus (contoh: Influenza dengan gejala gastrointestinal)",
+                        "tingkat_risiko": "Sedang, tergantung pada sifat infeksi virus.",
+                        "gejala_terkait": "Mual, muntah, pusing, kadang-kadang diare, dan ruam bisa terjadi pada beberapa infeksi virus.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Oseltamivir",
+                        "dosis": "75 mg dua kali sehari selama 5 hari.",
+                        "aturan_pakai": "Mulai dalam 48 jam pertama setelah gejala muncul.",
+                        "efek_samping_obat": "Mual, muntah, dan diare."
+                    }
+                ]
+            },
+            {
+                "user": "Saya juga mengalami gejala gangguan fungsi saraf, seperti lemah otot, kelumpuhan",
+                "agent": [
+                    {
+                        "nama_penyakit": "Sindrom Guillain-Barr\u00e9",
+                        "tingkat_risiko": "Sedang hingga tinggi, tergantung pada keparahan dan ketepatan waktu perawatan.",
+                        "gejala_terkait": "Kelemahan otot, kesulitan bernafas, rasa kesemutan atau mati rasa.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Immunoglobulin intravena (IVIG)",
+                        "dosis": "0.4 g/kg/hari selama 5 hari",
+                        "aturan_pakai": "Diberikan dalam bentuk infus secara intravena oleh tenaga kesehatan.",
+                        "efek_samping_obat": "Reaksi alergi, sakit kepala, dan nyeri di tempat injeksi."
+                    },
+                    {
+                        "nama_penyakit": "Stroke (Cerebrovascular Accident)",
+                        "tingkat_risiko": "Tinggi, risiko meningkat dengan hipertensi dan diabetes.",
+                        "gejala_terkait": "Gejala F.A.S.T (Face drooping, Arm weakness, Speech difficulties, Time to call emergency).",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Aspirin",
+                        "dosis": "81 mg untuk pencegahan, dosis bervariasi untuk pengobatan",
+                        "aturan_pakai": "Diminum setiap hari sesuai anjuran dokter.",
+                        "efek_samping_obat": "Pusing, gangguan pencernaan, perdarahan."
+                    },
+                    {
+                        "nama_penyakit": "Distrofi Otot",
+                        "tingkat_risiko": "Variasi tergantung jenis dan usia diagnosis; dapat berisiko tinggi seiring waktu.",
+                        "gejala_terkait": "Kelemahan otot progresif, nyeri otot, kelelahan yang berlebihan saat beraktivitas.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Corticosteroids (prednison)",
+                        "dosis": "Dosis bervariasi berdasarkan berat badan dan respons pasien, biasanya dimulai dengan dosis rendah.",
+                        "aturan_pakai": "Diminum sesuai petunjuk dokter, biasanya diminum sekali sehari.",
+                        "efek_samping_obat": "Kenaikan berat badan, perubahan mood, dan peningkatan risiko infeksi."
+                    }
+                ]
+            }
+        ],
+        "714212872_20250505_111032": [],
+        "714212872_20250505_111604": [
+            {
+                "user": "Gejala saya mual dan muntah",
+                "agent": [
+                    {
+                        "nama_penyakit": "Gastroenteritis (Stomach Flu)",
+                        "tingkat_risiko": "Moderat, terutama pada anak-anak dan orang lanjut usia karena dehidrasi.",
+                        "gejala_terkait": "Mual, muntah, diare, kram perut, demam.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Loperamide (Imodium)",
+                        "dosis": "4 mg awal, kemudian 2 mg setelah setiap buang air besar yang diare.",
+                        "aturan_pakai": "Maksimal 8 mg/hari untuk dewasa.",
+                        "efek_samping_obat": "Konstipasi, mual, pusing."
+                    },
+                    {
+                        "nama_penyakit": "Migraine",
+                        "tingkat_risiko": "Rendah hingga moderat; migrain dapat terjadi secara sporadis tetapi dapat meningkat frekuensinya seiring waktu.",
+                        "gejala_terkait": "Sakit kepala parah, mual, muntah, sensitivitas terhadap cahaya dan suara, aura.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Sumatriptan (Imitrex)",
+                        "dosis": "50-100 mg saat serangan.",
+                        "aturan_pakai": "Dapat diulang setelah 2 jam, maksimal 200 mg/hari.",
+                        "efek_samping_obat": "Pusing, mual, nyeri di dada."
+                    },
+                    {
+                        "nama_penyakit": "Appendicitis",
+                        "tingkat_risiko": "Moderat; memerlukan perawatan darurat untuk mencegah ruptur.",
+                        "gejala_terkait": "Nyeri perut (awal dekat pusar, kemudian berpindah ke kanan bawah), mual, muntah, hilang nafsu makan.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "-",
+                        "dosis": "-",
+                        "aturan_pakai": "-",
+                        "efek_samping_obat": "-"
+                    },
+                    {
+                        "nama_penyakit": "Peptic Ulcer Disease",
+                        "tingkat_risiko": "Moderat; komplikasi dapat muncul jika tidak diobati.",
+                        "gejala_terkait": "Mual, muntah, nyeri perut (terutama saat perut kosong), kembung.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Ranitidine (Zantac)",
+                        "dosis": "150 mg dua kali sehari.",
+                        "aturan_pakai": "Sebelum makanan atau sebelum tidur.",
+                        "efek_samping_obat": "Sakit kepala, sembelit, diare."
+                    },
+                    {
+                        "nama_penyakit": "Pancreatitis",
+                        "tingkat_risiko": "Moderat hingga tinggi; dapat menyebabkan komplikasi serius.",
+                        "gejala_terkait": "Nyeri perut parah (sering di perut bagian atas), mual, muntah, demam.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Enzim Pancreatic (Creon)",
+                        "dosis": "30,000-50,000 units per meal.",
+                        "aturan_pakai": "Dikonsumsi dengan makanan.",
+                        "efek_samping_obat": "Nyeri perut, sembelit, diare."
+                    },
+                    {
+                        "nama_penyakit": "Motion Sickness",
+                        "tingkat_risiko": "Rendah, mempengaruhi individu secara berbeda, terutama selama perjalanan.",
+                        "gejala_terkait": "Mual, muntah, pusing, berkeringat.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Dimenhydrinate (Dramamine)",
+                        "dosis": "50-100 mg 30 menit sebelum perjalanan.",
+                        "aturan_pakai": "Dapat diulang setiap 4-6 jam jika perlu.",
+                        "efek_samping_obat": "Mengantuk, mulut kering, pusing."
+                    },
+                    {
+                        "nama_penyakit": "Food Poisoning",
+                        "tingkat_risiko": "Rendah hingga moderat; tingkat keparahan tergantung pada jenis racun atau patogen.",
+                        "gejala_terkait": "Mual, muntah, diare, kram perut, demam.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Metoclopramide (Reglan)",
+                        "dosis": "10 mg 30 menit sebelum makan.",
+                        "aturan_pakai": "Sampai 3 kali sehari.",
+                        "efek_samping_obat": "Sedasi, diare, kejang."
+                    },
+                    {
+                        "nama_penyakit": "Pregnancy (Morning Sickness)",
+                        "tingkat_risiko": "Rendah; umum terjadi pada awal kehamilan tetapi bervariasi antar individu.",
+                        "gejala_terkait": "Mual, muntah, kelelahan, perubahan suasana hati.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "-",
+                        "dosis": "-",
+                        "aturan_pakai": "-",
+                        "efek_samping_obat": "-"
+                    },
+                    {
+                        "nama_penyakit": "Cyclic Vomiting Syndrome",
+                        "tingkat_risiko": "Rendah; lebih umum pada anak-anak tetapi dapat mempengaruhi orang dewasa.",
+                        "gejala_terkait": "Episode muntah parah yang berlangsung selama beberapa jam atau hari, mual, lesu.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "-",
+                        "dosis": "-",
+                        "aturan_pakai": "-",
+                        "efek_samping_obat": "-"
+                    },
+                    {
+                        "nama_penyakit": "Cholecystitis (Gallbladder Inflammation)",
+                        "tingkat_risiko": "Moderat; dapat menyebabkan komplikasi jika tidak diobati.",
+                        "gejala_terkait": "Mual, muntah, nyeri parah di perut kanan atas, kembung.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "-",
+                        "dosis": "-",
+                        "aturan_pakai": "-",
+                        "efek_samping_obat": "-"
+                    }
+                ]
+            },
+            {
+                "user": "Saya juga mengalami gejala gangguan fungsi saraf, seperti lemah otot, kelumpuhan",
+                "agent": [
+                    {
+                        "nama_penyakit": "Penyakit Stroke atau Serangan Otak (Cerebrovascular Accident)",
+                        "tingkat_risiko": "Tinggi, terutama bagi individu dengan hipertensi, diabetes, atau riwayat keluarga stroke.",
+                        "gejala_terkait": "Kebingungan, kesulitan berbicara, perubahan pada penglihatan, dan kehilangan keseimbangan.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Aspirin",
+                        "dosis": "160-325 mg per hari",
+                        "aturan_pakai": "Diberikan secara oral setelah kejadian stroke, untuk mencegah stroke ulang.",
+                        "efek_samping_obat": "Pendarahan gastrointestinal, mual, dan alergi."
+                    },
+                    {
+                        "nama_penyakit": "Myasthenia Gravis",
+                        "tingkat_risiko": "Sedang, dengan faktor genetik berperan dan lebih umum terjadi pada wanita muda.",
+                        "gejala_terkait": "Kelelahan, kesemutan, dan gangguan penglihatan.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Belum disebutkan",
+                        "dosis": "Belum disebutkan",
+                        "aturan_pakai": "Belum disebutkan",
+                        "efek_samping_obat": "Kesulitan bergerak, masalah kognitif, dan kemungkinan kecacatan progresif."
+                    },
+                    {
+                        "nama_penyakit": "Guillain-Barr\u00e9 Syndrome",
+                        "tingkat_risiko": "Sedang, tergantung pada keadaan kesehatan individu.",
+                        "gejala_terkait": "Kelemahan progresif, kesemutan, dan kehilangan refleks.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Belum disebutkan",
+                        "dosis": "Belum disebutkan",
+                        "aturan_pakai": "Belum disebutkan",
+                        "efek_samping_obat": "Kemungkinan komplikasi pernapasan dan masalah jangka panjang pada sistem saraf."
+                    },
+                    {
+                        "nama_penyakit": "Tumor Otak",
+                        "tingkat_risiko": "Bergantung pada jenis tumor, gejala dapat bervariasi.",
+                        "gejala_terkait": "Sakit kepala, perubahan perilaku, dan masalah penglihatan.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Dexamethasone",
+                        "dosis": "4-10 mg per hari, tergantung kondisi.",
+                        "aturan_pakai": "Diberikan secara oral atau injeksi untuk mengurangi pembengkakan di otak.",
+                        "efek_samping_obat": "Meningkatkan risiko infeksi, perubahan suasana hati, dan peningkatan berat badan."
+                    },
+                    {
+                        "nama_penyakit": "Meningitis",
+                        "tingkat_risiko": "Tinggi, memerlukan perawatan medis segera untuk mencegah komplikasi.",
+                        "gejala_terkait": "Demam, sakit kepala, dan sensitivitas terhadap cahaya.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Belum disebutkan",
+                        "dosis": "Belum disebutkan",
+                        "aturan_pakai": "Belum disebutkan",
+                        "efek_samping_obat": "Komplikasi jangka panjang termasuk kehilangan pendengaran dan masalah neurologis."
+                    },
+                    {
+                        "nama_penyakit": "Hypo- atau Hyperthermia",
+                        "tingkat_risiko": "Tergantung pada kondisi lingkungan dan kesehatan individu.",
+                        "gejala_terkait": "Kebingungan, kehilangan kesadaran, dan sudut pandang yang kabur.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Belum disebutkan",
+                        "dosis": "Belum disebutkan",
+                        "aturan_pakai": "Belum disebutkan",
+                        "efek_samping_obat": "Resiko kematian atau cedera berat jika tidak ditangani segera."
+                    }
+                ]
+            }
+        ],
+        "714212872_20250505_112645": [
+            {
+                "user": "Gejala saya demam, batuk, pilek",
+                "agent": [
+                    {
+                        "nama_penyakit": "Influenza (Flu)",
+                        "tingkat_risiko": "Moderate to high, terutama pada populasi rentan seperti orang tua dan mereka dengan kondisi kesehatan yang mendasari.",
+                        "gejala_terkait": "Nyeri tubuh, menggigil, kelelahan, sakit tenggorokan, sakit kepala.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Oseltamivir (Tamiflu)",
+                        "dosis": "Dewasa: 75 mg dua kali sehari selama 5 hari. Anak-anak: 2 mg/kg (maksimal 75 mg) dua kali sehari selama 5 hari.",
+                        "aturan_pakai": "Mulai pengobatan dalam 48 jam setelah gejala muncul.",
+                        "efek_samping_obat": "Mual, muntah, diare, dan sakit kepala."
+                    },
+                    {
+                        "nama_penyakit": "Common Cold (Viral Rhinitis)",
+                        "tingkat_risiko": "Low, umumnya bersifat self-limiting dan biasanya sembuh dalam seminggu.",
+                        "gejala_terkait": "Bersin, hidung meler atau tersumbat, sakit tenggorokan ringan, sakit kepala ringan.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Procold",
+                        "dosis": "Dewasa: 1-2 tablet setiap 4-6 jam saat diperlukan, maksimal 8 tablet per hari.",
+                        "aturan_pakai": "Diminum dengan segelas air, tidak lebih dari 10 hari.",
+                        "efek_samping_obat": "Sedasi, mulut kering, pusing."
+                    },
+                    {
+                        "nama_penyakit": "COVID-19 (SARS-CoV-2)",
+                        "tingkat_risiko": "Dapat bervariasi dari low hingga high, tergantung pada varian dan status vaksinasi. Risiko lebih tinggi untuk penyakit parah pada individu yang tidak divaksinasi atau memiliki kondisi kesehatan.",
+                        "gejala_terkait": "Sesak napas, kehilangan rasa atau bau, kelelahan, nyeri otot atau sendi, sakit tenggorokan.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Dexamethasone (bila diperlukan)",
+                        "dosis": "6 mg sekali sehari selama 10 hari.",
+                        "aturan_pakai": "Hanya digunakan pada pasien dengan gejala berat dan memerlukan oksigen.",
+                        "efek_samping_obat": "Kenaikan tekanan darah, peningkatan gula darah, infeksi sekunder."
+                    },
+                    {
+                        "nama_penyakit": "Bacterial Pneumonia",
+                        "tingkat_risiko": "Dapat bervariasi, sering kali memerlukan penanganan medis lebih lanjut.",
+                        "gejala_terkait": "Batuk, nyeri dada, kesulitan bernapas, demam.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Amoxicillin",
+                        "dosis": "Dewasa: 500 mg tiga kali sehari selama 7-10 hari.",
+                        "aturan_pakai": "Diminum setelah makan untuk mengurangi iritasi lambung.",
+                        "efek_samping_obat": "Ruam alergi, diare, mual."
+                    },
+                    {
+                        "nama_penyakit": "Adenovirus Infection",
+                        "tingkat_risiko": "Umumnya rendah dan bersifat self-limiting.",
+                        "gejala_terkait": "Gejala mirip flu, mengganggu sistem pencernaan.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Tidak ada terapi spesifik, pengobatan suportif seperti NSAID untuk nyeri dan demam.",
+                        "dosis": "Sesuaikan dengan kebutuhan simptomatik.",
+                        "aturan_pakai": "Sesuaikan dengan instruksi dokter.",
+                        "efek_samping_obat": "Umumnya ringan, tergantung obat yang digunakan untuk simptomatik."
+                    }
+                ]
+            },
+            {
+                "user": "Saya juga mengalami ruam kulit",
+                "agent": [
+                    {
+                        "nama_penyakit": "Nama Penyakit: Infeksi virus seperti Measles (Campak)",
+                        "tingkat_risiko": "Tinggi, terutama pada individu yang tidak divaksinasi.",
+                        "gejala_terkait": "Ruam yang menyebar dengan cepat, demam tinggi, batuk kering, pilek, dan bengkak pada kelopak mata, bibir, dan wajah.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Paracetamol (untuk demam)",
+                        "dosis": "500 mg setiap 4-6 jam sesuai kebutuhan, tidak lebih dari 3000 mg per hari.",
+                        "aturan_pakai": "Diberikan sesuai dengan dosis yang telah ditentukan, diambil melalui oral.",
+                        "efek_samping_obat": "Mual, muntah, ruam kulit, disfungsi hati (dalam dosis tinggi)."
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Rubella (Cacar Air)",
+                        "tingkat_risiko": "Tinggi, terutama pada wanita hamil.",
+                        "gejala_terkait": "Ruam yang menyebar dengan cepat, demam ringan, batuk, dan pilek yang hilang.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Paracetamol (untuk demam)",
+                        "dosis": "500 mg setiap 4-6 jam sesuai kebutuhan, tidak lebih dari 3000 mg per hari.",
+                        "aturan_pakai": "Diberikan sesuai dengan dosis yang telah ditentukan, diambil melalui oral.",
+                        "efek_samping_obat": "Mual, muntah, ruam kulit, disfungsi hati (dalam dosis tinggi)."
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Reaksi Alergi atau Dermatitis",
+                        "tingkat_risiko": "Rendah, bersifat self-limiting.",
+                        "gejala_terkait": "Ruam yang mungkin disebabkan oleh alergen, dapat disertai dengan demam dan gejala pernapasan ringan (batuk, pilek).",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Antihistamin (contoh: Cetirizine)",
+                        "dosis": "10 mg sekali sehari.",
+                        "aturan_pakai": "Diberikan sesuai dengan dosis yang telah ditentukan, diambil melalui oral.",
+                        "efek_samping_obat": "Mengantuk, mulut kering, sakit kepala."
                     }
                 ]
             }
@@ -94,6 +542,108 @@
                     "dosis": "Sesuai instruksi dokter.",
                     "aturan_pakai": "Ikuti petunjuk dokter, biasanya diminum sekali sehari.",
                     "efek_samping_obat": "Pusing, mual, menyebabkan efek samping fisik lainnya saat serangan panik."
+                }
+            ]
+        }
+    ],
+    "714212872": [
+        {
+            "user": "Gejala saya ruam kulit",
+            "agent": [
+                {
+                    "nama_penyakit": "Nama Penyakit: Dermatitis Kontak",
+                    "tingkat_risiko": "Rendah hingga Sedang",
+                    "gejala_terkait": "Gatal, kemerahan, bengkak, ruam berair",
+                    "rekomendasi_obat": "",
+                    "nama_obat": "Kortikosteroid topikal (contoh: Betamethasone)",
+                    "dosis": "Oleskan pada area yang terkena 1-2 kali sehari",
+                    "aturan_pakai": "Oleskan tipis dan ratakan pada kulit yang teriritasi",
+                    "efek_samping_obat": "Reaksi alergi, iritasi kulit, atau infeksi sekunder"
+                },
+                {
+                    "nama_penyakit": "Nama Penyakit: Eksim (Dermatitis Atopik)",
+                    "tingkat_risiko": "Sedang",
+                    "gejala_terkait": "Kulit kering, bersisik, gatal, dan kemerahan",
+                    "rekomendasi_obat": "",
+                    "nama_obat": "Krim atau salep kortikosteroid (contoh: Hydrocortisone atau Mometasone)",
+                    "dosis": "Oleskan pada area yang terkena 1-2 kali sehari",
+                    "aturan_pakai": "Oleskan setelah mandi, saat kulit masih lembab",
+                    "efek_samping_obat": "Kulit tipis, pembengkakan folikel rambut, infeksi"
+                },
+                {
+                    "nama_penyakit": "Nama Penyakit: Psoriasis",
+                    "tingkat_risiko": "Sedang hingga Tinggi",
+                    "gejala_terkait": "Bercak merah dengan sisik perak, gatal, dan peradangan",
+                    "rekomendasi_obat": "",
+                    "nama_obat": "Salep vitamin D (contoh: Calcipotriene) atau kortikosteroid",
+                    "dosis": "Oleskan dua kali sehari pada area yang terkena",
+                    "aturan_pakai": "Gunakan secara rutin; hindari penggunaan berlebihan",
+                    "efek_samping_obat": "Iritasi kulit, peningkatan risiko infeksi"
+                },
+                {
+                    "nama_penyakit": "Nama Penyakit: Urtikaria (Gatal-gatal)",
+                    "tingkat_risiko": "Rendah (biasanya sementara)",
+                    "gejala_terkait": "Ruam berwarna merah muda, gatal, dan bisa menyebar",
+                    "rekomendasi_obat": "",
+                    "nama_obat": "Antihistamin (contoh: Cetirizine)",
+                    "dosis": "10 mg sekali sehari",
+                    "aturan_pakai": "Dapat diminum sebelum tidur untuk mengurangi gatal",
+                    "efek_samping_obat": "Mengantuk, mulut kering, pusing"
+                },
+                {
+                    "nama_penyakit": "Nama Penyakit: Lichen Planus",
+                    "tingkat_risiko": "Rendah",
+                    "gejala_terkait": "Ruam berbentuk dataran, gatal, dapat muncul di area mulut",
+                    "rekomendasi_obat": "",
+                    "nama_obat": "Kortikosteroid topikal atau sistemik",
+                    "dosis": "Oleskan 1-2 kali sehari atau sesuaikan sesuai anjuran dokter",
+                    "aturan_pakai": "Oleskan pada area lesi yang muncul",
+                    "efek_samping_obat": "Iritasi kulit, terbakar pada aplikasi, risiko infeksi"
+                }
+            ]
+        },
+        {
+            "user": "Saya juga mengalami gejala demam, batuk, pilek",
+            "agent": [
+                {
+                    "nama_penyakit": "Nama Penyakit: Alergi atau Reaksi Anafilaksis",
+                    "tingkat_risiko": "Tinggi",
+                    "gejala_terkait": "",
+                    "rekomendasi_obat": "",
+                    "nama_obat": "Antihistamin (misal: Diphenhydramine)",
+                    "dosis": "Dewasa: 25-50 mg, anak: 1-2 mg/kg, tidak lebih dari 300 mg/hari.",
+                    "aturan_pakai": "Diminum sebelum terkena alergi, atau saat gejala muncul.",
+                    "efek_samping_obat": "Mengantuk, pusing, mulut kering, dan reaksi alergi"
+                },
+                {
+                    "nama_penyakit": "Nama Penyakit: Infeksi Virus (misalnya, Infeksi Campak atau Cacar)",
+                    "tingkat_risiko": "Sedang hingga Tinggi",
+                    "gejala_terkait": "",
+                    "rekomendasi_obat": "",
+                    "nama_obat": "Obat antivirus (misal: Oseltamivir untuk influenza)",
+                    "dosis": "Biasanya 75 mg dua kali sehari selama 5 hari untuk influenza.",
+                    "aturan_pakai": "Diminum dalam 48 jam setelah gejala pertama muncul.",
+                    "efek_samping_obat": "Mual, muntah, dan diare"
+                },
+                {
+                    "nama_penyakit": "Nama Penyakit: Kawasaki Disease",
+                    "tingkat_risiko": "Tinggi",
+                    "gejala_terkait": "",
+                    "rekomendasi_obat": "",
+                    "nama_obat": "Tidak disebutkan",
+                    "dosis": "Tidak disebutkan",
+                    "aturan_pakai": "Tidak disebutkan",
+                    "efek_samping_obat": "Komplikasi jantung jika tidak ditangani"
+                },
+                {
+                    "nama_penyakit": "Nama Penyakit: Dermatitis Eksim",
+                    "tingkat_risiko": "Sedang",
+                    "gejala_terkait": "",
+                    "rekomendasi_obat": "",
+                    "nama_obat": "Kortikosteroid topikal (misal: Hydrocortisone)",
+                    "dosis": "Oleskan tipis pada area yang terkena 1-2 kali sehari.",
+                    "aturan_pakai": "Oleskan pada area yang telah dibersihkan, hindari penggunaan berlebihan.",
+                    "efek_samping_obat": "Iritasi kulit, pengurangan ketebalan kulit, dan kemungkinan infeksi sekunder"
                 }
             ]
         }
