@@ -2,7 +2,8 @@
     "started_users": [
         "5708441153",
         "7116300622",
-        "714212872"
+        "714212872",
+        "567373130"
     ],
     "history_backup": {
         "5708441153_20250428_190001": [],
@@ -1165,58 +1166,49 @@
             "user": "Saya merasa pusing dan mual",
             "agent": [
                 {
-                    "tingkat_risiko": "Moderate; biasanya mempengaruhi orang berusia 30 hingga 60 tahun.",
-                    "gejala_terkait": "Vertigo (sensasi berputar), ketidakseimbangan, kesulitan fokus, dan kadang-kadang muntah.",
-                    "rekomendasi_obat": "",
-                    "nama_obat": "Betaserc (Betahistine)",
-                    "dosis": "8 mg atau 24 mg sesuai resep dokter",
-                    "aturan_pakai": "Konsumsi sesuai petunjuk dokter, biasanya 2-3 kali sehari setelah makan.",
-                    "efek_samping_obat": "Pusing, mual, sakit kepala."
+                    "nama_penyakit": "Alergi",
+                    "tingkat_risiko": "Risiko sedang, tergantung pada reaksi individu.",
+                    "gejala_terkait": "Ruam atau perubahan kulit, demam, pembengkakan, kehilangan nafsu makan, kelelahan.",
+                    "nama_obat": "Antihistamin (misalnya, Cetirizine)",
+                    "dosis": "10 mg sekali sehari",
+                    "aturan_pakai": "Diminum dengan atau tanpa makanan, bisa sebelum tidur untuk mengurangi rasa mengantuk.",
+                    "efek_samping_obat": "Mengantuk, mulut kering, pusing."
                 },
                 {
-                    "tingkat_risiko": "Moderate; biasanya terjadi pada orang dewasa berusia 40-60 tahun.",
-                    "gejala_terkait": "Kehilangan pendengaran, tinnitus (denging di telinga), tekanan di telinga, dan episode pusing berat.",
-                    "rekomendasi_obat": "",
-                    "nama_obat": "Diuretik (seperti hidroklorotiazid)",
-                    "dosis": "12.5-50 mg per hari tergantung rekomendasi dokter",
-                    "aturan_pakai": "Ikuti petunjuk dokter, diminum sekali sehari.",
-                    "efek_samping_obat": "Pusing, mual, kehilangan keseimbangan."
+                    "nama_penyakit": "Kondisi Kulit (Dermatitis atau Eksim)",
+                    "tingkat_risiko": "Risiko sedang, tergantung pada reaksi individu.",
+                    "gejala_terkait": "Ruam atau perubahan kulit, gatal.",
+                    "nama_obat": "Krim hidrokortison",
+                    "dosis": "Oleskan pada area yang terkena 1-2 kali sehari",
+                    "aturan_pakai": "Oleskan tipis pada area yang gatal setelah membersihkan dan mengeringkan kulit.",
+                    "efek_samping_obat": "Iritasi lokal, kemerahan, atau pengelupasan kulit."
                 },
                 {
-                    "tingkat_risiko": "Variable; sering terjadi pada individu dengan riwayat migrain.",
-                    "gejala_terkait": "Sakit kepala berat, sensitivitas terhadap cahaya/suara, aura (gangguan visual), dan ketidakseimbangan.",
-                    "rekomendasi_obat": "",
-                    "nama_obat": "Bodrex Migra",
-                    "dosis": "1 kaplet mengandung 350 mg Paracetamol, 150 mg Propyphenazone, dan 50 mg Kafein",
-                    "aturan_pakai": "Minum saat serangan migrain mulai terasa, bisa diulang sesuai petunjuk dokter.",
-                    "efek_samping_obat": "Mual, pusing, kelelahan."
+                    "nama_penyakit": "Infeksi (jamur)",
+                    "tingkat_risiko": "Risiko tinggi jika tidak diobati.",
+                    "gejala_terkait": "Ruam atau perubahan kulit, gatal.",
+                    "nama_obat": "Clotrimazole krim",
+                    "dosis": "Oleskan dua kali sehari pada area yang terinfeksi",
+                    "aturan_pakai": "Gunakan selama 2-4 minggu sampai gejala mereda.",
+                    "efek_samping_obat": "Iritasi kulit, terbakar, atau gatal pada area aplikasi."
                 },
                 {
-                    "tingkat_risiko": "Moderate to high; risiko meningkat dengan dehidrasi, obat tertentu, atau berdiri terlalu cepat.",
-                    "gejala_terkait": "Pusing saat berdiri, pingsan, penglihatan kabur, kelelahan, dan mual.",
-                    "rekomendasi_obat": "",
-                    "nama_obat": "Glukosa (dalam bentuk tablet atau suntikan, seperti Glukagon)",
-                    "dosis": "Sesuai kebutuhan, biasanya 15-20 g per episode hipoglikemia",
-                    "aturan_pakai": "Dihirup, dikonsumsi oral, atau suntik sesuai instruksi medis.",
-                    "efek_samping_obat": "Mual, pusing, hiperglikemia jika berlebihan."
+                    "nama_penyakit": "Penyakit Sistemik (misalnya, masalah tiroid)",
+                    "tingkat_risiko": "Risiko tinggi, membutuhkan evaluasi medis lebih lanjut.",
+                    "gejala_terkait": "Ruam atau perubahan kulit, kelelahan.",
+                    "nama_obat": "Terkait dengan pengobatan spesifik yang diperlukan setelah diagnosis lebih lanjut (misalnya, Levothyroxine untuk hipotiroidisme)",
+                    "dosis": "Sesuai petunjuk dokter",
+                    "aturan_pakai": "Ikuti instruksi dokter, biasanya diminum pada pagi hari dengan perut kosong.",
+                    "efek_samping_obat": "Palpitasi jantung, perubahan berat badan, insomnia."
                 },
                 {
-                    "tingkat_risiko": "Moderate; sangat menular dan dapat terjadi dalam wabah.",
-                    "gejala_terkait": "Diare, muntah, kram perut, demam, dan nyeri tubuh.",
-                    "rekomendasi_obat": "",
-                    "nama_obat": "Antibiotik (seperti Ciprofloxacin atau Metronidazole)",
-                    "dosis": "Tergantung pada jenis antibiotik, biasanya 500 mg dua kali sehari",
-                    "aturan_pakai": "Ikuti petunjuk dokter, minum sebisa mungkin pada waktu yang sama setiap hari.",
-                    "efek_samping_obat": "Mual, diare, sakit perut."
-                },
-                {
-                    "tingkat_risiko": "High; umum terjadi di semua kelompok usia.",
-                    "gejala_terkait": "Palpitasi, berkeringat, gemetar, kesulitan berkonsentrasi, dan gangguan gastrointestinal.",
-                    "rekomendasi_obat": "",
-                    "nama_obat": "Antidepresan atau anxiolytics sesuai rekomendasi dokter.",
-                    "dosis": "Sesuai instruksi dokter.",
-                    "aturan_pakai": "Ikuti petunjuk dokter, biasanya diminum sekali sehari.",
-                    "efek_samping_obat": "Pusing, mual, menyebabkan efek samping fisik lainnya saat serangan panik."
+                    "nama_penyakit": "Pengaruh Lingkungan",
+                    "tingkat_risiko": "Risiko rendah hingga sedang, tergantung pada eksposur.",
+                    "gejala_terkait": "Ruam atau perubahan kulit, gatal.",
+                    "nama_obat": "Antihistamin (misalnya, Diphenhydramine)",
+                    "dosis": "25-50 mg sebelum tidur",
+                    "aturan_pakai": "Diminum sekali sehari atau sesuai kebutuhan.",
+                    "efek_samping_obat": "Mengantuk, mulut kering, penglihatan kabur."
                 }
             ]
         }
