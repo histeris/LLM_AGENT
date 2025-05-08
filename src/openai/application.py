@@ -52,36 +52,39 @@ async def start_command(update: Update, context: CallbackContext):
 def run_crew_blocking(user_input, chat_history=None):
     history_context = ""
     if chat_history:
-        for item in chat_history[-5:]:  # Ambil 5 percakapan terakhir
+        for item in chat_history[-5:]:
             history_context += f"User: {item.get('user')}\nAgent: {item.get('agent')}\n"
 
     inputs = {
-        "gejala_user": f"{history_context}\nUser: {user_input}",
+        "keluhan_user": f"{history_context}\nUser: {user_input}",
     }
     try:
-        result = researcher().crew().kickoff(inputs=inputs)
-        return f"{result}"
+        result = researcher().run(inputs)  # <- BUKAN .crew().kickoff() kalau kamu sudah pakai .run()
+        return result  # JANGAN pakai f"{result}"
     except Exception as e:
-        return f"Error saat menjalankan CrewAI: {e}"
+        return {"error": f"Error saat menjalankan CrewAI: {e}"}
+
 
 def format_agent_output(agent_data):
     try:
-        data = json.loads(agent_data)
-        if isinstance(data, list):
-            formatted = ""
-            for i, item in enumerate(data,start=1):
-                formatted += (
-                    f"Nama penyakit: {item.get('nama_penyakit', '')}\n"
-                    f"Rekomendasi obat: {item.get('rekomendasi_obat', '')}\n"
-                    f"Dosis: {item.get('dosis', '')}\n"
-                    f"Aturan pakai: {item.get('aturan_pakai', '')}\n"
-                    f"Efek samping: {item.get('efek_samping', '')}\n\n"
-                )
-            return formatted.strip()
+        if isinstance(agent_data, dict):
+            if "error" in agent_data:
+                return agent_data["error"]
+            analisis = agent_data.get("analisis", "")
+            rekomendasi = agent_data.get("rekomendasi_obat", "")
+            return f"{analisis}\n\n{rekomendasi}"
+        elif isinstance(agent_data, str):
+            try:
+                parsed = json.loads(agent_data)
+                return format_agent_output(parsed)
+            except:
+                return agent_data
         else:
-            return agent_data
+            return str(agent_data)
     except Exception as e:
-        return agent_data
+        return f"Gagal memformat output: {e}"
+
+
         
 async def handle_message(update: Update, context: CallbackContext):
     user_id = str(update.message.from_user.id)

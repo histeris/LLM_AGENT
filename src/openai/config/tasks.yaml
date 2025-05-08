@@ -1,13 +1,19 @@
 classification_task:
   description: >
-    Klasifikasikan input dari pengguna apakah termasuk gejala, penyakit, atau penyebab/faktor risiko.
-    Informasi ini akan menentukan agen selanjutnya yang akan menangani kasus pengguna.
+    Lakukan klasifikasi terhadap {keluhan_user} untuk menentukan apakah informasi tersebut termasuk gejala atau penyakit.
+    Hasil klasifikasi ini akan menentukan agen selanjutnya yang akan menangani kasus pengguna.
   expected_output: >
-    Label klasifikasi dari input pengguna (gejala, penyakit, atau penyebab),
-    serta informasi siap diteruskan ke agen analisa atau rekomendasi obat.
+    Format JSON seperti berikut:
+    {
+      "label": "gejala",
+      "data": {
+      "gejala_user": "luka gores sehingga berdarah di tangan"
+      }
+    }
+
   agent: classification_agent
 
-analisis_penyakit_dari_gejala_task:
+symptoms_analyzer_task:
   description: >
     Menganalisa gejala yang dilaporkan pengguna dan mendiagnosis penyakit berdasarkan gejala tersebut.
     Gunakan database CSV atau pengetahuan medis untuk meningkatkan akurasi diagnosis.
@@ -16,23 +22,27 @@ analisis_penyakit_dari_gejala_task:
     Diagnosis utama, tingkat risiko penyakit, gejala terkait lainnya, dan efek samping umum.
     Urutkan penyakit berdasarkan relevansi tertinggi dengan gejala.
     Jika input tidak ada kaitannya dengan penyakit/gejala/obat, jawab: "Tidak ada kaitannya dengan penyakit, gejala, dan obat."
-  agent: analisa_penyakit
+  agent: symptoms_analyzer_agent
+  context: [classification_task]
 
-rekomendasi_obat_task:
+drug_recommendation_task:
   description: >
     Berdasarkan daftar penyakit yang telah didiagnosis, berikan rekomendasi obat untuk masing-masing penyakit.
-    Setiap penyakit harus memiliki: nama obat, dosis, aturan pakai, dan efek samping yang umum.
+    Setiap penyakit harus memiliki: nama obat, dosis, aturan pakai, dan efek samping yang umum. Anda juga diminta untuk mencari tahu informasi tentang tingkat risiko penyakit dan gejala terkait lainnya.
   expected_output: >
     Untuk setiap penyakit:
+    - Tingkat Risiko
+    - Gejala Terkait
     - Nama penyakit
     - Nama obat
     - Dosis
     - Aturan pakai
     - Efek samping
-  agent: apoteker_virtual
+  agent: virtual_pharmacist_agent
+  context: [classification_task, symptoms_analyzer_task]
 
 
-output_manager_task:
+output_handler_task:
   description: >
     Merapikan output dari agent lain agar mudah dipahami manusia dalam format yang konsisten dan profesional.
   expected_output: >
@@ -46,5 +56,5 @@ output_manager_task:
       - Dosis: Dosis
       - Aturan Pakai: Aturan Pakai
       - Efek Samping Obat: Efek Samping dari Obat
-  agent: output_manager
-  context: [analisis_penyakit_dari_gejala_task, rekomendasi_obat_task]
+  agent: output_handler_agent
+  context: [symptoms_analyzer_task, drug_recommendation_task]
