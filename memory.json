@@ -585,6 +585,579 @@
                     }
                 ]
             }
+        ],
+        "714212872_20250508_112014": [
+            {
+                "user": "Sesak nafas",
+                "agent": [
+                    {
+                        "nama_penyakit": "Error saat menjalankan\u00a0CrewAI:\u00a0Missing required template variable 'Template variable 'keluhan_user' not found in inputs dictionary' in description"
+                    }
+                ]
+            },
+            {
+                "user": "Sesak nafas",
+                "agent": [
+                    {
+                        "nama_penyakit": "Nama Penyakit: Gagal Jantung",
+                        "tingkat_risiko": "Tinggi",
+                        "gejala_terkait": "Detak jantung tidak beraturan, sensasi kesemutan atau mati rasa pada tangan atau kaki, jantung berdebar.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Digoxin",
+                        "dosis": "0.125-0.25 mg sekali sehari",
+                        "aturan_pakai": "Biasanya diminum pada waktu yang sama setiap hari, bisa dengan atau tanpa makanan.",
+                        "efek_samping_obat": "Mual, muntah, penglihatan kabur."
+                    }
+                ]
+            },
+            {
+                "user": "Saya juga merasakan sesak di dada",
+                "agent": [
+                    {
+                        "nama_penyakit": "Nama Penyakit (dengan nama lokal jika ada)",
+                        "tingkat_risiko": "Tingkat Risiko Penyakit",
+                        "gejala_terkait": "Daftar Gejala",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Nama Obat",
+                        "dosis": "Dosis",
+                        "aturan_pakai": "Aturan Pakai",
+                        "efek_samping_obat": "Efek Samping dari Obat"
+                    }
+                ]
+            }
+        ],
+        "714212872_20250508_112732": [
+            {
+                "user": "Saya merasa lemas dan cepat lelah",
+                "agent": [
+                    {
+                        "nama_penyakit": "Nama Penyakit: Anemia",
+                        "tingkat_risiko": "Sedang (Risiko dapat meningkat jika tidak ditangani)",
+                        "gejala_terkait": "Kulit pucat, tangan dan kaki terasa dingin, pusing, napas pendek, bengkak di tangan atau kaki, nyeri dada, dan cepat lelah saat beraktivitas.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Epoetin alfa",
+                        "dosis": "Dosis awal 50 IU/kgBB, 3 kali seminggu",
+                        "aturan_pakai": "Pengobatan diberikan melalui suntikan IV selama setidaknya 1\u20135 menit. Dosis dapat ditingkatkan dengan penambahan 25 IU/kgBB tiap 4 minggu.",
+                        "efek_samping_obat": "Kelemahan, kelelahan, pusing, dan kesulitan bernapas."
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Anemia akibat kekurangan asam folat",
+                        "tingkat_risiko": "Sedang (Risiko dapat meningkat jika tidak ditangani)",
+                        "gejala_terkait": "Kulit pucat, tangan dan kaki terasa dingin, pusing, napas pendek, bengkak di tangan atau kaki, nyeri dada, dan cepat lelah saat beraktivitas.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Asam folat",
+                        "dosis": "1 mg, 1 kali sehari",
+                        "aturan_pakai": "Diberikan sesuai petunjuk dokter.",
+                        "efek_samping_obat": "Reaksi alergi, gangguan pencernaan seperti mual, dan diare."
+                    }
+                ]
+            },
+            {
+                "user": "Saya juga suka buang air kecil pada malam hari",
+                "agent": [
+                    {
+                        "nama_penyakit": "Diabetes Melitus",
+                        "tingkat_risiko": "Tinggi",
+                        "gejala_terkait": "Haus berlebihan, peningkatan nafsu makan, penurunan berat badan yang tidak dapat dijelaskan, luka yang lambat sembuh.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Metformin",
+                        "dosis": "500 mg, 2 kali sehari",
+                        "aturan_pakai": "Diminum dengan makanan untuk mengurangi risiko efek samping gastrointestinal.",
+                        "efek_samping_obat": "Diare, mual, kram perut, dan dapat menyebabkan asidosis laktat yang jarang tetapi serius."
+                    },
+                    {
+                        "nama_penyakit": "Penyakit Ginjal",
+                        "tingkat_risiko": "Sedang hingga Tinggi",
+                        "gejala_terkait": "Pembengkakan (edema), mual, kebingungan, tekanan darah tinggi, keinginan untuk buang air kecil yang menurun.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Lisinopril",
+                        "dosis": "20 mg sekali sehari",
+                        "aturan_pakai": "Diminum pada waktu yang sama setiap hari, bisa diambil dengan atau tanpa makanan.",
+                        "efek_samping_obat": "Batuk kering, pening, dan kemungkinan kerusakan ginjal."
+                    },
+                    {
+                        "nama_penyakit": "Gangguan Tiroid (Hipotiroidisme)",
+                        "tingkat_risiko": "Sedang",
+                        "gejala_terkait": "Peningkatan berat badan, kulit kering, rambut rontok, depresi, sembelit.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Levothyroxine",
+                        "dosis": "75 mcg sehari",
+                        "aturan_pakai": "Diminum pada pagi hari dengan segelas air, 30 menit sebelum sarapan.",
+                        "efek_samping_obat": "Detak jantung yang cepat, kecemasan, insomnia, dan hilangnya berat badan."
+                    },
+                    {
+                        "nama_penyakit": "Anemia",
+                        "tingkat_risiko": "Sedang",
+                        "gejala_terkait": "Kulit pucat, detak jantung yang cepat, napas pendek, pusing.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Ferrous sulfate",
+                        "dosis": "325 mg sehari",
+                        "aturan_pakai": "Diminum dengan jus jeruk atau air untuk meningkatkan penyerapan, sebaiknya pada waktu yang sama setiap hari.",
+                        "efek_samping_obat": "Nyeri perut, konstipasi, atau diare."
+                    },
+                    {
+                        "nama_penyakit": "Depresi dan Kecemasan",
+                        "tingkat_risiko": "Sedang",
+                        "gejala_terkait": "Ketidakmampuan untuk berkonsentrasi, gangguan tidur, perubahan nafsu makan, keinginan untuk menarik diri dari aktivitas sosial.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Sertraline",
+                        "dosis": "50 mg sekali sehari",
+                        "aturan_pakai": "Diharuskan diminum pada waktu yang sama setiap hari, bisa di pagi atau malam hari.",
+                        "efek_samping_obat": "Mual, diare, kesulitan tidur, dan peningkatan risiko suicidal pada anak muda."
+                    }
+                ]
+            }
+        ],
+        "714212872_20250508_113018": [
+            {
+                "user": "Gatal-gatal",
+                "agent": [
+                    {
+                        "nama_penyakit": "Nama Penyakit: Psoriasis",
+                        "tingkat_risiko": "Tidak terlalu tinggi, namun dapat mempengaruhi kualitas hidup.",
+                        "gejala_terkait": "Kulit yang gatal, berkerak, kemerahan, dan penebalan.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Calcipotriol",
+                        "dosis": "Oleskan calcipotriol secukupnya ke bagian kulit yang mengalami penebalan, 1\u20132 kali sehari. Dosis pemakaian maksimal adalah 100 gram per minggu.",
+                        "aturan_pakai": "Oleskan pada area yang terpengaruh.",
+                        "efek_samping": "Iritasi kulit, sensasi terbakar, atau kemerahan."
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Sunburn",
+                        "tingkat_risiko": "Ringan hingga sedang tergantung pada tingkat keparahan.",
+                        "gejala_terkait": "Kulit kemerahan, nyeri, atau sensasi terbakar.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Aloe Vera Gel (contoh)",
+                        "dosis": "Oleskan pada area kulit yang terbakar sinar matahari 2-3 kali sehari.",
+                        "aturan_pakai": "Oleskan tipis pada area yang terkena setelah terkena sinar matahari.",
+                        "efek_samping": "Alergi, kemerahan, atau iritasi pada kulit."
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Herpes",
+                        "tingkat_risiko": "Tinggi, dapat menular melalui kontak.",
+                        "gejala_terkait": "Gatal, nyeri, atau lepuhan pada area yang terinfeksi.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Acyclovir",
+                        "dosis": "200 mg setiap 4 jam (5 kali sehari) selama 10 hari.",
+                        "aturan_pakai": "Diminum sesuai dosis yang ditentukan dan cukup air.",
+                        "efek_samping": "Mual, diare, sakit kepala, atau pusing."
+                    }
+                ]
+            }
+        ],
+        "714212872_20250508_144926": [
+            {
+                "user": "Luka gores",
+                "agent": [
+                    {
+                        "nama_penyakit": "Infeksi Luka",
+                        "tingkat_risiko": "Sedang hingga tinggi, tergantung pada lokasi luka dan faktor risiko individual (misalnya, diabetes, sistem kekebalan tubuh yang lemah).",
+                        "gejala_terkait": "Nyeri, kemerahan, pembengkakan, dan keluarnya nanah. Demam mungkin juga muncul dalam kasus infeksi yang lebih serius.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Amoksisilin",
+                        "dosis": "500 mg setiap 8 jam",
+                        "aturan_pakai": "Diminum selama 7-10 hari.",
+                        "efek_samping_obat": "Mual, diare, reaksi alergi."
+                    },
+                    {
+                        "nama_penyakit": "Tetanus",
+                        "tingkat_risiko": "Tinggi jika luka disebabkan oleh benda tajam atau kotor. Jika pasien tidak divaksinasi atau tidak mendapatkan booster tetanus dalam 10 tahun terakhir, risiko meningkat.",
+                        "gejala_terkait": "Kekakuan otot, terutama di area rahang dan leher, kejang spasmodik, dan kesulitan menelan.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Antitetanus immunoglobulin (TIG)",
+                        "dosis": "Dosis sesuai petunjuk dokter, biasanya 250-500 IU IM.",
+                        "aturan_pakai": "Penting dilakukan secepatnya setelah luka.",
+                        "efek_samping_obat": "Nyeri di tempat suntikan, reaksi alergi."
+                    },
+                    {
+                        "nama_penyakit": "Dermatitis Kontak",
+                        "tingkat_risiko": "Rendah hingga sedang; tergantung pada bahan yang bersentuhan dengan kulit.",
+                        "gejala_terkait": "Gatal, kemerahan, dan ruam di area yang rusak.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Krim Hidrokortison",
+                        "dosis": "Oleskan tipis 1-2 kali sehari.",
+                        "aturan_pakai": "Oleskan pada area yang terpengaruh setelah bersih dan kering.",
+                        "efek_samping_obat": "Iritasi lokal, penipisan kulit."
+                    },
+                    {
+                        "nama_penyakit": "Keloid",
+                        "tingkat_risiko": "Sedang; lebih umum pada individu dengan riwayat famille keloid atau pada etnis tertentu.",
+                        "gejala_terkait": "Pembengkakan atau tonjolan di atas luka, seringkali gatal.",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Injeksi Triamcinolone",
+                        "dosis": "10-40 mg/mL, disesuaikan oleh dokter.",
+                        "aturan_pakai": "Diberikan setiap 4-8 minggu.",
+                        "efek_samping_obat": "Penipisan kulit, perubahan warna kulit."
+                    }
+                ]
+            },
+            {
+                "user": "Sakit tenggorokan",
+                "agent": [
+                    {
+                        "nama_penyakit": "Hipertensi\\n - Tingkat Risiko: Tinggi\\n - Gejala Terkait: Sering kepala, pusing, penglihatan kabur\\n - Nama Obat: Obat generik untuk menurunkan tensi - Dosis: Sesuai dengan resep dokter - Aturan Pakai: Ikuti panduan penggunaan yang diberikan oleh dokter - Efek Samping Obat: Pusing, kelelahan, mual"
+                    }
+                ]
+            },
+            {
+                "user": "Sakit tenggorokan",
+                "agent": [
+                    {
+                        "nama_penyakit": "Influenza (Flu) - Tingkat Risiko: Sedang (Risiko komplikasi pada individu dengan sistem imun lemah) - Gejala Terkait: Demam, menggigil, nyeri otot, batuk, sakit kepala, kelelahan, sakit tenggorokan, pilek, pusing, nyeri sendi, sakit perut, diare - Nama Obat: [Belum disebutkan] - Dosis: [Belum disebutkan] - Aturan Pakai: [Belum disebutkan] - Efek Samping Obat: Peningkatan risiko infeksi sekunder, kelelahan berkepanjangan"
+                    }
+                ]
+            },
+            {
+                "user": "Sakit maag",
+                "agent": [
+                    {
+                        "nama_penyakit": "Diabetes",
+                        "tingkat_risiko": "Tidak disebutkan",
+                        "gejala_terkait": "Tidak disebutkan",
+                        "nama_obat": "Metformin",
+                        "dosis": "500 mg \u2013 2000 mg per hari dibagi menjadi 2-3 dosis",
+                        "aturan_pakai": "Diberikan secara oral bersama makanan untuk mengurangi efek samping gastrointestinal",
+                        "efek_samping_obat": "Mual, diare, dan dispepsia"
+                    },
+                    {
+                        "nama_penyakit": "Hipertensi",
+                        "tingkat_risiko": "Tidak disebutkan",
+                        "gejala_terkait": "Tidak disebutkan",
+                        "nama_obat": "Amlodipine",
+                        "dosis": "5 mg \u2013 10 mg per hari",
+                        "aturan_pakai": "Diberikan secara oral, dapat diambil dengan atau tanpa makanan",
+                        "efek_samping_obat": "Pembengkakan pada kaki, pusing, sakit kepala"
+                    },
+                    {
+                        "nama_penyakit": "Penyakit Kardiovaskular",
+                        "tingkat_risiko": "Tidak disebutkan",
+                        "gejala_terkait": "Tidak disebutkan",
+                        "nama_obat": "Aspirin",
+                        "dosis": "75 mg \u2013 100 mg per hari",
+                        "aturan_pakai": "Diberikan secara oral, sebaiknya pada pagi hari setelah sarapan",
+                        "efek_samping_obat": "Pendarahan lambung, ruam, mual"
+                    },
+                    {
+                        "nama_penyakit": "Asma",
+                        "tingkat_risiko": "Tidak disebutkan",
+                        "gejala_terkait": "Tidak disebutkan",
+                        "nama_obat": "Salbutamol",
+                        "dosis": "100 - 200 mcg (2 puff) untuk dewasa, 100 mcg untuk anak-anak saat serangan asma",
+                        "aturan_pakai": "Dihirup melalui inhalasi, dapat digunakan sesuai kebutuhan",
+                        "efek_samping_obat": "Jantung berdebar, tremor, dan sakit kepala"
+                    },
+                    {
+                        "nama_penyakit": "Diabetes (Nefropati Diabetik)",
+                        "tingkat_risiko": "Tidak disebutkan",
+                        "gejala_terkait": "Tidak disebutkan",
+                        "nama_obat": "Losartan",
+                        "dosis": "50 mg \u2013 100 mg per hari",
+                        "aturan_pakai": "Diberikan secara oral, dapat diambil dengan atau tanpa makanan",
+                        "efek_samping_obat": "Peningkatan kadar kalium, pusing, sakit kepala"
+                    }
+                ]
+            },
+            {
+                "user": "Sakit maag",
+                "agent": [
+                    {
+                        "nama_penyakit": "Nama Penyakit: Penyakit Kuning",
+                        "tingkat_risiko": "Sedang",
+                        "gejala_terkait": "Kulit menguning, perubahan warna urin, kelelahan, demam",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Lamivudine",
+                        "dosis": "Tergantung pada jenis infeksi, disarankan mengikuti petunjuk dokter.",
+                        "aturan_pakai": "Harus diambil secara teratur untuk hasil yang efektif.",
+                        "efek_samping_obat": "Dapat mencakup kelelahan, mual, dan sakit kepala."
+                    }
+                ]
+            }
+        ],
+        "714212872_20250508_145051": [
+            {
+                "user": "Saya maag",
+                "agent": [
+                    {
+                        "nama_penyakit": "None"
+                    }
+                ]
+            }
+        ],
+        "714212872_20250508_145745": [
+            {
+                "user": "Saya maag",
+                "agent": [
+                    {
+                        "nama_penyakit": "None"
+                    }
+                ]
+            },
+            {
+                "user": "Saya migrain",
+                "agent": [
+                    {
+                        "nama_penyakit": "{'analisis': '- Diagnosis Utama: Gastritis (maag) dan Migrain\\n- Tingkat Risiko Penyakit: \\n  - Gastritis: Sedang (dapat berlanjut menjadi ulser jika tidak diobati)\\n  - Migrain: Sedang (sering membutuhkan pengobatan jangka panjang)\\n- Gejala Terkait Lainnya: Mual, muntah, sakit kepala, perut kembung, sakit perut\\n- Efek Samping Umum: \\n  - Obat untuk Gastritis: mual, diare, ketidaknyamanan perut\\n  - Obat untuk Migrain (seperti bodrex MIGRA): mengantuk, pusing, mual\\n\\nPenyakit diurutkan berdasarkan relevansi:\\n"
+                    },
+                    {
+                        "nama_penyakit": "Gastritis\\n"
+                    },
+                    {
+                        "nama_penyakit": "Migrain', 'rekomendasi_obat': '- Tingkat Risiko Penyakit: \\n  - Gastritis: Sedang (dapat berlanjut menjadi ulser jika tidak diobati)\\n  - Migrain: Sedang (sering membutuhkan pengobatan jangka panjang)\\n  \\n- Gejala Terkait: \\n  - Gastritis: Mual, muntah, perut kembung, sakit perut\\n  - Migrain: Sakit kepala, lemah atau mati rasa di salah satu sisi tubuh, sulit berbicara\\n\\n"
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Gastritis\\n   - Nama Obat: Omeprazole\\n   - Dosis: 20 mg sekali sehari\\n   - Aturan Pakai: Diminum 30 menit sebelum makan\\n   - Efek Samping: Mual, diare, ketidaknyamanan perut\\n\\n"
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Migrain\\n   - Nama Obat: Sumatriptan\\n   - Dosis: 50 mg pada saat serangan\\n   - Aturan Pakai: Diminum segera setelah gejala mulai\\n   - Efek Samping: Mengantuk, pusing, mual\\n\\nDengan informasi di atas, pasien dapat melakukan konsultasi lebih lanjut dengan dokter atau apoteker untuk perawatan yang optimal.'}"
+                    }
+                ]
+            }
+        ],
+        "714212872_20250508_150259": [
+            {
+                "user": "Saya migrain",
+                "agent": [
+                    {
+                        "nama_penyakit": "{'analisis': \"I tried reusing the same input, I must stop using this action input. I'll try something else instead.\\n\\n\", 'rekomendasi_obat': 'Relevant Content:\\ndisease.\\n\\ndemensia.\\n\\narthritis.'}"
+                    }
+                ]
+            }
+        ],
+        "714212872_20250508_150806": [
+            {
+                "user": "Saya batuk, pilek, dan sakit tenggorokan",
+                "agent": [
+                    {
+                        "nama_penyakit": "{'analisis': 'Diagnosis utama: Influenza (Flu)\\nTingkat risiko penyakit: Sedang\\nGejala terkait lainnya: Pusing, hidung tersumbat, sakit kepala, mulut kering, lelah.\\nEfek samping umum: Sakit kepala, mual atau muntah, diare.', 'rekomendasi_obat': '- Tingkat Risiko: Sedang\\n- Gejala Terkait: Pusing, hidung tersumbat, sakit kepala, mulut kering, lelah.\\n- Nama penyakit: Influenza (Flu)\\n- Nama obat: Oseltamivir\\n- Dosis: 75 mg dua kali sehari selama 5 hari\\n- Aturan pakai: Obat harus diminum dalam 1-2 hari setelah gejala pertama muncul.\\n- Efek samping: Sakit kepala, mual atau muntah, diare.'}"
+                    }
+                ]
+            }
+        ],
+        "714212872_20250508_151220": [
+            {
+                "user": "Saya batuk, pilek, dan sakit tenggorokan",
+                "agent": [
+                    {
+                        "nama_penyakit": "{'analisis': 'Diagnosis utama: Influenza (Flu) \\nTingkat risiko penyakit: Rendah hingga Sedang (bergantung pada kondisi kesehatan umum pasien)\\nGejala terkait lainnya: Pusing, hidung tersumbat, sakit kepala, perut kembung\\nEfek samping umum: Kelelahan, demam, nyeri otot, batuk kering atau berdahak\\n\\nPenyakit yang relevan termasuk influenza, yang ditandai dengan gejala batuk, pilek, dan sakit tenggorokan.', 'rekomendasi_obat': 'Diagnosis utama: Influenza (Flu) \\nTingkat risiko penyakit: Rendah hingga Sedang (bergantung pada kondisi kesehatan umum pasien)\\nGejala terkait lainnya: Pusing, hidung tersumbat, sakit kepala, perut kembung\\nNama obat: Oseltamivir (Tamiflu)\\nDosis: \\n- Dewasa: 75 mg dua kali sehari selama 5 hari\\n- Anak-anak: Dosis bervariasi tergantung pada berat badan.\\nAturan pakai: \\n- Mulai pengobatan dalam 48 jam setelah gejala pertama muncul.\\nEfek samping: \\n- Mual, diare, pusing, sakit kepala, dan kelelahan.'}"
+                    }
+                ]
+            }
+        ],
+        "714212872_20250508_151349": [
+            {
+                "user": "Saya batuk, pilek, dan sakit tenggorokan",
+                "agent": [
+                    {
+                        "nama_penyakit": "Diagnosis utama: Influenza (Flu)",
+                        "tingkat_risiko_penyakit": "Rendah hingga Menengah",
+                        "gejala_terkait_lainnya": "Pusing, Hidung tersumbat, Sakit kepala, Mulut kering, Kantuk, Lelah, Mual atau muntah, Diare, Sembelit.",
+                        "efek_samping_umum": "Kelelahan, nyeri otot, demam, sakit tenggorokan, batuk."
+                    }
+                ]
+            }
+        ],
+        "714212872_20250508_151732": [
+            {
+                "user": "Saya maag",
+                "agent": [
+                    {
+                        "nama_penyakit": "Maag",
+                        "gejala_terkait": "Nyeri perut, mual, kembung, berkurangnya nafsu makan",
+                        "nama_obat": "Pylor",
+                        "dosis": "1-2 tablet 3 kali sehari",
+                        "aturan_pakai": "Diminum setelah makan dengan air.",
+                        "efek_samping": "Mual, mulut kering, reaksi alergi."
+                    }
+                ]
+            },
+            {
+                "user": "Saya juga migraine",
+                "agent": [
+                    {
+                        "nama_penyakit": "Diagnosis Utama: Gastritis (Sakit Maag) dan Migrain. Tingkat Risiko Penyakit: Gastritis: Sedang, dapat berkembang menjadi komplikasi seperti ulkus peptikum jika tidak diobati; Migrain: Sedang, akibat stress, pola makan yang tidak teratur, dan faktor lingkungan. Gejala Terkait Lainnya: Gastritis: Mual, muntah, perut kembung, sakit perut. Migrain: Sakit kepala, pusing, sensitivitas terhadap cahaya dan suara. Efek Samping Umum: Gastritis: Nyeri perut, kram perut, diare atau sembelit; Migrain: Gangguan penglihatan, kelemahan, mual, serta kelelahan setelah serangan."
+                    },
+                    {
+                        "nama_penyakit": "Penyakit: Gastritis",
+                        "tingkat_risiko": "Sedang, dapat berkembang menjadi komplikasi seperti ulkus peptikum jika tidak diobati.",
+                        "gejala_terkait": "Mual, muntah, perut kembung, sakit perut.",
+                        "nama_obat": "Omeprazole",
+                        "dosis": "20 mg sekali sehari",
+                        "aturan_pakai": "Diminum sebelum makan, biasanya pada pagi hari.",
+                        "efek_samping": "Nyeri perut, kram perut, diare atau sembelit."
+                    },
+                    {
+                        "nama_penyakit": "Penyakit: Migrain",
+                        "tingkat_risiko": "Sedang, akibat stress, pola makan yang tidak teratur, dan faktor lingkungan.",
+                        "gejala_terkait": "Sakit kepala, pusing, sensitivitas terhadap cahaya dan suara.",
+                        "nama_obat": "Sumatriptan",
+                        "dosis": "50 mg saat gejala awal migrain muncul.",
+                        "aturan_pakai": "Diminum dengan air, dapat diulang setelah 2 jam jika gejala belum mereda, maksimal 200 mg per hari.",
+                        "efek_samping": "Gangguan penglihatan, kelemahan, mual, serta kelelahan setelah serangan."
+                    }
+                ]
+            }
+        ],
+        "714212872_20250508_152105": [
+            {
+                "user": "Saya sakit perut",
+                "agent": [
+                    {
+                        "nama_penyakit": "Diagnosis utama: Gastroenteritis",
+                        "tingkat_risiko_penyakit": "Sedang (dehidrasi jika diare berat)",
+                        "gejala_terkait_lainnya": "Mual, muntah, diare, sakit kepala",
+                        "efek_samping_umum": "Dehidrasi, kelelahan"
+                    },
+                    {
+                        "nama_penyakit": "Diagnosis utama: Sindrom iritasi usus besar (Irritable Bowel Syndrome - IBS)",
+                        "tingkat_risiko_penyakit": "Rendah",
+                        "gejala_terkait_lainnya": "Perut kembung, sakit perut, sembelit atau diare",
+                        "efek_samping_umum": "Kram perut, gas"
+                    },
+                    {
+                        "nama_penyakit": "Diagnosis utama: Maag (Gastritis atau Ulkus peptikum)",
+                        "tingkat_risiko_penyakit": "Sedang (perdarahan, perforasi)",
+                        "gejala_terkait_lainnya": "Nyeri ulu hati, mual atau muntah, perut kembung",
+                        "efek_samping_umum": "Rasa tidak nyaman setelah makan, mual"
+                    },
+                    {
+                        "nama_penyakit": "Diagnosis utama: Batu empedu",
+                        "tingkat_risiko_penyakit": "Sedang (komplikasi jika saluran empedu tersumbat)",
+                        "gejala_terkait_lainnya": "Nyeri perut kanan atas, mual",
+                        "efek_samping_umum": "Nyeri saat makan makanan berlemak"
+                    },
+                    {
+                        "nama_penyakit": "Diagnosis utama: Apendisitis",
+                        "tingkat_risiko_penyakit": "Tinggi (perlu operasi segera)",
+                        "gejala_terkait_lainnya": "Sakit perut yang semakin parah, mual, muntah",
+                        "efek_samping_umum": "Nyeri hebat, demam"
+                    }
+                ]
+            },
+            {
+                "user": "Saya mual, muntah",
+                "agent": [
+                    {
+                        "nama_penyakit": "Gastritis",
+                        "diagnosis_utama": "Gastritis",
+                        "tingkat_risiko_penyakit": "Sedang",
+                        "gejala_terkait_lainnya": "Nyeri ulu hati, perut kembung, sakit kepala",
+                        "efek_samping_umum": "Nyeri perut, sendawa, kehilangan nafsu makan"
+                    },
+                    {
+                        "nama_penyakit": "Gastroenteritis (Infeksi Saluran Pencernaan)",
+                        "diagnosis_utama": "Gastroenteritis",
+                        "tingkat_risiko_penyakit": "Tinggi, jika dehidrasi",
+                        "gejala_terkait_lainnya": "Diare, sakit perut, demam",
+                        "efek_samping_umum": "Muntah, diare, dehidrasi"
+                    },
+                    {
+                        "nama_penyakit": "Penyakit Maag (Dispepsia)",
+                        "diagnosis_utama": "Penyakit Maag",
+                        "tingkat_risiko_penyakit": "Sedang",
+                        "gejala_terkait_lainnya": "Nyeri perut, mual, perut kembung",
+                        "efek_samping_umum": "Nyeri ulu hati, mual, muntah sesekali"
+                    },
+                    {
+                        "nama_penyakit": "Apendisitis",
+                        "diagnosis_utama": "Apendisitis",
+                        "tingkat_risiko_penyakit": "Sangat tinggi, membutuhkan perhatian medis segera",
+                        "gejala_terkait_lainnya": "Nyeri perut yang meningkat, demam, kehilangan nafsu makan",
+                        "efek_samping_umum": "Muntah, nyeri tajam di sisi kanan bawah perut"
+                    },
+                    {
+                        "nama_penyakit": "Kolesistitis (Peradangan Kandung Empedu)",
+                        "diagnosis_utama": "Kolesistitis",
+                        "tingkat_risiko_penyakit": "Tinggi",
+                        "gejala_terkait_lainnya": "Nyeri perut sebelah kanan, mual, muntah",
+                        "efek_samping_umum": "Nyeri setelah makan, demam"
+                    }
+                ]
+            }
+        ],
+        "714212872_20250508_152829": [
+            {
+                "user": "Saya mual dan muntah",
+                "agent": [
+                    {
+                        "nama_penyakit": "Diagnosis Utama: Gastroenteritis",
+                        "tingkat_risiko_penyakit": "Sedang",
+                        "gejala_terkait_lainnya": "Diare, Pusing, Kantuk",
+                        "efek_samping_umum": "Dehidrasi, Mual, Kelelahan"
+                    },
+                    {
+                        "nama_penyakit": "Diagnosis Utama: Migrain",
+                        "tingkat_risiko_penyakit": "Rendah",
+                        "gejala_terkait_lainnya": "Pusing, Sulit tidur",
+                        "efek_samping_umum": "Sensitivitas terhadap cahaya dan suara, Mual"
+                    },
+                    {
+                        "nama_penyakit": "Diagnosis Utama: Toksoplasmosis",
+                        "tingkat_risiko_penyakit": "Sedang",
+                        "gejala_terkait_lainnya": "Ruam, Pusing, Mual",
+                        "efek_samping_umum": "Kelelahan, Nyeri otot"
+                    }
+                ]
+            }
+        ],
+        "714212872_20250508_153053": [
+            {
+                "user": "Saya mual dan muntah",
+                "agent": [
+                    {
+                        "nama_penyakit": "Diagnosis utama: Gastroenteritis",
+                        "tingkat_risiko_penyakit": "Tinggi",
+                        "gejala_terkait_lainnya": "Ruam, diare",
+                        "efek_samping_umum": "Demam, kelelahan, dehidrasi",
+                        "diagnosis_utama": "Penyakit berat (seperti infeksi atau gangguan metabolik)"
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Gastroenteritis",
+                        "tingkat_risiko": "Sedang",
+                        "gejala_terkait": "Diare, pusing, kesulitan tidur",
+                        "nama_obat": "Loperamide",
+                        "dosis": "2 mg setelah diare pertama, lalu 1 mg setelah setiap diare berikutnya (maksimal 8 mg/hari)",
+                        "aturan_pakai": "Diminum setelah setiap episode diare.",
+                        "efek_samping": "Dehidrasi, kelelahan, ketidaknyamanan perut"
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Makan berlebihan atau keracunan makanan",
+                        "tingkat_risiko": "Rendah",
+                        "gejala_terkait": "Diare, pusing",
+                        "nama_obat": "Simetikon",
+                        "dosis": "80-160 mg setelah makan dan sebelum tidur",
+                        "aturan_pakai": "Diminum sesuai kebutuhan untuk mengurangi gas.",
+                        "efek_samping": "Nyeri perut, kembung"
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Migrain",
+                        "tingkat_risiko": "Sedang",
+                        "gejala_terkait": "Pusing, kantuk",
+                        "nama_obat": "Sumatriptan",
+                        "dosis": "50-100 mg per oral saat serangan migrain",
+                        "aturan_pakai": "Diminum secepatnya setelah gejala muncul.",
+                        "efek_samping": "Sensitivitas terhadap cahaya, mual berulang"
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Penyakit berat (seperti infeksi atau gangguan metabolik)",
+                        "tingkat_risiko": "Tinggi",
+                        "gejala_terkait": "Ruam, diare",
+                        "nama_obat": "Antibiotik (contohnya: Amoksisilin)",
+                        "dosis": "500 mg setiap 8 jam",
+                        "aturan_pakai": "Diminum sesuai anjuran dokter selama 7-10 hari.",
+                        "efek_samping": "Demam, kelelahan, dehidrasi"
+                    }
+                ]
+            }
+        ],
+        "714212872_20250508_153156": [
+            {
+                "user": "Kanker payudara",
+                "agent": [
+                    {
+                        "nama_penyakit": "I tried reusing the same input, I must stop using this action input. I'll try something else instead."
+                    }
+                ]
+            }
         ]
     },
     "7116300622": [
@@ -648,5 +1221,23 @@
             ]
         }
     ],
-    "714212872": []
+    "714212872": [
+        {
+            "user": "Sakit gigi",
+            "agent": [
+                {
+                    "nama_penyakit": "\"Kerusakan gigi, seperti munculnya lubang pada gigi\",",
+                    "tingkat_risiko_penyakit": "Sedang",
+                    "gejala_terkait_lainnya": "Sakit kepala, mual dan muntah, diare, sulit tidur, perubahan rasa di lidah, warna gigi menjadi kekuningan atau kecoklatan (sementara)",
+                    "efek_samping_umum": "Tidak diidentifikasi",
+                    "tingkat_risiko": "\"Sedang\",",
+                    "gejala_terkait": "[",
+                    "nama_obat": "\"D-Cool\",",
+                    "dosis": "\"Sesuaikan dengan penggunaan, umumnya 1 tablet lozenges dihisap sesuai kebutuhan\",",
+                    "aturan_pakai": "\"Hirup atau hisap pelan-pelan tanpa menelannya, jangan lebih dari 3-6 kali sehari.\",",
+                    "efek_samping": "\"Minim efek samping karena bekerja secara lokal, tetapi bisa menyebabkan rasa tidak nyaman pada mulut.\""
+                }
+            ]
+        }
+    ]
 }
