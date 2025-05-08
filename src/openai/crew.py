@@ -53,31 +53,35 @@ class researcher():
 			config=self.agents_config['output_manager'],
 			verbose=True,
 			allow_delegation=False,
-			max_iter=30
+			max_iter=30,
 		)
 
 	@task
 	def classification_task(self) -> Task:
 		return Task(
 			config=self.tasks_config['classification_task'],
+			output='classification_task_report.md'
 		)
   
 	@task
 	def analisis_penyakit_dari_gejala_task(self) -> Task:
 		return Task(
 			config=self.tasks_config['analisis_penyakit_dari_gejala_task'],
+			output='analisis_penyakit_dari_gejala_task_report.md'
 		)
 
 	@task
 	def rekomendasi_obat_task(self) -> Task:
 		return Task(
 			config=self.tasks_config['rekomendasi_obat_task'],
+			output='rekomendasi_obat_report.md'
 		)
 	
 	@task
 	def output_manager_task(self) -> Task:
 		return Task(
 			config=self.tasks_config['output_manager_task'],
+			output='output_manager_task_report.md'
 		)
 
 	@crew

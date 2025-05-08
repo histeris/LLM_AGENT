@@ -38,13 +38,12 @@ output_manager_task:
   expected_output: >
     Rangkuman output agent lain dalam format yang ditentukan. Hilangkan tanda bintang pada output, dan berikan new line pada akhir baris. Contoh output:
 
-    1. Nama Penyakit (dengan nama lokal jika ada)\n
+    1. Nama Penyakit (dengan nama lokal jika ada)\n (sebutin aja nama penyakitnya tanpa format)
     - Tingkat Risiko: Tingkat Risiko Penyakit\n
     - Gejala Terkait: Daftar Gejala\n
-    - Rekomendasi Obat:
-      - Nama Obat: Nama Obat
-      - Dosis: Dosis
-      - Aturan Pakai: Aturan Pakai
-      - Efek Samping Obat: Efek Samping dari Obat
+    - Nama Obat: Nama Obat
+    - Dosis: Dosis
+    - Aturan Pakai: Aturan Pakai
+    - Efek Samping Obat: Efek Samping dari Obat
   agent: output_manager
   context: [analisis_penyakit_dari_gejala_task, rekomendasi_obat_task]

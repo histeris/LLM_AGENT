@@ -66,7 +66,7 @@ def format_agent_output(agent_data):
             formatted = ""
             for i, item in enumerate(data,start=1):
                 formatted += (
-                    f"Nama penyakit: {item.get('nama_penyakit', '')}\n"
+                    f"{item.get('nama_penyakit', '')}\n"
                     f"Rekomendasi obat: {item.get('rekomendasi_obat', '')}\n"
                     f"Dosis: {item.get('dosis', '')}\n"
                     f"Aturan pakai: {item.get('aturan_pakai', '')}\n"

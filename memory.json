@@ -1,7 +1,9 @@
 {
     "started_users": [
         "5708441153",
-        "7116300622"
+        "7116300622",
+        "714212872",
+        "567373130"
     ],
     "history_backup": {
         "5708441153_20250428_190001": [],
@@ -35,65 +37,208 @@
                     }
                 ]
             }
-        ]
+        ],
+        "714212872_20250507_113145": []
     },
     "7116300622": [
         {
-            "user": "Saya merasa pusing dan mual",
+            "user": "Gejala saya pusing dan mual",
             "agent": [
                 {
-                    "tingkat_risiko": "Moderate; biasanya mempengaruhi orang berusia 30 hingga 60 tahun.",
-                    "gejala_terkait": "Vertigo (sensasi berputar), ketidakseimbangan, kesulitan fokus, dan kadang-kadang muntah.",
+                    "nama_penyakit": "Migraines",
+                    "tingkat_risiko": "Moderate",
+                    "gejala_terkait": "Severe headache, sensitivity to light and sound, visual disturbances (aura).",
                     "rekomendasi_obat": "",
-                    "nama_obat": "Betaserc (Betahistine)",
-                    "dosis": "8 mg atau 24 mg sesuai resep dokter",
-                    "aturan_pakai": "Konsumsi sesuai petunjuk dokter, biasanya 2-3 kali sehari setelah makan.",
-                    "efek_samping_obat": "Pusing, mual, sakit kepala."
+                    "nama_obat": "Sumatriptan",
+                    "dosis": "25-100 mg per dosis (maksimum 300 mg per hari)",
+                    "aturan_pakai": "Diminum saat serangan migrain muncul, dapat diulang setelah 2 jam jika perlu.",
+                    "efek_samping_obat": "Muntah, kelelahan, kesulitan berkonsentrasi"
                 },
                 {
-                    "tingkat_risiko": "Moderate; biasanya terjadi pada orang dewasa berusia 40-60 tahun.",
-                    "gejala_terkait": "Kehilangan pendengaran, tinnitus (denging di telinga), tekanan di telinga, dan episode pusing berat.",
+                    "nama_penyakit": "Vestibular Disorders (e.g., Benign Paroxysmal Positional Vertigo)",
+                    "tingkat_risiko": "Low",
+                    "gejala_terkait": "Spinning sensation (vertigo), balance issues, ear ringing (tinnitus).",
                     "rekomendasi_obat": "",
-                    "nama_obat": "Diuretik (seperti hidroklorotiazid)",
-                    "dosis": "12.5-50 mg per hari tergantung rekomendasi dokter",
-                    "aturan_pakai": "Ikuti petunjuk dokter, diminum sekali sehari.",
-                    "efek_samping_obat": "Pusing, mual, kehilangan keseimbangan."
+                    "nama_obat": "Meclizine",
+                    "dosis": "25-100 mg per hari",
+                    "aturan_pakai": "Diminum 1 jam sebelum aktivitas yang dapat memicu vertigo, dapat dibagi menjadi 3 dosis.",
+                    "efek_samping_obat": "Mual, muntah, kesulitan menjaga keseimbangan"
                 },
                 {
-                    "tingkat_risiko": "Variable; sering terjadi pada individu dengan riwayat migrain.",
-                    "gejala_terkait": "Sakit kepala berat, sensitivitas terhadap cahaya/suara, aura (gangguan visual), dan ketidakseimbangan.",
+                    "nama_penyakit": "Inner Ear Infections (Labyrinthitis)",
+                    "tingkat_risiko": "Moderate",
+                    "gejala_terkait": "Hearing loss, ear pain, balance disturbances.",
                     "rekomendasi_obat": "",
-                    "nama_obat": "Bodrex Migra",
-                    "dosis": "1 kaplet mengandung 350 mg Paracetamol, 150 mg Propyphenazone, dan 50 mg Kafein",
-                    "aturan_pakai": "Minum saat serangan migrain mulai terasa, bisa diulang sesuai petunjuk dokter.",
-                    "efek_samping_obat": "Mual, pusing, kelelahan."
+                    "nama_obat": "Antihistamin (misalnya, Dimenhydrinate)",
+                    "dosis": "50-100 mg setiap 4-6 jam sesuai kebutuhan.",
+                    "aturan_pakai": "Diminum saat gejala muncul, tidak melebihi 400 mg per hari.",
+                    "efek_samping_obat": "Mual, muntah, sakit kepala"
                 },
                 {
-                    "tingkat_risiko": "Moderate to high; risiko meningkat dengan dehidrasi, obat tertentu, atau berdiri terlalu cepat.",
-                    "gejala_terkait": "Pusing saat berdiri, pingsan, penglihatan kabur, kelelahan, dan mual.",
+                    "nama_penyakit": "Anxiety and Panic Disorders",
+                    "tingkat_risiko": "Low to Moderate",
+                    "gejala_terkait": "Rapid heartbeat, sweating, feelings of impending doom.",
                     "rekomendasi_obat": "",
-                    "nama_obat": "Glukosa (dalam bentuk tablet atau suntikan, seperti Glukagon)",
-                    "dosis": "Sesuai kebutuhan, biasanya 15-20 g per episode hipoglikemia",
-                    "aturan_pakai": "Dihirup, dikonsumsi oral, atau suntik sesuai instruksi medis.",
-                    "efek_samping_obat": "Mual, pusing, hiperglikemia jika berlebihan."
+                    "nama_obat": "Sertraline",
+                    "dosis": "50-200 mg per hari",
+                    "aturan_pakai": "Diminum dengan atau tanpa makanan, perlu waktu beberapa minggu untuk melihat efek penuh.",
+                    "efek_samping_obat": "Pusing, hiperventilasi, masalah pencernaan"
                 },
                 {
-                    "tingkat_risiko": "Moderate; sangat menular dan dapat terjadi dalam wabah.",
-                    "gejala_terkait": "Diare, muntah, kram perut, demam, dan nyeri tubuh.",
+                    "nama_penyakit": "Gastroenteritis (Stomach Flu)",
+                    "tingkat_risiko": "Moderate",
+                    "gejala_terkait": "Diarrhea, abdominal cramps, and fever.",
                     "rekomendasi_obat": "",
-                    "nama_obat": "Antibiotik (seperti Ciprofloxacin atau Metronidazole)",
-                    "dosis": "Tergantung pada jenis antibiotik, biasanya 500 mg dua kali sehari",
-                    "aturan_pakai": "Ikuti petunjuk dokter, minum sebisa mungkin pada waktu yang sama setiap hari.",
-                    "efek_samping_obat": "Mual, diare, sakit perut."
+                    "nama_obat": "Loperamide",
+                    "dosis": "4 mg awal, kemudian 2 mg setelah setiap tinja cair, maksimum 8 mg per hari.",
+                    "aturan_pakai": "Diminum setelah tinja cair, tidak digunakan lebih dari 2 hari.",
+                    "efek_samping_obat": "Dehidrasi, kelelahan, kehilangan nafsu makan"
                 },
                 {
-                    "tingkat_risiko": "High; umum terjadi di semua kelompok usia.",
-                    "gejala_terkait": "Palpitasi, berkeringat, gemetar, kesulitan berkonsentrasi, dan gangguan gastrointestinal.",
+                    "nama_penyakit": "Low Blood Pressure (Hypotension)",
+                    "tingkat_risiko": "",
+                    "gejala_terkait": "",
                     "rekomendasi_obat": "",
-                    "nama_obat": "Antidepresan atau anxiolytics sesuai rekomendasi dokter.",
-                    "dosis": "Sesuai instruksi dokter.",
-                    "aturan_pakai": "Ikuti petunjuk dokter, biasanya diminum sekali sehari.",
-                    "efek_samping_obat": "Pusing, mual, menyebabkan efek samping fisik lainnya saat serangan panik."
+                    "nama_obat": "Fludrocortisone",
+                    "dosis": "0.1-0.2 mg per hari, dapat ditingkatkan sesuai kebutuhan.",
+                    "aturan_pakai": "Diminum setiap hari, dosis dapat disesuaikan oleh dokter.",
+                    "efek_samping_obat": "Kelemahan, peningkatan risiko jatuh"
+                },
+                {
+                    "nama_penyakit": "Cardiovascular Issues (e.g., Arrhythmias)",
+                    "tingkat_risiko": "",
+                    "gejala_terkait": "",
+                    "rekomendasi_obat": "",
+                    "nama_obat": "Beta-blockers (misalnya, Metoprolol)",
+                    "dosis": "25-100 mg per hari.",
+                    "aturan_pakai": "Diminum setiap hari dengan atau tanpa makanan.",
+                    "efek_samping_obat": "Pusing, pingsan"
+                }
+            ]
+        },
+        {
+            "user": "Gejala saya batuk berdahak dan pilek",
+            "agent": [
+                {
+                    "nama_penyakit": "Common Cold (Pilek Biasa)",
+                    "tingkat_risiko": "Risiko rendah, tidak menyebabkan komplikasi serius pada individu sehat.",
+                    "gejala_terkait": "Sakit tenggorokan, hidung tersumbat, bersin, kelelahan, dan terkadang demam ringan.",
+                    "nama_obat": "Paracetamol",
+                    "dosis": "500-1000 mg setiap 4-6 jam (maksimal 4000 mg sehari)",
+                    "aturan_pakai": "Diminum dengan air putih, dapat diambil dengan atau tanpa makanan.",
+                    "efek_samping_obat": "Mual, reaksi alergi, dan pada dosis tinggi dapat menyebabkan kerusakan hati."
+                },
+                {
+                    "nama_penyakit": "Influenza (Flu)",
+                    "tingkat_risiko": "Risiko dapat meningkat terutama pada kelompok berisiko seperti lansia, anak-anak, dan individu dengan penyakit kronis.",
+                    "gejala_terkait": "Demam tinggi, nyeri tubuh, sakit kepala, kelelahan berat, dan batuk kering, terkadang diiringi batuk berdahak.",
+                    "nama_obat": "Oseltamivir (Tamiflu)",
+                    "dosis": "75 mg dua kali sehari selama 5 hari",
+                    "aturan_pakai": "Diminum dengan air, dapat diambil dengan atau tanpa makanan.",
+                    "efek_samping_obat": "Mual, muntah, diare, dan reaksi alergi."
+                }
+            ]
+        }
+    ],
+    "714212872": [],
+    "567373130": [
+        {
+            "user": "Saya merasa gatal di sekujur tubuh",
+            "agent": [
+                {
+                    "nama_penyakit": "Migraine",
+                    "tingkat_risiko": "Moderate",
+                    "gejala_terkait": "Severe, throbbing pain typically on one side of the head, nausea, vomiting, and sensitivity to light and sound",
+                    "nama_obat": "Sumatriptan",
+                    "dosis": "50-100 mg, dapat diambil sekali, dapat diulang setelah 2 jam jika sakit kepala masih berlanjut",
+                    "aturan_pakai": "Diminum saat gejala pertama kali muncul",
+                    "efek_samping_obat": "Mual, pusing, panas atau kemerahan di area wajah"
+                },
+                {
+                    "nama_penyakit": "Tension-Type Headache",
+                    "tingkat_risiko": "Low",
+                    "gejala_terkait": "Dull, aching head pain, tightness or pressure across the forehead or on the sides and back of the head, and mild nausea",
+                    "nama_obat": "Ibuprofen",
+                    "dosis": "400 mg setiap 6-8 jam sesuai kebutuhan",
+                    "aturan_pakai": "Diminum setelah makan untuk mengurangi risiko iritasi lambung",
+                    "efek_samping_obat": "Nyeri perut, mual, pusing"
+                },
+                {
+                    "nama_penyakit": "Intracranial Issues (e.g., Intracranial Hypertension)",
+                    "tingkat_risiko": "Moderate to high",
+                    "gejala_terkait": "Continuous headache, nausea, blurred vision, ringing in the ears",
+                    "nama_obat": "Acetazolamide",
+                    "dosis": "250 mg, dua kali sehari",
+                    "aturan_pakai": "Diminum dengan makanan untuk mengurangi efek samping gastrointestinal",
+                    "efek_samping_obat": "Mual, kelelahan, pusing"
+                },
+                {
+                    "nama_penyakit": "Meningitis (Viral or Bacterial)",
+                    "tingkat_risiko": "High",
+                    "gejala_terkait": "Severe headache, nausea, vomiting, fever, stiff neck, sensitivity to light",
+                    "nama_obat": "Ceftriaxone",
+                    "dosis": "1-2 g setiap 12 jam, tergantung beratnya infeksi",
+                    "aturan_pakai": "Harus diberikan melalui infus intravena oleh tenaga medis",
+                    "efek_samping_obat": "Reaksi alergi, diare, mual"
+                },
+                {
+                    "nama_penyakit": "Gastroenteritis",
+                    "tingkat_risiko": "Low",
+                    "gejala_terkait": "Nausea, vomiting, diarrhea, abdominal pain; headaches can occur due to dehydration",
+                    "nama_obat": "Loperamide",
+                    "dosis": "4 mg setelah buang air besar pertama, diikuti dengan 2 mg setelah setiap buang air besar berikutnya, maksimal 8 mg sehari",
+                    "aturan_pakai": "Diminum saat gejala diare muncul",
+                    "efek_samping_obat": "Konstipasi, pusing, mual"
+                }
+            ]
+        },
+        {
+            "user": "Gejala saya ialah gatal disekujur tubuh",
+            "agent": [
+                {
+                    "nama_penyakit": "Alergi",
+                    "tingkat_risiko": "Risiko sedang, tergantung pada reaksi individu.",
+                    "gejala_terkait": "Ruam atau perubahan kulit, demam, pembengkakan, kehilangan nafsu makan, kelelahan.",
+                    "nama_obat": "Antihistamin (misalnya, Cetirizine)",
+                    "dosis": "10 mg sekali sehari",
+                    "aturan_pakai": "Diminum dengan atau tanpa makanan, bisa sebelum tidur untuk mengurangi rasa mengantuk.",
+                    "efek_samping_obat": "Mengantuk, mulut kering, pusing."
+                },
+                {
+                    "nama_penyakit": "Kondisi Kulit (Dermatitis atau Eksim)",
+                    "tingkat_risiko": "Risiko sedang, tergantung pada reaksi individu.",
+                    "gejala_terkait": "Ruam atau perubahan kulit, gatal.",
+                    "nama_obat": "Krim hidrokortison",
+                    "dosis": "Oleskan pada area yang terkena 1-2 kali sehari",
+                    "aturan_pakai": "Oleskan tipis pada area yang gatal setelah membersihkan dan mengeringkan kulit.",
+                    "efek_samping_obat": "Iritasi lokal, kemerahan, atau pengelupasan kulit."
+                },
+                {
+                    "nama_penyakit": "Infeksi (jamur)",
+                    "tingkat_risiko": "Risiko tinggi jika tidak diobati.",
+                    "gejala_terkait": "Ruam atau perubahan kulit, gatal.",
+                    "nama_obat": "Clotrimazole krim",
+                    "dosis": "Oleskan dua kali sehari pada area yang terinfeksi",
+                    "aturan_pakai": "Gunakan selama 2-4 minggu sampai gejala mereda.",
+                    "efek_samping_obat": "Iritasi kulit, terbakar, atau gatal pada area aplikasi."
+                },
+                {
+                    "nama_penyakit": "Penyakit Sistemik (misalnya, masalah tiroid)",
+                    "tingkat_risiko": "Risiko tinggi, membutuhkan evaluasi medis lebih lanjut.",
+                    "gejala_terkait": "Ruam atau perubahan kulit, kelelahan.",
+                    "nama_obat": "Terkait dengan pengobatan spesifik yang diperlukan setelah diagnosis lebih lanjut (misalnya, Levothyroxine untuk hipotiroidisme)",
+                    "dosis": "Sesuai petunjuk dokter",
+                    "aturan_pakai": "Ikuti instruksi dokter, biasanya diminum pada pagi hari dengan perut kosong.",
+                    "efek_samping_obat": "Palpitasi jantung, perubahan berat badan, insomnia."
+                },
+                {
+                    "nama_penyakit": "Pengaruh Lingkungan",
+                    "tingkat_risiko": "Risiko rendah hingga sedang, tergantung pada eksposur.",
+                    "gejala_terkait": "Ruam atau perubahan kulit, gatal.",
+                    "nama_obat": "Antihistamin (misalnya, Diphenhydramine)",
+                    "dosis": "25-50 mg sebelum tidur",
+                    "aturan_pakai": "Diminum sekali sehari atau sesuai kebutuhan.",
+                    "efek_samping_obat": "Mengantuk, mulut kering, penglihatan kabur."
                 }
             ]
         }
