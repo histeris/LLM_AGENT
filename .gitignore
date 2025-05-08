@@ -8,3 +8,4 @@ db/openai/chroma.sqlite3
 db/
 myenv
 db/data_level0.bin
+memory.json

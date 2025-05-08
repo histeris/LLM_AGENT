@@ -1,0 +1,1 @@
+Input pengguna berupa "sakit kepala, mual, dan pusing" termasuk dalam kategori gejala. Informasi ini siap diteruskan untuk evaluasi lebih lanjut oleh agen analisa.

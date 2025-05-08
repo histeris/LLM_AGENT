@@ -60,28 +60,28 @@ class researcher():
 	def classification_task(self) -> Task:
 		return Task(
 			config=self.tasks_config['classification_task'],
-			output='classification_task_report.md'
+			output_file='classification_task_report.md'
 		)
   
 	@task
 	def analisis_penyakit_dari_gejala_task(self) -> Task:
 		return Task(
 			config=self.tasks_config['analisis_penyakit_dari_gejala_task'],
-			output='analisis_penyakit_dari_gejala_task_report.md'
+			output_file='analisis_penyakit_dari_gejala_task_report.md'
 		)
 
 	@task
 	def rekomendasi_obat_task(self) -> Task:
 		return Task(
 			config=self.tasks_config['rekomendasi_obat_task'],
-			output='rekomendasi_obat_report.md'
+			output_file='rekomendasi_obat_report.md'
 		)
 	
 	@task
 	def output_manager_task(self) -> Task:
 		return Task(
 			config=self.tasks_config['output_manager_task'],
-			output='output_manager_task_report.md'
+			output_file='output_manager_task_report.md'
 		)
 
 	@crew

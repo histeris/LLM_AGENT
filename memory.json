@@ -138,6 +138,15 @@
                     "efek_samping_obat": "Mual, muntah, diare, dan reaksi alergi."
                 }
             ]
+        },
+        {
+            "user": "Saya merasa pusing dan gatal di sekujur tubuh",
+            "agent": [
+                {
+                    "nama_penyakit": "Error saat menjalankan\u00a0CrewAI:\u00a01 validation error for Task",
+                    "for_further_information_visit_https": "//errors.pydantic.dev/2.10/v/model_type"
+                }
+            ]
         }
     ],
     "567373130": [
