@@ -483,6 +483,108 @@
                     }
                 ]
             }
+        ],
+        "714212872_20250507_113210": [
+            {
+                "user": "Gejala saya ruam kulit",
+                "agent": [
+                    {
+                        "nama_penyakit": "Nama Penyakit: Dermatitis Kontak",
+                        "tingkat_risiko": "Rendah hingga Sedang",
+                        "gejala_terkait": "Gatal, kemerahan, bengkak, ruam berair",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Kortikosteroid topikal (contoh: Betamethasone)",
+                        "dosis": "Oleskan pada area yang terkena 1-2 kali sehari",
+                        "aturan_pakai": "Oleskan tipis dan ratakan pada kulit yang teriritasi",
+                        "efek_samping_obat": "Reaksi alergi, iritasi kulit, atau infeksi sekunder"
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Eksim (Dermatitis Atopik)",
+                        "tingkat_risiko": "Sedang",
+                        "gejala_terkait": "Kulit kering, bersisik, gatal, dan kemerahan",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Krim atau salep kortikosteroid (contoh: Hydrocortisone atau Mometasone)",
+                        "dosis": "Oleskan pada area yang terkena 1-2 kali sehari",
+                        "aturan_pakai": "Oleskan setelah mandi, saat kulit masih lembab",
+                        "efek_samping_obat": "Kulit tipis, pembengkakan folikel rambut, infeksi"
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Psoriasis",
+                        "tingkat_risiko": "Sedang hingga Tinggi",
+                        "gejala_terkait": "Bercak merah dengan sisik perak, gatal, dan peradangan",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Salep vitamin D (contoh: Calcipotriene) atau kortikosteroid",
+                        "dosis": "Oleskan dua kali sehari pada area yang terkena",
+                        "aturan_pakai": "Gunakan secara rutin; hindari penggunaan berlebihan",
+                        "efek_samping_obat": "Iritasi kulit, peningkatan risiko infeksi"
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Urtikaria (Gatal-gatal)",
+                        "tingkat_risiko": "Rendah (biasanya sementara)",
+                        "gejala_terkait": "Ruam berwarna merah muda, gatal, dan bisa menyebar",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Antihistamin (contoh: Cetirizine)",
+                        "dosis": "10 mg sekali sehari",
+                        "aturan_pakai": "Dapat diminum sebelum tidur untuk mengurangi gatal",
+                        "efek_samping_obat": "Mengantuk, mulut kering, pusing"
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Lichen Planus",
+                        "tingkat_risiko": "Rendah",
+                        "gejala_terkait": "Ruam berbentuk dataran, gatal, dapat muncul di area mulut",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Kortikosteroid topikal atau sistemik",
+                        "dosis": "Oleskan 1-2 kali sehari atau sesuaikan sesuai anjuran dokter",
+                        "aturan_pakai": "Oleskan pada area lesi yang muncul",
+                        "efek_samping_obat": "Iritasi kulit, terbakar pada aplikasi, risiko infeksi"
+                    }
+                ]
+            },
+            {
+                "user": "Saya juga mengalami gejala demam, batuk, pilek",
+                "agent": [
+                    {
+                        "nama_penyakit": "Nama Penyakit: Alergi atau Reaksi Anafilaksis",
+                        "tingkat_risiko": "Tinggi",
+                        "gejala_terkait": "",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Antihistamin (misal: Diphenhydramine)",
+                        "dosis": "Dewasa: 25-50 mg, anak: 1-2 mg/kg, tidak lebih dari 300 mg/hari.",
+                        "aturan_pakai": "Diminum sebelum terkena alergi, atau saat gejala muncul.",
+                        "efek_samping_obat": "Mengantuk, pusing, mulut kering, dan reaksi alergi"
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Infeksi Virus (misalnya, Infeksi Campak atau Cacar)",
+                        "tingkat_risiko": "Sedang hingga Tinggi",
+                        "gejala_terkait": "",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Obat antivirus (misal: Oseltamivir untuk influenza)",
+                        "dosis": "Biasanya 75 mg dua kali sehari selama 5 hari untuk influenza.",
+                        "aturan_pakai": "Diminum dalam 48 jam setelah gejala pertama muncul.",
+                        "efek_samping_obat": "Mual, muntah, dan diare"
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Kawasaki Disease",
+                        "tingkat_risiko": "Tinggi",
+                        "gejala_terkait": "",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Tidak disebutkan",
+                        "dosis": "Tidak disebutkan",
+                        "aturan_pakai": "Tidak disebutkan",
+                        "efek_samping_obat": "Komplikasi jantung jika tidak ditangani"
+                    },
+                    {
+                        "nama_penyakit": "Nama Penyakit: Dermatitis Eksim",
+                        "tingkat_risiko": "Sedang",
+                        "gejala_terkait": "",
+                        "rekomendasi_obat": "",
+                        "nama_obat": "Kortikosteroid topikal (misal: Hydrocortisone)",
+                        "dosis": "Oleskan tipis pada area yang terkena 1-2 kali sehari.",
+                        "aturan_pakai": "Oleskan pada area yang telah dibersihkan, hindari penggunaan berlebihan.",
+                        "efek_samping_obat": "Iritasi kulit, pengurangan ketebalan kulit, dan kemungkinan infeksi sekunder"
+                    }
+                ]
+            }
         ]
     },
     "7116300622": [
@@ -546,106 +648,5 @@
             ]
         }
     ],
-    "714212872": [
-        {
-            "user": "Gejala saya ruam kulit",
-            "agent": [
-                {
-                    "nama_penyakit": "Nama Penyakit: Dermatitis Kontak",
-                    "tingkat_risiko": "Rendah hingga Sedang",
-                    "gejala_terkait": "Gatal, kemerahan, bengkak, ruam berair",
-                    "rekomendasi_obat": "",
-                    "nama_obat": "Kortikosteroid topikal (contoh: Betamethasone)",
-                    "dosis": "Oleskan pada area yang terkena 1-2 kali sehari",
-                    "aturan_pakai": "Oleskan tipis dan ratakan pada kulit yang teriritasi",
-                    "efek_samping_obat": "Reaksi alergi, iritasi kulit, atau infeksi sekunder"
-                },
-                {
-                    "nama_penyakit": "Nama Penyakit: Eksim (Dermatitis Atopik)",
-                    "tingkat_risiko": "Sedang",
-                    "gejala_terkait": "Kulit kering, bersisik, gatal, dan kemerahan",
-                    "rekomendasi_obat": "",
-                    "nama_obat": "Krim atau salep kortikosteroid (contoh: Hydrocortisone atau Mometasone)",
-                    "dosis": "Oleskan pada area yang terkena 1-2 kali sehari",
-                    "aturan_pakai": "Oleskan setelah mandi, saat kulit masih lembab",
-                    "efek_samping_obat": "Kulit tipis, pembengkakan folikel rambut, infeksi"
-                },
-                {
-                    "nama_penyakit": "Nama Penyakit: Psoriasis",
-                    "tingkat_risiko": "Sedang hingga Tinggi",
-                    "gejala_terkait": "Bercak merah dengan sisik perak, gatal, dan peradangan",
-                    "rekomendasi_obat": "",
-                    "nama_obat": "Salep vitamin D (contoh: Calcipotriene) atau kortikosteroid",
-                    "dosis": "Oleskan dua kali sehari pada area yang terkena",
-                    "aturan_pakai": "Gunakan secara rutin; hindari penggunaan berlebihan",
-                    "efek_samping_obat": "Iritasi kulit, peningkatan risiko infeksi"
-                },
-                {
-                    "nama_penyakit": "Nama Penyakit: Urtikaria (Gatal-gatal)",
-                    "tingkat_risiko": "Rendah (biasanya sementara)",
-                    "gejala_terkait": "Ruam berwarna merah muda, gatal, dan bisa menyebar",
-                    "rekomendasi_obat": "",
-                    "nama_obat": "Antihistamin (contoh: Cetirizine)",
-                    "dosis": "10 mg sekali sehari",
-                    "aturan_pakai": "Dapat diminum sebelum tidur untuk mengurangi gatal",
-                    "efek_samping_obat": "Mengantuk, mulut kering, pusing"
-                },
-                {
-                    "nama_penyakit": "Nama Penyakit: Lichen Planus",
-                    "tingkat_risiko": "Rendah",
-                    "gejala_terkait": "Ruam berbentuk dataran, gatal, dapat muncul di area mulut",
-                    "rekomendasi_obat": "",
-                    "nama_obat": "Kortikosteroid topikal atau sistemik",
-                    "dosis": "Oleskan 1-2 kali sehari atau sesuaikan sesuai anjuran dokter",
-                    "aturan_pakai": "Oleskan pada area lesi yang muncul",
-                    "efek_samping_obat": "Iritasi kulit, terbakar pada aplikasi, risiko infeksi"
-                }
-            ]
-        },
-        {
-            "user": "Saya juga mengalami gejala demam, batuk, pilek",
-            "agent": [
-                {
-                    "nama_penyakit": "Nama Penyakit: Alergi atau Reaksi Anafilaksis",
-                    "tingkat_risiko": "Tinggi",
-                    "gejala_terkait": "",
-                    "rekomendasi_obat": "",
-                    "nama_obat": "Antihistamin (misal: Diphenhydramine)",
-                    "dosis": "Dewasa: 25-50 mg, anak: 1-2 mg/kg, tidak lebih dari 300 mg/hari.",
-                    "aturan_pakai": "Diminum sebelum terkena alergi, atau saat gejala muncul.",
-                    "efek_samping_obat": "Mengantuk, pusing, mulut kering, dan reaksi alergi"
-                },
-                {
-                    "nama_penyakit": "Nama Penyakit: Infeksi Virus (misalnya, Infeksi Campak atau Cacar)",
-                    "tingkat_risiko": "Sedang hingga Tinggi",
-                    "gejala_terkait": "",
-                    "rekomendasi_obat": "",
-                    "nama_obat": "Obat antivirus (misal: Oseltamivir untuk influenza)",
-                    "dosis": "Biasanya 75 mg dua kali sehari selama 5 hari untuk influenza.",
-                    "aturan_pakai": "Diminum dalam 48 jam setelah gejala pertama muncul.",
-                    "efek_samping_obat": "Mual, muntah, dan diare"
-                },
-                {
-                    "nama_penyakit": "Nama Penyakit: Kawasaki Disease",
-                    "tingkat_risiko": "Tinggi",
-                    "gejala_terkait": "",
-                    "rekomendasi_obat": "",
-                    "nama_obat": "Tidak disebutkan",
-                    "dosis": "Tidak disebutkan",
-                    "aturan_pakai": "Tidak disebutkan",
-                    "efek_samping_obat": "Komplikasi jantung jika tidak ditangani"
-                },
-                {
-                    "nama_penyakit": "Nama Penyakit: Dermatitis Eksim",
-                    "tingkat_risiko": "Sedang",
-                    "gejala_terkait": "",
-                    "rekomendasi_obat": "",
-                    "nama_obat": "Kortikosteroid topikal (misal: Hydrocortisone)",
-                    "dosis": "Oleskan tipis pada area yang terkena 1-2 kali sehari.",
-                    "aturan_pakai": "Oleskan pada area yang telah dibersihkan, hindari penggunaan berlebihan.",
-                    "efek_samping_obat": "Iritasi kulit, pengurangan ketebalan kulit, dan kemungkinan infeksi sekunder"
-                }
-            ]
-        }
-    ]
+    "714212872": []
 }
