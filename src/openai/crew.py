@@ -1,7 +1,7 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
-# from src.openai.tools.Rag import Search_tool, alo_dokter, halo_doc, halo_sehat, bpom_id, interaksi_obat, penyakit_alo_dokter, penyakit_halo_sehat, icd, who
 from tools.Rag import data_penyakit, data_obat
+import json
 
 # If you want to run a snippet of code before or after the crew starts, 
 # you can use the @before_kickoff and @after_kickoff decorators
@@ -23,24 +23,24 @@ class researcher():
 		return Agent(
 			config=self.agents_config['classification_agent'],
 			verbose=True,
-   			allow_delegation=True,
+   			allow_delegation=False,
 			max_iter=30
 		)
 		
 	@agent
-	def analisa_penyakit(self) -> Agent:
+	def symptoms_analyzer_agent(self) -> Agent:
 		return Agent(
-			config=self.agents_config['analisa_penyakit'],
+			config=self.agents_config['symptoms_analyzer_agent'],
 			verbose=True,
 			tools=[data_penyakit],
-   			allow_delegation=True,
+   			allow_delegation=False,
 			max_iter=30
 		)
 
 	@agent
-	def apoteker_virtual(self) -> Agent:
+	def virtual_pharmacist_agent(self) -> Agent:
 		return Agent(
-			config=self.agents_config['apoteker_virtual'],
+			config=self.agents_config['virtual_pharmacist_agent'],
 			verbose=True,
 			tools=[data_obat],
 			allow_delegation=False,
@@ -48,9 +48,9 @@ class researcher():
 		)
 	
 	@agent
-	def output_manager(self) -> Agent:
+	def output_handler_agent(self) -> Agent:
 		return Agent(
-			config=self.agents_config['output_manager'],
+			config=self.agents_config['output_handler_agent'],
 			verbose=True,
 			allow_delegation=False,
 			max_iter=30,
@@ -64,24 +64,24 @@ class researcher():
 		)
   
 	@task
-	def analisis_penyakit_dari_gejala_task(self) -> Task:
+	def symptoms_analyzer_task(self) -> Task:
 		return Task(
-			config=self.tasks_config['analisis_penyakit_dari_gejala_task'],
-			output_file='analisis_penyakit_dari_gejala_task_report.md'
+			config=self.tasks_config['symptoms_analyzer_task'],
+			output_file='symptoms_analyzer_task_report.md'
 		)
 
 	@task
-	def rekomendasi_obat_task(self) -> Task:
+	def drug_recommendation_task(self) -> Task:
 		return Task(
-			config=self.tasks_config['rekomendasi_obat_task'],
-			output_file='rekomendasi_obat_report.md'
+			config=self.tasks_config['drug_recommendation_task'],
+			output_file='drug_recommendation_task_report.md'
 		)
 	
 	@task
-	def output_manager_task(self) -> Task:
+	def output_handler_task(self) -> Task:
 		return Task(
-			config=self.tasks_config['output_manager_task'],
-			output_file='output_manager_task_report.md'
+			config=self.tasks_config['output_handler_task'],
+			output_file='output_handler_task_report.md'
 		)
 
 	@crew
@@ -90,18 +90,65 @@ class researcher():
 		return Crew(
 			agents=[
 				self.classification_agent(),
-				self.analisa_penyakit(),
-				self.apoteker_virtual(),
-				self.output_manager()
+				self.symptoms_analyzer_agent(),
+				self.virtual_pharmacist_agent(),
+				self.output_handler_agent()
 			],
 			tasks=[
 				self.classification_task(),
-				self.analisis_penyakit_dari_gejala_task(),
-				self.rekomendasi_obat_task(),
-				self.analisis_penyakit_dari_gejala_task(),
-				self.classification_task(),
-				self.output_manager_task()
+				self.symptoms_analyzer_task(),
+				self.drug_recommendation_task(),
+				self.output_handler_task()
 			],
 			process=Process.sequential,
         	verbose=True,
     	)
+	# def run(self, inputs: dict):
+
+	# 	result_text = self.classification_agent().execute_task(
+	# 		self.classification_task(),
+	# 		inputs
+	# 	)
+
+	# 	try:
+	# 		classification_result = json.loads(result_text)
+	# 		label = classification_result.get("label", "").lower()
+	# 		data = classification_result.get("data", inputs)
+	# 	except json.JSONDecodeError:
+	# 		raise Exception("Gagal membaca hasil klasifikasi. Pastikan output dalam format JSON.")
+
+	# 	if label == "gejala":
+	# 		# Jalankan analisa gejala
+	# 		analysis_result = self.symptoms_analyzer_agent().execute_task(
+	# 			self.symptoms_analyzer_task(),
+	# 			data
+	# 		)
+
+	# 		#2. Jalankan rekomendasi obat berdasarkan hasil analisis
+	# 		drug_result = self.virtual_pharmacist_agent().execute_task(
+	# 			self.drug_recommendation_task(),
+	# 			analysis_result
+	# 		)
+	# 		final_result = {
+	# 			"analisis": analysis_result,
+	# 			"rekomendasi_obat": drug_result
+	# 		}
+	# 	elif label == "penyakit":
+	# 		# Langsung ke apoteker
+	# 		drug_result = self.virtual_pharmacist_agent().execute_task(
+	# 			self.drug_recommendation_task(),
+	# 			data
+	# 		)
+	# 		final_result = drug_result
+	# 	else:
+	# 		final_result = "Tidak dapat mengklasifikasikan input. Mohon perjelas."
+
+	# 	# Opsional: tampilkan hasil akhir via output handler
+	# 	self.output_handler_agent().execute_task(
+	# 		self.output_handler_task(),
+	# 		{'hasil_akhir': final_result}
+	# 	)
+
+	# 	return final_result
+
+	

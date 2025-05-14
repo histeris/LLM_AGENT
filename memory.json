@@ -70,7 +70,7 @@
                     "tingkat_risiko": "Moderate",
                     "gejala_terkait": "Hearing loss, ear pain, balance disturbances.",
                     "rekomendasi_obat": "",
-                    "nama_obat": "Antihistamine",
+                    "nama_obat": "Antihistamin (misalnya, Dimenhydrinate)",
                     "dosis": "50-100 mg setiap 4-6 jam sesuai kebutuhan.",
                     "aturan_pakai": "Diminum saat gejala muncul, tidak melebihi 400 mg per hari.",
                     "efek_samping_obat": "Mual, muntah, sakit kepala"
@@ -137,6 +137,15 @@
                     "dosis": "75 mg dua kali sehari selama 5 hari",
                     "aturan_pakai": "Diminum dengan air, dapat diambil dengan atau tanpa makanan.",
                     "efek_samping_obat": "Mual, muntah, diare, dan reaksi alergi."
+                }
+            ]
+        },
+        {
+            "user": "Saya merasa pusing dan gatal di sekujur tubuh",
+            "agent": [
+                {
+                    "nama_penyakit": "Error saat menjalankan\u00a0CrewAI:\u00a01 validation error for Task",
+                    "for_further_information_visit_https": "//errors.pydantic.dev/2.10/v/model_type"
                 }
             ]
         }
@@ -243,5 +252,23 @@
             ]
         }
     ],
-    "714212872": []
+    "714212872": [
+        {
+            "user": "Sakit gigi",
+            "agent": [
+                {
+                    "nama_penyakit": "\"Kerusakan gigi, seperti munculnya lubang pada gigi\",",
+                    "tingkat_risiko_penyakit": "Sedang",
+                    "gejala_terkait_lainnya": "Sakit kepala, mual dan muntah, diare, sulit tidur, perubahan rasa di lidah, warna gigi menjadi kekuningan atau kecoklatan (sementara)",
+                    "efek_samping_umum": "Tidak diidentifikasi",
+                    "tingkat_risiko": "\"Sedang\",",
+                    "gejala_terkait": "[",
+                    "nama_obat": "\"D-Cool\",",
+                    "dosis": "\"Sesuaikan dengan penggunaan, umumnya 1 tablet lozenges dihisap sesuai kebutuhan\",",
+                    "aturan_pakai": "\"Hirup atau hisap pelan-pelan tanpa menelannya, jangan lebih dari 3-6 kali sehari.\",",
+                    "efek_samping": "\"Minim efek samping karena bekerja secara lokal, tetapi bisa menyebabkan rasa tidak nyaman pada mulut.\""
+                }
+            ]
+        }
+    ]
 }

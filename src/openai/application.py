@@ -56,7 +56,7 @@ def run_crew_blocking(user_input, chat_history=None):
             history_context += f"User: {item.get('user')}\nAgent: {item.get('agent')}\n"
 
     inputs = {
-        "gejala_user": f"{history_context}\nUser: {user_input}",
+        "keluhan_user": f"{history_context}\nUser: {user_input}",
     }
     try:
         result = researcher().crew().kickoff(inputs=inputs)
