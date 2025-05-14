@@ -26,7 +26,7 @@ symptoms_analyzer_task:
 
 drug_recommendation_task:
   description: >
-    Berdasarkan penyakit yang telah didiagnosis, berikan daftar rekomendasi obat untuk penyakit tersebut.
+    Berdasarkan penyakit yang telah didiagnosis, berikan  5 daftar rekomendasi obat untuk penyakit tersebut.
     Rekomendasi obat untuk Penyakit harus memiliki: nama obat, dosis, aturan pakai, dan efek samping yang umum. Anda juga diminta untuk mencari tahu informasi tentang tingkat risiko penyakit dan gejala terkait lainnya.
   expected_output: >
     Nama Penyakit: ...
@@ -36,7 +36,25 @@ drug_recommendation_task:
     - Dosis
     - Aturan pakai
     - Efek samping
-    B. Nama Obat 2: ... (bila ada lebih dari satu obat)
+    B. Nama Obat 2: ...
+    - Tingkat Risiko
+    - Gejala Terkait
+    - Dosis
+    - Aturan pakai
+    - Efek samping
+    C. Nama Obat 3: ...
+    - Tingkat Risiko
+    - Gejala Terkait
+    - Dosis
+    - Aturan pakai
+    - Efek samping
+    D. Nama Obat 4: ...
+    - Tingkat Risiko
+    - Gejala Terkait
+    - Dosis
+    - Aturan pakai
+    - Efek samping
+    E. Nama Obat 5: ... 
     - Tingkat Risiko
     - Gejala Terkait
     - Dosis
@@ -64,6 +82,18 @@ output_handler_task:
       - Dosis: Dosis Obat 2
       - Aturan Pakai: Aturan Pakai Obat 2
       - Efek Samping Obat: Efek Samping dari Obat 2
-    (Dan seterusnya untuk obat-obat lain yang direkomendasikan)
+    C. Rekomendasi Obat 3 (Bila ada lebih dari satu obat): (Nama Obatnya)
+      - Dosis: Dosis Obat 3
+      - Aturan Pakai: Aturan Pakai Obat 3
+      - Efek Samping Obat: Efek Samping dari Obat 3
+    D. Rekomendasi Obat 4 (Bila ada lebih dari satu obat): (Nama Obatnya)
+      - Dosis: Dosis Obat 4
+      - Aturan Pakai: Aturan Pakai Obat 4
+      - Efek Samping Obat: Efek Samping dari Obat 4
+    E. Rekomendasi Obat 5 (Bila ada lebih dari satu obat): (Nama Obatnya)
+      - Dosis: Dosis Obat 5
+      - Aturan Pakai: Aturan Pakai Obat 5
+      - Efek Samping Obat: Efek Samping dari Obat 5
+    (Buat formatnya 5 obat secara absolut, bila tidak ada sampai 5 obat, kosongkan saja rekomendasi obatnya)
   agent: output_handler_agent
   context: [symptoms_analyzer_task, drug_recommendation_task]

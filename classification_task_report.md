@@ -1,1 +1,6 @@
-Gejala yang dilaporkan oleh pengguna adalah "nyeri menjalar dari pinggang ke bokong dan sulit bergerak". Ini merupakan gejala yang siap untuk dianalisis lebih lanjut oleh dokter umum untuk mengevaluasi kemungkinan adanya serangan saraf punggung dengan risiko menengah. Pengguna perlu mendapatkan penanganan medis untuk gejala ini agar mendapatkan diagnosis yang tepat dan mencegah komplikasi lebih lanjut.
+{
+  "label": "penyakit",
+  "data": {
+    "gejala_user": "TBC"
+  }
+}
