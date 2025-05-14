@@ -1,48 +1,36 @@
-Based on the reported symptoms of headache, nausea, and dizziness, here are the potential diseases or conditions identified along with their relevant details:
+1. **Diagnosis Utama:** Serangan Saraf Punggung 
+   - **Tingkat Risiko:** Risiko menengah, bisa menyebabkan kesulitan bergerak jika tidak diobati.
+   - **Gejala Terkait:** Nyeri menjalar dari pinggang ke bokong, sulit bergerak.
+   - **Efek Samping Umum:** Ketidaknyamanan mungkin berlanjut jika tidak diobati.
 
-1. **Migraine**
-   - **Risk Level**: Moderate
-   - **Additional Related Symptoms**: Aura (visual disturbances), sensitivity to light and sound, vomiting, and fatigue.
-   - **Common Side Effects**: Nausea, light sensitivity, and sometimes temporary vision changes.
+2. **Diagnosis Utama:** Robekan pada Otot atau Ligamen
+   - **Tingkat Risiko:** Risiko rendah, biasanya merespon baik terhadap pengobatan konservatif.
+   - **Gejala Terkait:** Nyeri saat bergerak, bengkak pada area otot yang terpengaruh.
+   - **Efek Samping Umum:** Nyeri yang berkepanjangan jika tidak dilakukan rehabilitasi.
 
-2. **Vestibular Neuritis**
-   - **Risk Level**: Moderate
-   - **Additional Related Symptoms**: Severe vertigo (spinning sensation), balance issues, and ear fullness.
-   - **Common Side Effects**: Nausea and difficulty walking due to dizziness.
+3. **Diagnosis Utama:** Spondilitis
+   - **Tingkat Risiko:** Risiko menengah hingga tinggi jika tidak diobati dapat mempengaruhi mobilitas jangka panjang.
+   - **Gejala Terkait:** Nyeri dan kekakuan di punggung bawah, nyeri di pagi hari.
+   - **Efek Samping Umum:** Nyeri berlanjut, potensi kerusakan sendi jika tidak diobati.
 
-3. **Concussion**
-   - **Risk Level**: Moderate to High (depends on severity)
-   - **Additional Related Symptoms**: Confusion, memory issues, sensitivity to light, and sometimes mood changes.
-   - **Common Side Effects**: Persistent headache, dizziness, and nausea.
+4. **Diagnosis Utama:** Sindrom Piriformis
+   - **Tingkat Risiko:** Risiko rendah hingga menengah, bervariasi tergantung tingkat keparahan.
+   - **Gejala Terkait:** Nyeri di area pinggul, nyeri menjalar ke kaki.
+   - **Efek Samping Umum:** Rasa sakit yang berulang, kekakuan otot.
 
-4. **Tension-Type Headache**
-   - **Risk Level**: Low to Moderate
-   - **Additional Related Symptoms**: Tightness or pressure around the forehead, neck, and shoulder tension.
-   - **Common Side Effects**: Mild to moderate head pain, and occasional nausea.
+5. **Diagnosis Utama:** Stenosis Spinal
+   - **Tingkat Risiko:** Risiko tinggi jika menyebabkan cedera saraf.
+   - **Gejala Terkait:** Rasa sakit saat berdiri lama atau bergerak.
+   - **Efek Samping Umum:** Kemungkinan cedera permanen jika tidak ditangani.
 
-5. **Inner Ear Disorders (Meniere's Disease)**
-   - **Risk Level**: Moderate
-   - **Additional Related Symptoms**: Ringing in the ears (tinnitus), episodes of vertigo, and fluctuating hearing loss.
-   - **Common Side Effects**: Intense dizziness (vertigo) and nausea.
+6. **Diagnosis Utama:** Nyeri Referensi dari Organ dalam
+   - **Tingkat Risiko:** Risiko menengah hingga tinggi tergantung organ yang terkena.
+   - **Gejala Terkait:** Nyeri mungkin disertai gejala tambahan.
+   - **Efek Samping Umum:** Memerlukan diagnosis medis lebih lanjut.
 
-6. **Hypoglycemia**
-   - **Risk Level**: Moderate, especially in individuals with diabetes.
-   - **Additional Related Symptoms**: Sweating, shakiness, confusion, and increased heart rate.
-   - **Common Side Effects**: Dizziness and nausea during episodes of low blood sugar.
+7. **Diagnosis Utama:** Skoliosis
+   - **Tingkat Risiko:** Risiko rendah namun dapat menyebabkan nyeri kronis.
+   - **Gejala Terkait:** Nyeri punggung dan ketidaknyamanan saat bergerak.
+   - **Efek Samping Umum:** Kemungkinan dampak jangka panjang pada postur.
 
-7. **Viral Gastroenteritis (Stomach Virus)**
-   - **Risk Level**: Low to Moderate
-   - **Additional Related Symptoms**: Diarrhea, abdominal cramps, and vomiting.
-   - **Common Side Effects**: Dehydration from vomiting and diarrhea.
-
-8. **Stroke (Transient Ischemic Attack)**
-   - **Risk Level**: High
-   - **Additional Related Symptoms**: Sudden numbness or weakness, especially on one side of the body, difficulty speaking.
-   - **Common Side Effects**: Severe headache and dizziness; medical attention needed immediately.
-
-9. **Anxiety Disorders**
-   - **Risk Level**: Moderate
-   - **Additional Related Symptoms**: Racing heart, shortness of breath, and panic attacks.
-   - **Common Side Effects**: Tension headaches and dizziness from hyperventilation.
-
-It is crucial to monitor the severity and duration of these symptoms. If the headache is unusual, sudden, or accompanied by other alarming symptoms such as vision changes, confusion, weakness, or if the nausea leads to vomiting, it is imperative to seek medical attention immediately. Each of these potential diagnoses requires tailored approaches to treatment, so consulting with a healthcare professional will provide a clearer direction.
+Jika gejala berlangsung, diagnostik lebih lanjut diperlukan untuk menentukan penyebab spesifik dan penanganan yang tepat.

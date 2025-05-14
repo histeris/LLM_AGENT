@@ -3,7 +3,8 @@
         "5708441153",
         "7116300622",
         "714212872",
-        "567373130"
+        "567373130",
+        "5478129748"
     ],
     "history_backup": {
         "5708441153_20250428_190001": [],
@@ -69,7 +70,7 @@
                     "tingkat_risiko": "Moderate",
                     "gejala_terkait": "Hearing loss, ear pain, balance disturbances.",
                     "rekomendasi_obat": "",
-                    "nama_obat": "Antihistamin (misalnya, Dimenhydrinate)",
+                    "nama_obat": "Antihistamine",
                     "dosis": "50-100 mg setiap 4-6 jam sesuai kebutuhan.",
                     "aturan_pakai": "Diminum saat gejala muncul, tidak melebihi 400 mg per hari.",
                     "efek_samping_obat": "Mual, muntah, sakit kepala"
@@ -136,15 +137,6 @@
                     "dosis": "75 mg dua kali sehari selama 5 hari",
                     "aturan_pakai": "Diminum dengan air, dapat diambil dengan atau tanpa makanan.",
                     "efek_samping_obat": "Mual, muntah, diare, dan reaksi alergi."
-                }
-            ]
-        },
-        {
-            "user": "Saya merasa pusing dan gatal di sekujur tubuh",
-            "agent": [
-                {
-                    "nama_penyakit": "Error saat menjalankan\u00a0CrewAI:\u00a01 validation error for Task",
-                    "for_further_information_visit_https": "//errors.pydantic.dev/2.10/v/model_type"
                 }
             ]
         }
