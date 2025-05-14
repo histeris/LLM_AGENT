@@ -14,14 +14,18 @@ warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 # interpolate any tasks and agents information
 
 def run():
+    """
+    Run the crew.
+    """
     inputs = {
-        'keluhan_user': 'saya demam, batuk, dan pilek',
+        'keluhan_user': 'Saya megalami batuk, pilek, dan demam.',
     }
-
+    
     try:
-        researcher().run(inputs)  # Ganti dari .crew().kickoff() ke .run()
+        researcher().crew().kickoff(inputs=inputs)
     except Exception as e:
         raise Exception(f"An error occurred while running the crew: {e}")
 
 run()
+
 

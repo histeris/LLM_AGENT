@@ -19,25 +19,30 @@ symptoms_analyzer_task:
     Gunakan database CSV atau pengetahuan medis untuk meningkatkan akurasi diagnosis.
     Abaikan penyakit yang tidak memiliki hubungan langsung dengan gejala pengguna.
   expected_output: >
-    Diagnosis utama, tingkat risiko penyakit, gejala terkait lainnya, dan efek samping umum.
-    Urutkan penyakit berdasarkan relevansi tertinggi dengan gejala.
+    Diagnosis utama, tingkat risiko penyakit, gejala terkait lainnya, dan efek samping umum. Berikan satu output penyakit saja yang paling relevan dengan gejala yang dilaporkan.
     Jika input tidak ada kaitannya dengan penyakit/gejala/obat, jawab: "Tidak ada kaitannya dengan penyakit, gejala, dan obat."
   agent: symptoms_analyzer_agent
   context: [classification_task]
 
 drug_recommendation_task:
   description: >
-    Berdasarkan daftar penyakit yang telah didiagnosis, berikan rekomendasi obat untuk masing-masing penyakit.
-    Setiap penyakit harus memiliki: nama obat, dosis, aturan pakai, dan efek samping yang umum. Anda juga diminta untuk mencari tahu informasi tentang tingkat risiko penyakit dan gejala terkait lainnya.
+    Berdasarkan penyakit yang telah didiagnosis, berikan daftar rekomendasi obat untuk penyakit tersebut.
+    Rekomendasi obat untuk Penyakit harus memiliki: nama obat, dosis, aturan pakai, dan efek samping yang umum. Anda juga diminta untuk mencari tahu informasi tentang tingkat risiko penyakit dan gejala terkait lainnya.
   expected_output: >
-    Untuk setiap penyakit:
+    Nama Penyakit: ...
+    A. Nama Obat 1: ...
     - Tingkat Risiko
     - Gejala Terkait
-    - Nama penyakit
-    - Nama obat
     - Dosis
     - Aturan pakai
     - Efek samping
+    B. Nama Obat 2: ... (bila ada lebih dari satu obat)
+    - Tingkat Risiko
+    - Gejala Terkait
+    - Dosis
+    - Aturan pakai
+    - Efek samping
+
   agent: virtual_pharmacist_agent
   context: [classification_task, symptoms_analyzer_task]
 
@@ -46,15 +51,19 @@ output_handler_task:
   description: >
     Merapikan output dari agent lain agar mudah dipahami manusia dalam format yang konsisten dan profesional.
   expected_output: >
-    Rangkuman output agent lain dalam format yang ditentukan. Hilangkan tanda bintang pada output, dan berikan new line pada akhir baris. Contoh output:
+    Rangkuman output agent lain dalam format yang ditentukan. Hilangkan tanda bintang atau simbol formatting lainnya pada output, dan berikan new line pada akhir baris. Contoh output:
 
-    1. Nama Penyakit (dengan nama lokal jika ada)\n (sebutin aja nama penyakitnya tanpa format)
+    Nama Penyakit: Nama Penyakit (dengan nama lokal jika ada)\n (Sebutkan saja nama penyakitnya tanpa format)
     - Tingkat Risiko: Tingkat Risiko Penyakit\n
     - Gejala Terkait: Daftar Gejala\n
-    - Rekomendasi Obat:
-      - Nama Obat: Nama Obat
-      - Dosis: Dosis
-      - Aturan Pakai: Aturan Pakai
-      - Efek Samping Obat: Efek Samping dari Obat
+    A. Rekomendasi Obat 1: (Nama Obatnya)
+      - Dosis: Dosis Obat 1
+      - Aturan Pakai: Aturan Pakai Obat 1
+      - Efek Samping Obat: Efek Samping dari Obat 1
+    B. Rekomendasi Obat 2 (Bila ada lebih dari satu obat): (Nama Obatnya)
+      - Dosis: Dosis Obat 2
+      - Aturan Pakai: Aturan Pakai Obat 2
+      - Efek Samping Obat: Efek Samping dari Obat 2
+    (Dan seterusnya untuk obat-obat lain yang direkomendasikan)
   agent: output_handler_agent
   context: [symptoms_analyzer_task, drug_recommendation_task]

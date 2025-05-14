@@ -103,52 +103,52 @@ class researcher():
 			process=Process.sequential,
         	verbose=True,
     	)
-	def run(self, inputs: dict):
+	# def run(self, inputs: dict):
 
-		result_text = self.classification_agent().execute_task(
-			self.classification_task(),
-			inputs
-		)
+	# 	result_text = self.classification_agent().execute_task(
+	# 		self.classification_task(),
+	# 		inputs
+	# 	)
 
-		try:
-			classification_result = json.loads(result_text)
-			label = classification_result.get("label", "").lower()
-			data = classification_result.get("data", inputs)
-		except json.JSONDecodeError:
-			raise Exception("Gagal membaca hasil klasifikasi. Pastikan output dalam format JSON.")
+	# 	try:
+	# 		classification_result = json.loads(result_text)
+	# 		label = classification_result.get("label", "").lower()
+	# 		data = classification_result.get("data", inputs)
+	# 	except json.JSONDecodeError:
+	# 		raise Exception("Gagal membaca hasil klasifikasi. Pastikan output dalam format JSON.")
 
-		if label == "gejala":
-			# Jalankan analisa gejala
-			analysis_result = self.symptoms_analyzer_agent().execute_task(
-				self.symptoms_analyzer_task(),
-				data
-			)
+	# 	if label == "gejala":
+	# 		# Jalankan analisa gejala
+	# 		analysis_result = self.symptoms_analyzer_agent().execute_task(
+	# 			self.symptoms_analyzer_task(),
+	# 			data
+	# 		)
 
-			#2. Jalankan rekomendasi obat berdasarkan hasil analisis
-			drug_result = self.virtual_pharmacist_agent().execute_task(
-				self.drug_recommendation_task(),
-				analysis_result
-			)
-			final_result = {
-				"analisis": analysis_result,
-				"rekomendasi_obat": drug_result
-			}
-		elif label == "penyakit":
-			# Langsung ke apoteker
-			drug_result = self.virtual_pharmacist_agent().execute_task(
-				self.drug_recommendation_task(),
-				data
-			)
-			final_result = drug_result
-		else:
-			final_result = "Tidak dapat mengklasifikasikan input. Mohon perjelas."
+	# 		#2. Jalankan rekomendasi obat berdasarkan hasil analisis
+	# 		drug_result = self.virtual_pharmacist_agent().execute_task(
+	# 			self.drug_recommendation_task(),
+	# 			analysis_result
+	# 		)
+	# 		final_result = {
+	# 			"analisis": analysis_result,
+	# 			"rekomendasi_obat": drug_result
+	# 		}
+	# 	elif label == "penyakit":
+	# 		# Langsung ke apoteker
+	# 		drug_result = self.virtual_pharmacist_agent().execute_task(
+	# 			self.drug_recommendation_task(),
+	# 			data
+	# 		)
+	# 		final_result = drug_result
+	# 	else:
+	# 		final_result = "Tidak dapat mengklasifikasikan input. Mohon perjelas."
 
-		# Opsional: tampilkan hasil akhir via output handler
-		self.output_handler_agent().execute_task(
-			self.output_handler_task(),
-			{'hasil_akhir': final_result}
-		)
+	# 	# Opsional: tampilkan hasil akhir via output handler
+	# 	self.output_handler_agent().execute_task(
+	# 		self.output_handler_task(),
+	# 		{'hasil_akhir': final_result}
+	# 	)
 
-		return final_result
+	# 	return final_result
 
 	
