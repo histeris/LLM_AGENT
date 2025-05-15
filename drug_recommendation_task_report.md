@@ -1,38 +1,37 @@
-Nama Penyakit: TBC (Tuberculosis)
+Nama Penyakit: Flu (Influenza)  
+A. Nama Obat 1: Flucadex Kaplet  
+- Tingkat Risiko: Rendah  
+- Gejala Terkait: Demam, sakit kepala, hidung tersumbat, batuk  
+- Dosis: Dewasa dan anak usia ≥6 tahun, 2-3 kaplet sehari sesuai petunjuk dokter  
+- Aturan pakai: Diminum dengan air setelah makan  
+- Efek samping: Dehidrasi, kelelahan, gangguan tidur  
 
-A. Nama Obat 1: Rifampicin
-- Tingkat Risiko: Sedang
-- Gejala Terkait: Batuk persistem, hemoptisis, keringat malam, demam, penurunan berat badan, dan kelelahan.
-- Dosis: 10 mg/kg berat badan per hari (maksimal 600 mg).
-- Aturan pakai: Diminum saat perut kosong, biasanya di pagi hari.
-- Efek samping: Hepatotoksisitas, gangguan gastrointestinal, reaksi alergi.
+B. Nama Obat 2: Flucadex Sirop  
+- Tingkat Risiko: Rendah  
+- Gejala Terkait: Demam, sakit kepala, hidung tersumbat, batuk  
+- Dosis: Dewasa dan anak usia ≥6 tahun, 10-15 ml setiap 4-6 jam sesuai petunjuk dokter  
+- Aturan pakai: Diminum langsung menggunakan sendok takar  
+- Efek samping: Dehidrasi, kelelahan, gangguan tidur  
 
-B. Nama Obat 2: Isoniazid
-- Tingkat Risiko: Sedang
-- Gejala Terkait: Batuk persistem, hemoptisis, keringat malam, demam, penurunan berat badan, dan kelelahan.
-- Dosis: 5 mg/kg berat badan per hari (maksimal 300 mg).
-- Aturan pakai: Diminum saat perut kosong, biasanya di pagi hari.
-- Efek samping: Hepatotoksisitas, neuropati perifer, reaksi alergi.
+C. Nama Obat 3: Paracetamol  
+- Tingkat Risiko: Rendah  
+- Gejala Terkait: Demam, sakit kepala, nyeri tubuh  
+- Dosis: Dewasa 500-1000 mg setiap 4-6 jam, maksimal 4000 mg/hari  
+- Aturan pakai: Diminum dengan air, sebaiknya setelah makan  
+- Efek samping: Gangguan lambung, reaksi alergi (jarang)
 
-C. Nama Obat 3: Pyrazinamide
-- Tingkat Risiko: Sedang
-- Gejala Terkait: Batuk persistem, hemoptisis, keringat malam, demam, penurunan berat badan, dan kelelahan.
-- Dosis: 25 mg/kg berat badan per hari (maksimal 2000 mg).
-- Aturan pakai: Diminum setiap hari bersamaan dengan obat anti-TBC lainnya.
-- Efek samping: Gangguan gastrointestinal, hepatotoksisitas, artralgia.
+D. Nama Obat 4: Chlorpheniramine  
+- Tingkat Risiko: Rendah  
+- Gejala Terkait: Bersin, hidung tersumbat  
+- Dosis: 4 mg setiap 4-6 jam, maksimal 24 mg/hari  
+- Aturan pakai: Diminum dengan air  
+- Efek samping: Mengantuk, mulut kering
 
-D. Nama Obat 4: Ethambutol
-- Tingkat Risiko: Sedang
-- Gejala Terkait: Batuk persistem, hemoptisis, keringat malam, demam, penurunan berat badan, dan kelelahan.
-- Dosis: 15 mg/kg berat badan per hari (maksimal 1600 mg).
-- Aturan pakai: Diminum setiap hari bersamaan dengan obat anti-TBC lainnya.
-- Efek samping: Retinopati, gangguan penglihatan, reaksi alergi.
+E. Nama Obat 5: Dextromethorphan HBr  
+- Tingkat Risiko: Rendah  
+- Gejala Terkait: Batuk kering  
+- Dosis: Dewasa 10-20 mg setiap 4-6 jam, maksimal 120 mg/hari  
+- Aturan pakai: Diminum dengan air  
+- Efek samping: Pusing, mual, mengantuk
 
-E. Nama Obat 5: Streptomisin
-- Tingkat Risiko: Tinggi (dianggap sebagai obat cadangan)
-- Gejala Terkait: Batuk persistem, hemoptisis, keringat malam, demam yang berkepanjangan, penurunan berat badan, dan kelelahan.
-- Dosis: 15 mg/kg berat badan per hari (maksimal 1 g).
-- Aturan pakai: Diberikan melalui suntikan intramuskular.
-- Efek samping: Ototoksisitas, nefrotoksisitas, reaksi alergi.
-
-Dengan menggunakan informasi di atas, pasien TBC sebaiknya menjalani pemeriksaan dan pengobatan yang sesuai di bawah pengawasan medis.
+Dengan informasi ini, diharapkan pasien bisa mendapatkan penanganan yang tepat untuk Flu (Influenza).

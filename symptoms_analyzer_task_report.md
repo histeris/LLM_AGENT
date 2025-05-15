@@ -1,1 +1,6 @@
-TBC (Tuberculosis) is an infectious disease primarily affecting the lungs. Diagnosis is confirmed through a combination of clinical evaluation, history, chest X-rays, and specific tests (like a tuberculin skin test or interferon-gamma release assays). The disease poses a moderate to high risk of severe complications if untreated and can spread through airborne particles. Associated symptoms include persistent cough, hemoptysis (coughing up blood), night sweats, fever, weight loss, and fatigue. Common side effects of treatment with antibiotics (e.g., rifampicin, isoniazid) can include liver toxicity, gastrointestinal disturbances, and allergic reactions.
+{
+  "Diagnosis utama": "Flu (Influenza)",
+  "Tingkat risiko penyakit": "Rendah hingga Sedang",
+  "Gejala terkait lainnya": "Sakit kepala, nyeri otot, kelelahan",
+  "Efek samping umum": "Dehidrasi, kelelahan, gangguan tidur"
+}

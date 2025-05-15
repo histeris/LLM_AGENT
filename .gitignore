@@ -9,3 +9,4 @@ db/
 myenv
 db/data_level0.bin
 memory.json
+*.md

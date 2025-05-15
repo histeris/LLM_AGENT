@@ -1,6 +1,6 @@
 {
-  "label": "penyakit",
+  "label": "gejala",
   "data": {
-    "gejala_user": "TBC"
+    "gejala_user": "batuk, pilek, dan demam"
   }
 }

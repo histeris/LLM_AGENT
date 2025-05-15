@@ -1,30 +1,30 @@
-Nama Penyakit: TBC (Tuberculosis)  
-- Tingkat Risiko: Sedang  
-- Gejala Terkait: Batuk persistem, hemoptisis, keringat malam, demam, penurunan berat badan, dan kelelahan.  
+Nama Penyakit: Flu (Influenza)  
+- Tingkat Risiko: Rendah hingga Sedang  
+- Gejala Terkait: Sakit kepala, nyeri otot, kelelahan  
 
-A. Rekomendasi Obat 1: Rifampicin  
-  - Dosis: 10 mg/kg berat badan per hari (maksimal 600 mg).  
-  - Aturan Pakai: Diminum saat perut kosong, biasanya di pagi hari.  
-  - Efek Samping Obat: Hepatotoksisitas, gangguan gastrointestinal, reaksi alergi.  
+A. Rekomendasi Obat 1: Flucadex Kaplet  
+  - Dosis: Dewasa dan anak usia ≥6 tahun, 2-3 kaplet sehari sesuai petunjuk dokter  
+  - Aturan Pakai: Diminum dengan air setelah makan  
+  - Efek Samping Obat: Dehidrasi, kelelahan, gangguan tidur  
 
-B. Rekomendasi Obat 2: Isoniazid  
-  - Dosis: 5 mg/kg berat badan per hari (maksimal 300 mg).  
-  - Aturan Pakai: Diminum saat perut kosong, biasanya di pagi hari.  
-  - Efek Samping Obat: Hepatotoksisitas, neuropati perifer, reaksi alergi.  
+B. Rekomendasi Obat 2: Flucadex Sirop  
+  - Dosis: Dewasa dan anak usia ≥6 tahun, 10-15 ml setiap 4-6 jam sesuai petunjuk dokter  
+  - Aturan Pakai: Diminum langsung menggunakan sendok takar  
+  - Efek Samping Obat: Dehidrasi, kelelahan, gangguan tidur  
 
-C. Rekomendasi Obat 3: Pyrazinamide  
-  - Dosis: 25 mg/kg berat badan per hari (maksimal 2000 mg).  
-  - Aturan Pakai: Diminum setiap hari bersamaan dengan obat anti-TBC lainnya.  
-  - Efek Samping Obat: Gangguan gastrointestinal, hepatotoksisitas, artralgia.  
+C. Rekomendasi Obat 3: Paracetamol  
+  - Dosis: Dewasa 500-1000 mg setiap 4-6 jam, maksimal 4000 mg/hari  
+  - Aturan Pakai: Diminum dengan air, sebaiknya setelah makan  
+  - Efek Samping Obat: Gangguan lambung, reaksi alergi (jarang)  
 
-D. Rekomendasi Obat 4: Ethambutol  
-  - Dosis: 15 mg/kg berat badan per hari (maksimal 1600 mg).  
-  - Aturan Pakai: Diminum setiap hari bersamaan dengan obat anti-TBC lainnya.  
-  - Efek Samping Obat: Retinopati, gangguan penglihatan, reaksi alergi.  
+D. Rekomendasi Obat 4: Chlorpheniramine  
+  - Dosis: 4 mg setiap 4-6 jam, maksimal 24 mg/hari  
+  - Aturan Pakai: Diminum dengan air  
+  - Efek Samping Obat: Mengantuk, mulut kering  
 
-E. Rekomendasi Obat 5: Streptomisin  
-  - Dosis: 15 mg/kg berat badan per hari (maksimal 1 g).  
-  - Aturan Pakai: Diberikan melalui suntikan intramuskular.  
-  - Efek Samping Obat: Ototoksisitas, nefrotoksisitas, reaksi alergi.  
+E. Rekomendasi Obat 5: Dextromethorphan HBr  
+  - Dosis: Dewasa 10-20 mg setiap 4-6 jam, maksimal 120 mg/hari  
+  - Aturan Pakai: Diminum dengan air  
+  - Efek Samping Obat: Pusing, mual, mengantuk  
 
-Dengan menggunakan informasi di atas, pasien TBC sebaiknya menjalani pemeriksaan dan pengobatan yang sesuai di bawah pengawasan medis.
+Dengan informasi ini, diharapkan pasien bisa mendapatkan penanganan yang tepat untuk Flu (Influenza).
