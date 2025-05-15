@@ -1,6 +1,4 @@
-{
-  "Diagnosis utama": "Flu (Influenza)",
-  "Tingkat risiko penyakit": "Rendah hingga Sedang",
-  "Gejala terkait lainnya": "Sakit kepala, nyeri otot, kelelahan",
-  "Efek samping umum": "Dehidrasi, kelelahan, gangguan tidur"
-}
+- **Diagnosis utama**: Diabetes Melitus
+- **Tingkat risiko penyakit**: Tinggi, jika tidak dikelola dengan baik dapat menyebabkan komplikasi serius.
+- **Gejala terkait lainnya**: Peningkatan rasa haus, sering buang air kecil, kelelahan, penglihatan kabur, luka yang sulit sembuh.
+- **Efek samping umum**: Hipoglikemia, infeksi, kerusakan saraf, masalah jantung.

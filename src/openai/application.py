@@ -71,12 +71,24 @@ def format_agent_output(agent_data):
             formatted = ""
             for i, item in enumerate(data,start=1):
                 formatted += (
-                    f"{item.get('nama_penyakit', '')}\n"
+                    f"Nama Penyakit: {item.get('nama_penyakit', '')}\n"
                     f"Rekomendasi obat: {item.get('rekomendasi_obat', '')}\n"
                     f"Dosis: {item.get('dosis', '')}\n"
                     f"Aturan pakai: {item.get('aturan_pakai', '')}\n"
-                    f"Efek samping: {item.get('efek_samping', '')}\n\n"
+                    f"Efek samping: {item.get('efek_samping', '')}\n"
+                    f"Rekomendasi Obat:\n"
                 )
+                for key in ['a_rekomendasi_obat_1','b_rekomendasi_obat_2','c_rekomendasi_obat_3','d_rekomendasi_obat_4','e_rekomendasi_obat_5']:
+                    obat = item.get(key)
+                    if obat:
+                        if key == 'a_rekomendasi_obat_1':
+                            formatted += f"1. {obat}\n"
+                            formatted += f" Dosis: {item.get('dosis', '')}\n"
+                            formatted += f" Aturan Pakai: {item.get('aturan_pakai', '')}\n"
+                        else:
+                            nomor = key[0]
+                            formatted += f"{'ABCDE'.index(nomor.upper()) + 1}. {obat}\n"
+                formatted += "\n"            
             return formatted.strip()
         else:
             return agent_data
@@ -123,7 +135,8 @@ async def handle_message(update: Update, context: CallbackContext):
         
     memory[user_id].append({
         "user": user_text,
-        "agent": parse_agent_text(cleaned_result)
+        "agent": cleaned_result
+        # "agent": parse_agent_text(cleaned_result)
     })
     save_memory(memory)
 

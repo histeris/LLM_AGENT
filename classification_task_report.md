@@ -1,6 +1,6 @@
 {
-  "label": "gejala",
+  "label": "penyakit",
   "data": {
-    "gejala_user": "batuk, pilek, dan demam"
+    "penyakit_user": "diabetes"
   }
 }
