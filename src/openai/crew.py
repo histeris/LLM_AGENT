@@ -1,6 +1,6 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
-from tools.rag import data_penyakit, data_obat
+from tools.Rag import data_penyakit, data_obat
 import json
 
 # If you want to run a snippet of code before or after the crew starts, 
