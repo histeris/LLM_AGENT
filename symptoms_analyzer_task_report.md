@@ -1,6 +1,1 @@
-- **Diagnosis Utama:** Influenza (Flu)
-- **Tingkat Risiko Penyakit:** Sedang. Influenza biasanya tidak berisiko tinggi pada orang sehat, tetapi dapat menyebabkan komplikasi pada orang dengan kondisi kesehatan tertentu.
-- **Gejala Terkait Lainnya:** Lemas, nyeri otot, radang tenggorokan, batuk, pilek, sakit kepala, dan pusing.
-- **Efek Samping Umum:** Kelelahan, mengganggu aktivitas sehari-hari, serta kemungkinan penularan kepada orang lain.
-
-Penting untuk memantau gejala dan berkonsultasi dengan profesional kesehatan jika diperparah.
+TBC (Tuberculosis) is an infectious disease primarily affecting the lungs. Diagnosis is confirmed through a combination of clinical evaluation, history, chest X-rays, and specific tests (like a tuberculin skin test or interferon-gamma release assays). The disease poses a moderate to high risk of severe complications if untreated and can spread through airborne particles. Associated symptoms include persistent cough, hemoptysis (coughing up blood), night sweats, fever, weight loss, and fatigue. Common side effects of treatment with antibiotics (e.g., rifampicin, isoniazid) can include liver toxicity, gastrointestinal disturbances, and allergic reactions.

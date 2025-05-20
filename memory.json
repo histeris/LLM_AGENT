@@ -1,7 +1,8 @@
 {
     "started_users": [
         "7116300622",
-        "5708441153"
+        "5708441153",
+        "7594404608"
     ],
     "7116300622": [
         {
@@ -126,42 +127,6 @@
                     "c_rekomendasi_obat_3": "Pyrazinamide",
                     "d_rekomendasi_obat_4": "Ethambutol",
                     "e_rekomendasi_obat_5": "Streptomisin"
-                }
-            ]
-        },
-        {
-            "user": "My throat is sore, and it\u2019s painful to swallow.",
-            "agent": [
-                {
-                    "nama_penyakit": "Nama Penyakit: Pharyngitis",
-                    "tingkat_risiko": "Moderate",
-                    "gejala_terkait": "Sore throat, pain while swallowing, fever, swollen lymph nodes, general malaise",
-                    "a_rekomendasi_obat_1": "Ibuprofen",
-                    "dosis": "10-60 mg per day, depending on the severity (usually tapered).",
-                    "aturan_pakai": "Take with food to reduce gastrointestinal irritation.",
-                    "efek_samping_obat": "Increased appetite, weight gain, insomnia, mood changes.",
-                    "b_rekomendasi_obat_2": "Aspirin",
-                    "c_rekomendasi_obat_3": "Naproxen",
-                    "d_rekomendasi_obat_4": "Counterpain PXM (Topical)",
-                    "e_rekomendasi_obat_5": "Corticosteroid (e.g., Prednisone)"
-                }
-            ]
-        },
-        {
-            "user": "Saya demam ringan dan menggigil.",
-            "agent": [
-                {
-                    "nama_penyakit": "Nama Penyakit: Influenza (Flu)",
-                    "tingkat_risiko": "Sedang",
-                    "gejala_terkait": "Lemas, nyeri otot, radang tenggorokan, batuk, pilek, sakit kepala, dan pusing.",
-                    "a_rekomendasi_obat_1": "Oseltamivir",
-                    "dosis": "10 mg sekali sehari.",
-                    "aturan_pakai": "Diminum dengan atau tanpa makanan.",
-                    "efek_samping_obat": "Mengantuk, pusing, mulut kering.",
-                    "b_rekomendasi_obat_2": "Zanamivir",
-                    "c_rekomendasi_obat_3": "Paracetamol",
-                    "d_rekomendasi_obat_4": "Ibuprofen",
-                    "e_rekomendasi_obat_5": "Antihistamin (seperti Loratadine)"
                 }
             ]
         }
