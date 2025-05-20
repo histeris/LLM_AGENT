@@ -3,23 +3,26 @@ import sys
 import warnings
 
 from datetime import datetime
-
 from crew import researcher
+from tools.detect_language import detect_language
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
+    
+user_input = "Saya sering batuk dan pusing"
+language = detect_language(user_input)
 
-# This main file is intended to be a way for you to run your
-# crew locally, so refrain from adding unnecessary logic into this file.
-# Replace with inputs you want to test with, it will automatically
-# interpolate any tasks and agents information
 
 def run():
     """
     Run the crew.
     """
     inputs = {
-        'keluhan_user': 'Saya megalami batuk, pilek, dan demam.',
+        'keluhan_user': user_input,
+        'language' : language
     }
+    
+    print("Language detected:", language)
+    print("Context:", inputs)
     
     try:
         researcher().crew().kickoff(inputs=inputs)

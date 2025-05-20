@@ -1,30 +1,30 @@
-Nama Penyakit: TBC (Tuberculosis)  
+Nama Penyakit: Influenza (Flu)  
 - Tingkat Risiko: Sedang  
-- Gejala Terkait: Batuk persistem, hemoptisis, keringat malam, demam, penurunan berat badan, dan kelelahan.  
+- Gejala Terkait: Lemas, nyeri otot, radang tenggorokan, batuk, pilek, sakit kepala, dan pusing.  
 
-A. Rekomendasi Obat 1: Rifampicin  
-  - Dosis: 10 mg/kg berat badan per hari (maksimal 600 mg).  
-  - Aturan Pakai: Diminum saat perut kosong, biasanya di pagi hari.  
-  - Efek Samping Obat: Hepatotoksisitas, gangguan gastrointestinal, reaksi alergi.  
+A. Rekomendasi Obat 1: Oseltamivir  
+- Dosis: 75 mg dua kali sehari selama 5 hari.  
+- Aturan Pakai: Sebaiknya dikonsumsi dalam 48 jam setelah gejala muncul.  
+- Efek Samping Obat: Mual, diare, pusing, dan sakit kepala.  
 
-B. Rekomendasi Obat 2: Isoniazid  
-  - Dosis: 5 mg/kg berat badan per hari (maksimal 300 mg).  
-  - Aturan Pakai: Diminum saat perut kosong, biasanya di pagi hari.  
-  - Efek Samping Obat: Hepatotoksisitas, neuropati perifer, reaksi alergi.  
+B. Rekomendasi Obat 2: Zanamivir  
+- Dosis: 10 mg dihirup dua kali sehari selama 5 hari.  
+- Aturan Pakai: Dianjurkan segera setelah munculnya gejala.  
+- Efek Samping Obat: Bronkospasme, iritasi tenggorokan, dan sakit kepala.  
 
-C. Rekomendasi Obat 3: Pyrazinamide  
-  - Dosis: 25 mg/kg berat badan per hari (maksimal 2000 mg).  
-  - Aturan Pakai: Diminum setiap hari bersamaan dengan obat anti-TBC lainnya.  
-  - Efek Samping Obat: Gangguan gastrointestinal, hepatotoksisitas, artralgia.  
+C. Rekomendasi Obat 3: Paracetamol  
+- Dosis: 500 mg hingga 1000 mg setiap 4-6 jam, maksimal 4000 mg per hari.  
+- Aturan Pakai: Diberikan sesuai kebutuhan untuk meredakan gejala.  
+- Efek Samping Obat: Reaksi alergi, kerusakan hati jika dosis berlebihan.  
 
-D. Rekomendasi Obat 4: Ethambutol  
-  - Dosis: 15 mg/kg berat badan per hari (maksimal 1600 mg).  
-  - Aturan Pakai: Diminum setiap hari bersamaan dengan obat anti-TBC lainnya.  
-  - Efek Samping Obat: Retinopati, gangguan penglihatan, reaksi alergi.  
+D. Rekomendasi Obat 4: Ibuprofen  
+- Dosis: 200 mg hingga 400 mg setiap 6-8 jam, maksimal 1200 mg per hari.  
+- Aturan Pakai: Diberikan sesuai kebutuhan.  
+- Efek Samping Obat: Gangguan pencernaan, sakit perut, pusing.  
 
-E. Rekomendasi Obat 5: Streptomisin  
-  - Dosis: 15 mg/kg berat badan per hari (maksimal 1 g).  
-  - Aturan Pakai: Diberikan melalui suntikan intramuskular.  
-  - Efek Samping Obat: Ototoksisitas, nefrotoksisitas, reaksi alergi.  
+E. Rekomendasi Obat 5: Antihistamin (seperti Loratadine)  
+- Dosis: 10 mg sekali sehari.  
+- Aturan Pakai: Diminum dengan atau tanpa makanan.  
+- Efek Samping Obat: Mengantuk, pusing, mulut kering.  
 
-Dengan menggunakan informasi di atas, pasien TBC sebaiknya menjalani pemeriksaan dan pengobatan yang sesuai di bawah pengawasan medis.
+Penting untuk memantau gejala dan berkonsultasi dengan profesional kesehatan jika diperparah.

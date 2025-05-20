@@ -12,6 +12,7 @@ from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 from dotenv import load_dotenv
 from memoryParser import parse_agent_text
+from tools.detect_language import detect_language
 
 import re
 
@@ -55,8 +56,11 @@ def run_crew_blocking(user_input, chat_history=None):
         for item in chat_history[-5:]:  # Ambil 5 percakapan terakhir
             history_context += f"User: {item.get('user')}\nAgent: {item.get('agent')}\n"
 
+    language = detect_language(user_input)
+    
     inputs = {
         "keluhan_user": f"{history_context}\nUser: {user_input}",
+        "language" : language
     }
     try:
         result = researcher().crew().kickoff(inputs=inputs)
