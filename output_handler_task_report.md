@@ -42,9 +42,9 @@ D. Rekomendasi Obat 4: Sitagliptin
   - Aturan Pakai: Dapat diminum dengan atau tanpa makanan.  
   - Efek Samping Obat: Nyeri perut, diare, dan infeksi saluran pernapasan atas.  
 
-E. Rekomendasi Obat 5: Antihistamin (seperti Loratadine)  
-- Dosis: 10 mg sekali sehari.  
-- Aturan Pakai: Diminum dengan atau tanpa makanan.  
-- Efek Samping Obat: Mengantuk, pusing, mulut kering.  
+E. Rekomendasi Obat 5: Streptomisin  
+  - Dosis: 15 mg/kg berat badan per hari (maksimal 1 g).  
+  - Aturan Pakai: Diberikan melalui suntikan intramuskular.  
+  - Efek Samping Obat: Ototoksisitas, nefrotoksisitas, reaksi alergi.  
 
-Penting untuk memantau gejala dan berkonsultasi dengan profesional kesehatan jika diperparah.
+Dengan menggunakan informasi di atas, pasien TBC sebaiknya menjalani pemeriksaan dan pengobatan yang sesuai di bawah pengawasan medis.
