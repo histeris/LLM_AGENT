@@ -1,1 +1,20 @@
-TBC (Tuberculosis) is an infectious disease primarily affecting the lungs. Diagnosis is confirmed through a combination of clinical evaluation, history, chest X-rays, and specific tests (like a tuberculin skin test or interferon-gamma release assays). The disease poses a moderate to high risk of severe complications if untreated and can spread through airborne particles. Associated symptoms include persistent cough, hemoptysis (coughing up blood), night sweats, fever, weight loss, and fatigue. Common side effects of treatment with antibiotics (e.g., rifampicin, isoniazid) can include liver toxicity, gastrointestinal disturbances, and allergic reactions.
+**Diagnosis Utama:** Sinusitis
+
+**Tingkat Risiko Penyakit:** Sedang. Sinusitis dapat menyebabkan komplikasi jika tidak diobati, seperti infeksi yang lebih serius.
+
+**Gejala Terkait Lainnya:**
+- Batuk berdahak berkepanjangan
+- Hidung tersumbat
+- Mengi (bengek)
+- Sesak napas
+- Sakit saat menelan
+- Suara serak
+- Tenggorokan gatal
+
+**Efek Samping Umum:**
+- Rasa tidak nyaman di area sinus
+- Nyeri wajah
+- Demam rendah
+- Kelelahan
+
+Sinusitis sering kali berhubungan dengan infeksi saluran pernapasan bagian atas yang mungkin memerlukan perhatian medis lebih lanjut.

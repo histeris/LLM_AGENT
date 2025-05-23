@@ -1,38 +1,36 @@
-Nama Penyakit: Influenza (Flu)
+Nama Penyakit: Sinusitis
 
-A. Nama Obat 1: Oseltamivir
-- Tingkat Risiko: Sedang
-- Gejala Terkait: Lemas, nyeri otot, radang tenggorokan, batuk, pilek, sakit kepala, dan pusing.
-- Dosis: 75 mg dua kali sehari selama 5 hari.
-- Aturan Pakai: Sebaiknya dikonsumsi dalam 48 jam setelah gejala muncul.
-- Efek samping: Mual, diare, pusing, dan sakit kepala.
+A. Nama Obat 1: Amoksisilin
+   - Tingkat Risiko: Sedang
+   - Gejala Terkait: Batuk berdahak, hidung tersumbat, nyeri wajah
+   - Dosis: 500 mg setiap 8 jam selama 10 hari
+   - Aturan pakai: Diminum dengan segelas air setelah makan untuk menghindari gangguan lambung
+   - Efek samping: Mual, diare, reaksi alergi
 
-B. Nama Obat 2: Zanamivir
-- Tingkat Risiko: Sedang
-- Gejala Terkait: Lemas, nyeri otot, radang tenggorokan, batuk, pilek, sakit kepala, dan pusing.
-- Dosis: 10 mg dihirup dua kali sehari selama 5 hari.
-- Aturan Pakai: Dianjurkan segera setelah munculnya gejala.
-- Efek samping: Bronkospasme, iritasi tenggorokan, dan sakit kepala.
+B. Nama Obat 2: Ibuprofen
+   - Tingkat Risiko: Sedang
+   - Gejala Terkait: Nyeri wajah, demam rendah
+   - Dosis: 400 mg setiap 6-8 jam sesuai kebutuhan, tidak lebih dari 2400 mg/hari
+   - Aturan pakai: Diminum dengan makanan untuk mengurangi risiko iritasi lambung
+   - Efek samping: Nyeri perut, sakit kepala, pusing
 
-C. Nama Obat 3: Paracetamol
-- Tingkat Risiko: Sedang
-- Gejala Terkait: Demam, nyeri otot, dan sakit kepala.
-- Dosis: 500 mg hingga 1000 mg setiap 4-6 jam, maksimal 4000 mg per hari.
-- Aturan Pakai: Diberikan sesuai kebutuhan untuk meredakan gejala.
-- Efek samping: Reaksi alergi, kerusakan hati jika dosis berlebihan.
+C. Nama Obat 3: Dekongestan (Pseudoefedrin)
+   - Tingkat Risiko: Sedang
+   - Gejala Terkait: Hidung tersumbat, sesak napas
+   - Dosis: 60 mg setiap 4-6 jam, maksimal 240 mg/hari
+   - Aturan pakai: Diminum dengan air, dapat digunakan bersamaan dengan antihistamin jika diperlukan
+   - Efek samping: Insomnia, palpitasi, peningkatan tekanan darah
 
-D. Nama Obat 4: Ibuprofen
-- Tingkat Risiko: Sedang
-- Gejala Terkait: Demam, nyeri otot, sakit kepala.
-- Dosis: 200 mg hingga 400 mg setiap 6-8 jam, maksimal 1200 mg per hari.
-- Aturan Pakai: Diberikan sesuai kebutuhan.
-- Efek samping: Gangguan pencernaan, sakit perut, pusing.
+D. Nama Obat 4: Antihistamin (Loratadine)
+   - Tingkat Risiko: Sedang
+   - Gejala Terkait: Hidung tersumbat, tenggorokan gatal
+   - Dosis: 10 mg sekali sehari
+   - Aturan pakai: Diminum pada waktu yang sama setiap hari untuk menjaga konsistensi
+   - Efek samping: Mengantuk (meskipun loratadine cenderung tidak menyebabkan ngantuk), mulut kering
 
-E. Nama Obat 5: Antihistamin (seperti Loratadine)
-- Tingkat Risiko: Sedang
-- Gejala Terkait: Pilek dan bersin.
-- Dosis: 10 mg sekali sehari.
-- Aturan Pakai: Diminum dengan atau tanpa makanan.
-- Efek samping: Mengantuk, pusing, mulut kering.
-
-Penting untuk memantau gejala dan berkonsultasi dengan profesional kesehatan jika diperparah.
+E. Nama Obat 5: Nasal Spray (Flutikason)
+   - Tingkat Risiko: Sedang
+   - Gejala Terkait: Hidung tersumbat, nyeri wajah
+   - Dosis: 2 semprotan di setiap lubang hidung sekali sehari
+   - Aturan pakai: Digoyang sebelum digunakan dan disemprotkan ke dalam hidung
+   - Efek samping: Mimisan, iritasi hidung, sakit tenggorokan

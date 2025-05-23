@@ -8,7 +8,7 @@ from tools.detect_language import detect_language
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
     
-user_input = "Saya sering batuk dan pusing"
+user_input = "Saya sering pusing dan otak saya sakit di sebelah kanan"
 language = detect_language(user_input)
 
 
