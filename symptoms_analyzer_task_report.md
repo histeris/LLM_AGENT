@@ -1,20 +1,4 @@
-**Diagnosis Utama:** Sinusitis
-
-**Tingkat Risiko Penyakit:** Sedang. Sinusitis dapat menyebabkan komplikasi jika tidak diobati, seperti infeksi yang lebih serius.
-
-**Gejala Terkait Lainnya:**
-- Batuk berdahak berkepanjangan
-- Hidung tersumbat
-- Mengi (bengek)
-- Sesak napas
-- Sakit saat menelan
-- Suara serak
-- Tenggorokan gatal
-
-**Efek Samping Umum:**
-- Rasa tidak nyaman di area sinus
-- Nyeri wajah
-- Demam rendah
-- Kelelahan
-
-Sinusitis sering kali berhubungan dengan infeksi saluran pernapasan bagian atas yang mungkin memerlukan perhatian medis lebih lanjut.
+Diagnosis utama: Migrain
+Tingkat risiko penyakit: Sedang
+Gejala terkait lainnya: Sakit kepala parah, mual, muntah, sensitivitas terhadap cahaya.
+Efek samping umum: Nyeri di bagian kepala, rasa lelah setelah sakit kepala, mood yang berubah, dan kesulitan berkonsentrasi.

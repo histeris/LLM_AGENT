@@ -1,36 +1,35 @@
-Nama Penyakit: Sinusitis
+Nama Penyakit: Migrain
+A. Nama Obat 1: Ibuprofen
+- Tingkat Risiko: Sedang
+- Gejala Terkait: Sakit kepala parah, mual, muntah, sensitivitas terhadap cahaya.
+- Dosis: 400 mg setiap 4-6 jam sesuai kebutuhan, maksimal 1200 mg/hari.
+- Aturan pakai: Diminum dengan segelas air setelah makan.
+- Efek samping: Nyeri perut, pusing, mual.
 
-A. Nama Obat 1: Amoksisilin
-   - Tingkat Risiko: Sedang
-   - Gejala Terkait: Batuk berdahak, hidung tersumbat, nyeri wajah
-   - Dosis: 500 mg setiap 8 jam selama 10 hari
-   - Aturan pakai: Diminum dengan segelas air setelah makan untuk menghindari gangguan lambung
-   - Efek samping: Mual, diare, reaksi alergi
+B. Nama Obat 2: Acetaminophen
+- Tingkat Risiko: Sedang
+- Gejala Terkait: Sakit kepala parah, mual, sensitivitas terhadap cahaya.
+- Dosis: 500-1000 mg setiap 4-6 jam, maksimal 3000 mg/hari.
+- Aturan pakai: Diminum dengan atau tanpa makanan.
+- Efek samping: Mual, reaksi alergi, gangguan hati pada dosis tinggi.
 
-B. Nama Obat 2: Ibuprofen
-   - Tingkat Risiko: Sedang
-   - Gejala Terkait: Nyeri wajah, demam rendah
-   - Dosis: 400 mg setiap 6-8 jam sesuai kebutuhan, tidak lebih dari 2400 mg/hari
-   - Aturan pakai: Diminum dengan makanan untuk mengurangi risiko iritasi lambung
-   - Efek samping: Nyeri perut, sakit kepala, pusing
+C. Nama Obat 3: Aspirin
+- Tingkat Risiko: Sedang
+- Gejala Terkait: Sakit kepala parah, mual, sensitivitas terhadap cahaya.
+- Dosis: 325-1000 mg setiap 4-6 jam, maksimal 4000 mg/hari.
+- Aturan pakai: Diminum dengan segelas air setelah makan.
+- Efek samping: Gangguan pencernaan, pendarahan, reaksi alergi.
 
-C. Nama Obat 3: Dekongestan (Pseudoefedrin)
-   - Tingkat Risiko: Sedang
-   - Gejala Terkait: Hidung tersumbat, sesak napas
-   - Dosis: 60 mg setiap 4-6 jam, maksimal 240 mg/hari
-   - Aturan pakai: Diminum dengan air, dapat digunakan bersamaan dengan antihistamin jika diperlukan
-   - Efek samping: Insomnia, palpitasi, peningkatan tekanan darah
+D. Nama Obat 4: Naratriptan
+- Tingkat Risiko: Sedang
+- Gejala Terkait: Sakit kepala parah, mual, sensitivitas terhadap cahaya.
+- Dosis: 2.5 mg saat serangan migrain, dapat diulang setelah 4-6 jam jika perlu.
+- Aturan pakai: Diminum segera setelah gejala migrain mulai.
+- Efek samping: Mual, mengantuk, perasaan berat di dada.
 
-D. Nama Obat 4: Antihistamin (Loratadine)
-   - Tingkat Risiko: Sedang
-   - Gejala Terkait: Hidung tersumbat, tenggorokan gatal
-   - Dosis: 10 mg sekali sehari
-   - Aturan pakai: Diminum pada waktu yang sama setiap hari untuk menjaga konsistensi
-   - Efek samping: Mengantuk (meskipun loratadine cenderung tidak menyebabkan ngantuk), mulut kering
-
-E. Nama Obat 5: Nasal Spray (Flutikason)
-   - Tingkat Risiko: Sedang
-   - Gejala Terkait: Hidung tersumbat, nyeri wajah
-   - Dosis: 2 semprotan di setiap lubang hidung sekali sehari
-   - Aturan pakai: Digoyang sebelum digunakan dan disemprotkan ke dalam hidung
-   - Efek samping: Mimisan, iritasi hidung, sakit tenggorokan
+E. Nama Obat 5: Rizatriptan
+- Tingkat Risiko: Sedang
+- Gejala Terkait: Sakit kepala parah, mual, sensitivitas terhadap cahaya.
+- Dosis: 5-10 mg saat serangan migrain, dapat diulang setelah 2 jam jika perlu.
+- Aturan pakai: Diminum segera setelah gejala migrain mulai.
+- Efek samping: Pusing, mulut kering, kelelahan.

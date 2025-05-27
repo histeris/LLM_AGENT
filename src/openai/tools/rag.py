@@ -46,4 +46,4 @@ data_obat = CSVSearchTool()
 
 # Jalankan
 batch_load_csv(data_penyakit, "data_penyakit_alodokter_cleaned.csv")
-batch_load_csv(data_obat, "data_obat_final.csv")
+batch_load_csv(data_obat, "data_obat_final_updated.csv")
