@@ -1,4 +1,10 @@
-Diagnosis utama: Migrain
+Diagnosis utama: Gangguan Kecemasan Umum (Generalized Anxiety Disorder - GAD)
 Tingkat risiko penyakit: Sedang
-Gejala terkait lainnya: Sakit kepala parah, mual, muntah, sensitivitas terhadap cahaya.
-Efek samping umum: Nyeri di bagian kepala, rasa lelah setelah sakit kepala, mood yang berubah, dan kesulitan berkonsentrasi.
+Gejala terkait lainnya: 
+- Merasa gelisah, tidak bersemangat, dan tersudut
+- Merasa lelah
+- Mudah tersinggung
+- Sulit berkonsentrasi
+- Meningkatnya ketegangan otot
+- Mengalami gangguan tidur (termasuk sulit tidur atau selalu ingin tidur)
+Efek samping umum: Kesulitan tidur, kelelahan, dan gangguan konsentrasi dapat terjadi.

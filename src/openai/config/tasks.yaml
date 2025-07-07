@@ -20,6 +20,7 @@ symptoms_analyzer_task:
     Menganalisa gejala yang dilaporkan pengguna dan mendiagnosis penyakit berdasarkan gejala tersebut.
     Gunakan database CSV atau pengetahuan medis untuk meningkatkan akurasi diagnosis.
     Abaikan penyakit yang tidak memiliki hubungan langsung dengan gejala pengguna.
+    Jawablah hanya berdasarkan konteks dataset CSV yang diberikan. Jika tidak ditemukan, katakan 'Tidak ditemukan'.
   expected_output: >
     Diagnosis utama, tingkat risiko penyakit, gejala terkait lainnya, dan efek samping umum. Berikan satu output penyakit saja yang paling relevan dengan gejala yang dilaporkan.
     Jika input tidak ada kaitannya dengan penyakit/gejala/obat, jawab: "Tidak ada kaitannya dengan penyakit, gejala, dan obat."
@@ -31,6 +32,7 @@ drug_recommendation_task:
     Jawablah menggunakan bahasa {language}.
     Berdasarkan penyakit yang telah didiagnosis, berikan  5 daftar rekomendasi obat untuk penyakit tersebut.
     Rekomendasi obat untuk Penyakit harus memiliki: nama obat, dosis, aturan pakai, dan efek samping yang umum. Anda juga diminta untuk mencari tahu informasi tentang tingkat risiko penyakit dan gejala terkait lainnya.
+    Jawablah hanya berdasarkan konteks dataset CSV yang diberikan. Jika tidak ditemukan, katakan 'Tidak ditemukan'.
   expected_output: >
     Nama Penyakit: ...
     A. Nama Obat 1: ...

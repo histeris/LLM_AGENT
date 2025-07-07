@@ -46,7 +46,7 @@ async def start_command(update: Update, context: CallbackContext):
     ]
     reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
     await update.message.reply_text(
-        "Halo, selamat datang di aplikasi ini.\nSilahkan pilih menu yang tersedia:",
+        "Hello, welcome to this application.\nPlease select the available menu:",
         reply_markup=reply_markup
     )
     
@@ -75,20 +75,20 @@ def format_agent_output(agent_data):
             formatted = ""
             for i, item in enumerate(data,start=1):
                 formatted += (
-                    f"Nama Penyakit: {item.get('nama_penyakit', '')}\n"
-                    f"Rekomendasi obat: {item.get('rekomendasi_obat', '')}\n"
-                    f"Dosis: {item.get('dosis', '')}\n"
-                    f"Aturan pakai: {item.get('aturan_pakai', '')}\n"
-                    f"Efek samping: {item.get('efek_samping', '')}\n"
-                    f"Rekomendasi Obat:\n"
+                    f"Disease name: {item.get('nama_penyakit', '')}\n"
+                    f"Medicine Recommendation: {item.get('rekomendasi_obat', '')}\n"
+                    f"Dosage: {item.get('dosis', '')}\n"
+                    f"Usage Instruction: {item.get('aturan_pakai', '')}\n"
+                    f"Side Effect: {item.get('efek_samping', '')}\n"
+                    f"Medicine Recommendation:\n"
                 )
                 for key in ['a_rekomendasi_obat_1','b_rekomendasi_obat_2','c_rekomendasi_obat_3','d_rekomendasi_obat_4','e_rekomendasi_obat_5']:
                     obat = item.get(key)
                     if obat:
                         if key == 'a_rekomendasi_obat_1':
                             formatted += f"1. {obat}\n"
-                            formatted += f" Dosis: {item.get('dosis', '')}\n"
-                            formatted += f" Aturan Pakai: {item.get('aturan_pakai', '')}\n"
+                            formatted += f" Dosage: {item.get('dosis', '')}\n"
+                            formatted += f" Usage Instruction: {item.get('aturan_pakai', '')}\n"
                         else:
                             nomor = key[0]
                             formatted += f"{'ABCDE'.index(nomor.upper()) + 1}. {obat}\n"
@@ -109,7 +109,7 @@ async def handle_message(update: Update, context: CallbackContext):
         return
     
     if user_text.lower() in ["start", "konsultasi"]:
-        await update.message.reply_text("Silakan ketik gejala yang anda alami.")
+        await update.message.reply_text("Please type in the symptoms you are experiencing.")
         return
     elif user_text == "history":
         await history(update, context)
@@ -118,7 +118,8 @@ async def handle_message(update: Update, context: CallbackContext):
         await new_chat(update,context)
         return
     
-    await update.message.reply_text("Sedang memproses dengan CrewAI, tunggu sebentar...") 
+    await update.message.reply_text("Analyzing your symptoms. Please wait a moment...")
+    await update.message.reply_text("Disclaimer: Users are advised not to make any medical decision based solely on this chat. For an accurate diagnosis, appropriate treatment, and further evaluation, always consult a physician or licensed healthcare profressional")
 
     loop = asyncio.get_event_loop()
     last_history = []

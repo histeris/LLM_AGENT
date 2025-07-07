@@ -1,35 +1,35 @@
-Nama Penyakit: Migrain
-A. Nama Obat 1: Ibuprofen
-- Tingkat Risiko: Sedang
-- Gejala Terkait: Sakit kepala parah, mual, muntah, sensitivitas terhadap cahaya.
-- Dosis: 400 mg setiap 4-6 jam sesuai kebutuhan, maksimal 1200 mg/hari.
-- Aturan pakai: Diminum dengan segelas air setelah makan.
-- Efek samping: Nyeri perut, pusing, mual.
+Nama Penyakit: Gangguan Kecemasan Umum (Generalized Anxiety Disorder - GAD)  
+A. Nama Obat 1: Sertraline  
+- Tingkat Risiko: Sedang  
+- Gejala Terkait: Merasa gelisah, mudah tersinggung, sulit berkonsentrasi  
+- Dosis: 50 mg per hari  
+- Aturan pakai: Dikonsumsi sekali sehari, bisa pada pagi atau malam  
+- Efek samping: Kesulitan tidur, kelelahan, gangguan konsentrasi  
 
-B. Nama Obat 2: Acetaminophen
-- Tingkat Risiko: Sedang
-- Gejala Terkait: Sakit kepala parah, mual, sensitivitas terhadap cahaya.
-- Dosis: 500-1000 mg setiap 4-6 jam, maksimal 3000 mg/hari.
-- Aturan pakai: Diminum dengan atau tanpa makanan.
-- Efek samping: Mual, reaksi alergi, gangguan hati pada dosis tinggi.
+B. Nama Obat 2: Escitalopram  
+- Tingkat Risiko: Sedang  
+- Gejala Terkait: Merasa tidak bersemangat, merasa lelah  
+- Dosis: 10 mg per hari  
+- Aturan pakai: Dikonsumsi sekali sehari, lebih baik di pagi hari  
+- Efek samping: Mual, gangguan tidur, kelelahan  
 
-C. Nama Obat 3: Aspirin
-- Tingkat Risiko: Sedang
-- Gejala Terkait: Sakit kepala parah, mual, sensitivitas terhadap cahaya.
-- Dosis: 325-1000 mg setiap 4-6 jam, maksimal 4000 mg/hari.
-- Aturan pakai: Diminum dengan segelas air setelah makan.
-- Efek samping: Gangguan pencernaan, pendarahan, reaksi alergi.
+C. Nama Obat 3: Venlafaxine  
+- Tingkat Risiko: Sedang  
+- Gejala Terkait: Ketegangan otot, terganggu tidur  
+- Dosis: 75 mg per hari  
+- Aturan pakai: Dikonsumsi dua kali sehari, pagi dan sore  
+- Efek samping: Pusing, berkeringat, lelah  
 
-D. Nama Obat 4: Naratriptan
-- Tingkat Risiko: Sedang
-- Gejala Terkait: Sakit kepala parah, mual, sensitivitas terhadap cahaya.
-- Dosis: 2.5 mg saat serangan migrain, dapat diulang setelah 4-6 jam jika perlu.
-- Aturan pakai: Diminum segera setelah gejala migrain mulai.
-- Efek samping: Mual, mengantuk, perasaan berat di dada.
+D. Nama Obat 4: Duloxetine  
+- Tingkat Risiko: Sedang  
+- Gejala Terkait: Mudah tersinggung, gangguan konsentrasi  
+- Dosis: 60 mg per hari  
+- Aturan pakai: Dikonsumsi sekali sehari, dapat diambil dengan atau tanpa makanan  
+- Efek samping: Mual, mulut kering, peningkatan keringat  
 
-E. Nama Obat 5: Rizatriptan
-- Tingkat Risiko: Sedang
-- Gejala Terkait: Sakit kepala parah, mual, sensitivitas terhadap cahaya.
-- Dosis: 5-10 mg saat serangan migrain, dapat diulang setelah 2 jam jika perlu.
-- Aturan pakai: Diminum segera setelah gejala migrain mulai.
-- Efek samping: Pusing, mulut kering, kelelahan.
+E. Nama Obat 5: Buspirone  
+- Tingkat Risiko: Sedang  
+- Gejala Terkait: Merasa gelisah, sulit tidur  
+- Dosis: 15 mg per hari  
+- Aturan pakai: Dapat dibagi menjadi dua atau tiga dosis dalam sehari  
+- Efek samping: Pusing, mual, sakit kepala

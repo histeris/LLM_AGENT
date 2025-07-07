@@ -7,15 +7,15 @@ from crew import researcher
 from tools.detect_language import detect_language
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
-    
-user_input = "Saya sering pusing dan otak saya sakit di sebelah kanan"
-language = detect_language(user_input)
 
 
 def run():
     """
     Run the crew.
     """
+    user_input = "Saya Merasa Stress dan cemas"
+    language = detect_language(user_input)
+    
     inputs = {
         'keluhan_user': user_input,
         'language' : language

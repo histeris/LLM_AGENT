@@ -1,7 +1,7 @@
 import os
 import hashlib
 import pandas as pd
-from crewai_tools import CSVSearchTool, WebsiteSearchTool
+from crewai_tools import CSVSearchTool
 from dotenv import load_dotenv
 
 load_dotenv()

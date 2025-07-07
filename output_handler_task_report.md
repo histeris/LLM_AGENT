@@ -1,29 +1,28 @@
-Nama Penyakit: Migrain  
-
+Nama Penyakit: Gangguan Kecemasan Umum (Generalized Anxiety Disorder - GAD)  
 - Tingkat Risiko: Sedang  
-- Gejala Terkait: Sakit kepala parah, mual, muntah, sensitivitas terhadap cahaya.  
+- Gejala Terkait: Merasa gelisah, tidak bersemangat, dan tersudut, merasa lelah, mudah tersinggung, sulit berkonsentrasi, meningkatnya ketegangan otot, mengalami gangguan tidur (termasuk sulit tidur atau selalu ingin tidur)  
 
-A. Rekomendasi Obat 1: Ibuprofen  
-  - Dosis: 400 mg setiap 4-6 jam sesuai kebutuhan, maksimal 1200 mg/hari.  
-  - Aturan Pakai: Diminum dengan segelas air setelah makan.  
-  - Efek Samping Obat: Nyeri perut, pusing, mual.  
+A. Rekomendasi Obat 1: Sertraline  
+  - Dosis: 50 mg per hari  
+  - Aturan Pakai: Dikonsumsi sekali sehari, bisa pada pagi atau malam  
+  - Efek Samping Obat: Kesulitan tidur, kelelahan, gangguan konsentrasi  
 
-B. Rekomendasi Obat 2: Acetaminophen  
-  - Dosis: 500-1000 mg setiap 4-6 jam, maksimal 3000 mg/hari.  
-  - Aturan Pakai: Diminum dengan atau tanpa makanan.  
-  - Efek Samping Obat: Mual, reaksi alergi, gangguan hati pada dosis tinggi.  
+B. Rekomendasi Obat 2: Escitalopram  
+  - Dosis: 10 mg per hari  
+  - Aturan Pakai: Dikonsumsi sekali sehari, lebih baik di pagi hari  
+  - Efek Samping Obat: Mual, gangguan tidur, kelelahan  
 
-C. Rekomendasi Obat 3: Aspirin  
-  - Dosis: 325-1000 mg setiap 4-6 jam, maksimal 4000 mg/hari.  
-  - Aturan Pakai: Diminum dengan segelas air setelah makan.  
-  - Efek Samping Obat: Gangguan pencernaan, pendarahan, reaksi alergi.  
+C. Rekomendasi Obat 3: Venlafaxine  
+  - Dosis: 75 mg per hari  
+  - Aturan Pakai: Dikonsumsi dua kali sehari, pagi dan sore  
+  - Efek Samping Obat: Pusing, berkeringat, lelah  
 
-D. Rekomendasi Obat 4: Naratriptan  
-  - Dosis: 2.5 mg saat serangan migrain, dapat diulang setelah 4-6 jam jika perlu.  
-  - Aturan Pakai: Diminum segera setelah gejala migrain mulai.  
-  - Efek Samping Obat: Mual, mengantuk, perasaan berat di dada.  
+D. Rekomendasi Obat 4: Duloxetine  
+  - Dosis: 60 mg per hari  
+  - Aturan Pakai: Dikonsumsi sekali sehari, dapat diambil dengan atau tanpa makanan  
+  - Efek Samping Obat: Mual, mulut kering, peningkatan keringat  
 
-E. Rekomendasi Obat 5: Rizatriptan  
-  - Dosis: 5-10 mg saat serangan migrain, dapat diulang setelah 2 jam jika perlu.  
-  - Aturan Pakai: Diminum segera setelah gejala migrain mulai.  
-  - Efek Samping Obat: Pusing, mulut kering, kelelahan.
+E. Rekomendasi Obat 5: Buspirone  
+  - Dosis: 15 mg per hari  
+  - Aturan Pakai: Dapat dibagi menjadi dua atau tiga dosis dalam sehari  
+  - Efek Samping Obat: Pusing, mual, sakit kepala
