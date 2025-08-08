@@ -1,54 +1,39 @@
-# Openai Crew
+LLM Agent For Medication Purpose,
 
-Welcome to the Openai Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to our project powered by crewai, we make a multi agenting system that uses data from Indonesian pharmateuical dataset for our data to use them in our agenting system. our project consist of a few files with each of them have its on use, First off
 
-## Installation
+1. AI-agent-clean and AI-agent.git have were added from the GitHub.
 
-Ensure you have Python >=3.10 <3.13 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
+2. file .added_flags shows the data that have been vectorized using chromadb, if u delete them the files in the folder, u will need to wait approximately 10-15 min for csv to vectorized to chromadb again, .added_flags will be useful for future development if we want to train the agents.
 
-First, if you haven't already, install uv:
+3. knowledge is for future development for preferences in the ai_agents.
 
-```bash
-pip install uv
-```
+4. Src contains the main structure/core for the agent to be running, it consists of 2 folder such as config and tools
 
-Next, navigate to your project directory and install the dependencies:
+a. config have 2 files 
+- agents.yaml -> this where we uses prompt engineering to make new or changes to our agents such as customizing instructions, goals, even adding a new one.
+- tasks.yaml -> this consist of the task that the agents gonna do, it consists of task description, and which agents gonna do the task and the expected output form the task
 
-(Optional) Lock the dependencies and install them by using the CLI command:
-```bash
-crewai install
-```
-### Customizing
+b. Tools have several file consist of the tools that were used by our agents.
+- Rag.py is the tools that were used for our specific agent to search through our data to help them create a more specific output.
+- detect language is just a tools to detect the language we're using.
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
+c. crew.py is where we initialize our crew and tools the crew we're using.
 
-- Modify `src/openai/config/agents.yaml` to define your agents
-- Modify `src/openai/config/tasks.yaml` to define your tasks
-- Modify `src/openai/crew.py` to add your own logic, tools and specific args
-- Modify `src/openai/main.py` to add custom inputs for your agents and tasks
+d. main.py where we run the whole thing and add the inputs.
 
-## Running the Project
+e. application.py where we connect the agent to be shown to our telegram.
 
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
+f. memoryParser.py parsing raw data (disease information), then convert to list of dictionary
 
-```bash
-$ crewai run
-```
+5. .gitignore were used to ignore a few files such as api_key and the a few data which are to big to push.
 
-This command initializes the openai Crew, assembling the agents and assigning them tasks as defined in your configuration.
+6. Evaluation.ipynb are our evaluation to evaluate our agents using ragas.
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+7. classification_task_report.md, symptoms_analyzer_task_report.md, output_handler_task_report.md, drug_recommendation_task_report.md are the output from each agent in the format of markdown, these cant be used to evaluate each agent and identify which have a better performance.
 
-## Understanding Your Crew
+8. df_penyakit.xlsx,data_obat_final_update.csv, data_penyakit_alodokter_cleaned.csv are used as a dataset for our agents as a tools.
 
-The openai Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
+9. memory.json are our chat history from our bots in telegram in json, are used to evaluate the bot overall performance.
 
-## Support
-
-For support, questions, or feedback regarding the Openai Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
-
-Let's create wonders together with the power and simplicity of crewAI.
+10. pyproject.toml is a configuration standard file for python
