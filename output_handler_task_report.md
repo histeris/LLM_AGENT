@@ -1,28 +1,28 @@
-Nama Penyakit: Gangguan Kecemasan Umum (Generalized Anxiety Disorder - GAD)  
-- Tingkat Risiko: Sedang  
-- Gejala Terkait: Merasa gelisah, tidak bersemangat, dan tersudut, merasa lelah, mudah tersinggung, sulit berkonsentrasi, meningkatnya ketegangan otot, mengalami gangguan tidur (termasuk sulit tidur atau selalu ingin tidur)  
+Nama Penyakit: Stres  
+- Tingkat Risiko: Medium  
+- Gejala Terkait: Cemas, kram perut, gangguan suasana hati (depresi)  
 
 A. Rekomendasi Obat 1: Sertraline  
-  - Dosis: 50 mg per hari  
-  - Aturan Pakai: Dikonsumsi sekali sehari, bisa pada pagi atau malam  
-  - Efek Samping Obat: Kesulitan tidur, kelelahan, gangguan konsentrasi  
+  - Dosis: 50 mg sehari  
+  - Aturan Pakai: Dikonsumsi setiap hari pada waktu yang sama  
+  - Efek Samping Obat: Gangguan tidur, kelelahan, kesulitan berkonsentrasi  
 
 B. Rekomendasi Obat 2: Escitalopram  
-  - Dosis: 10 mg per hari  
-  - Aturan Pakai: Dikonsumsi sekali sehari, lebih baik di pagi hari  
-  - Efek Samping Obat: Mual, gangguan tidur, kelelahan  
+  - Dosis: 10 mg sehari  
+  - Aturan Pakai: Dikonsumsi setiap pagi  
+  - Efek Samping Obat: Mual, rasa lelah, pening  
 
-C. Rekomendasi Obat 3: Venlafaxine  
-  - Dosis: 75 mg per hari  
-  - Aturan Pakai: Dikonsumsi dua kali sehari, pagi dan sore  
-  - Efek Samping Obat: Pusing, berkeringat, lelah  
+C. Rekomendasi Obat 3: Paroxetine  
+  - Dosis: 20 mg sehari  
+  - Aturan Pakai: Konsumsi setiap malam  
+  - Efek Samping Obat: Mulut kering, gangguan tidur, kelelahan  
 
-D. Rekomendasi Obat 4: Duloxetine  
-  - Dosis: 60 mg per hari  
-  - Aturan Pakai: Dikonsumsi sekali sehari, dapat diambil dengan atau tanpa makanan  
-  - Efek Samping Obat: Mual, mulut kering, peningkatan keringat  
+D. Rekomendasi Obat 4: Venlafaxine  
+  - Dosis: 75 mg sehari  
+  - Aturan Pakai: Dihindari konsumsi secara tiba-tiba, mulai dengan dosis rendah  
+  - Efek Samping Obat: Mual, sakit kepala, pening  
 
-E. Rekomendasi Obat 5: Buspirone  
-  - Dosis: 15 mg per hari  
-  - Aturan Pakai: Dapat dibagi menjadi dua atau tiga dosis dalam sehari  
-  - Efek Samping Obat: Pusing, mual, sakit kepala
+E. Rekomendasi Obat 5: Duloxetine  
+  - Dosis: 60 mg sehari  
+  - Aturan Pakai: Dapat diambil dengan atau tanpa makanan  
+  - Efek Samping Obat: Mual, konstipasi, kehilangan nafsu makan

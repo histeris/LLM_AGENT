@@ -1,35 +1,35 @@
-Nama Penyakit: Gangguan Kecemasan Umum (Generalized Anxiety Disorder - GAD)  
+Nama Penyakit: Stres  
 A. Nama Obat 1: Sertraline  
-- Tingkat Risiko: Sedang  
-- Gejala Terkait: Merasa gelisah, mudah tersinggung, sulit berkonsentrasi  
-- Dosis: 50 mg per hari  
-- Aturan pakai: Dikonsumsi sekali sehari, bisa pada pagi atau malam  
-- Efek samping: Kesulitan tidur, kelelahan, gangguan konsentrasi  
+- Tingkat Risiko: Medium  
+- Gejala Terkait: Cemas, kram perut, gangguan suasana hati (depresi)  
+- Dosis: 50 mg sehari  
+- Aturan pakai: Dikonsumsi setiap hari pada waktu yang sama  
+- Efek samping: Gangguan tidur, kelelahan, kesulitan berkonsentrasi  
 
 B. Nama Obat 2: Escitalopram  
-- Tingkat Risiko: Sedang  
-- Gejala Terkait: Merasa tidak bersemangat, merasa lelah  
-- Dosis: 10 mg per hari  
-- Aturan pakai: Dikonsumsi sekali sehari, lebih baik di pagi hari  
-- Efek samping: Mual, gangguan tidur, kelelahan  
+- Tingkat Risiko: Medium  
+- Gejala Terkait: Cemas, kram perut, gangguan suasana hati (depresi)  
+- Dosis: 10 mg sehari  
+- Aturan pakai: Dikonsumsi setiap pagi  
+- Efek samping: Mual, rasa lelah, pening  
 
-C. Nama Obat 3: Venlafaxine  
-- Tingkat Risiko: Sedang  
-- Gejala Terkait: Ketegangan otot, terganggu tidur  
-- Dosis: 75 mg per hari  
-- Aturan pakai: Dikonsumsi dua kali sehari, pagi dan sore  
-- Efek samping: Pusing, berkeringat, lelah  
+C. Nama Obat 3: Paroxetine  
+- Tingkat Risiko: Medium  
+- Gejala Terkait: Cemas, kram perut, gangguan suasana hati (depresi)  
+- Dosis: 20 mg sehari  
+- Aturan pakai: Konsumsi setiap malam  
+- Efek samping: Mulut kering, gangguan tidur, kelelahan  
 
-D. Nama Obat 4: Duloxetine  
-- Tingkat Risiko: Sedang  
-- Gejala Terkait: Mudah tersinggung, gangguan konsentrasi  
-- Dosis: 60 mg per hari  
-- Aturan pakai: Dikonsumsi sekali sehari, dapat diambil dengan atau tanpa makanan  
-- Efek samping: Mual, mulut kering, peningkatan keringat  
+D. Nama Obat 4: Venlafaxine  
+- Tingkat Risiko: Medium  
+- Gejala Terkait: Cemas, kram perut, gangguan suasana hati (depresi)  
+- Dosis: 75 mg sehari  
+- Aturan pakai: Dihindari konsumsi secara tiba-tiba, mulai dengan dosis rendah  
+- Efek samping: Mual, sakit kepala, pening  
 
-E. Nama Obat 5: Buspirone  
-- Tingkat Risiko: Sedang  
-- Gejala Terkait: Merasa gelisah, sulit tidur  
-- Dosis: 15 mg per hari  
-- Aturan pakai: Dapat dibagi menjadi dua atau tiga dosis dalam sehari  
-- Efek samping: Pusing, mual, sakit kepala
+E. Nama Obat 5: Duloxetine  
+- Tingkat Risiko: Medium  
+- Gejala Terkait: Cemas, kram perut, gangguan suasana hati (depresi)  
+- Dosis: 60 mg sehari  
+- Aturan pakai: Dapat diambil dengan atau tanpa makanan  
+- Efek samping: Mual, konstipasi, kehilangan nafsu makan
