@@ -119,34 +119,59 @@ async def handle_message(update: Update, context: CallbackContext):
         return
     
     await update.message.reply_text("Analyzing your symptoms. Please wait a moment...")
-    await update.message.reply_text("Disclaimer: Users are advised not to make any medical decision based solely on this chat. For an accurate diagnosis, appropriate treatment, and further evaluation, always consult a physician or licensed healthcare profressional")
+    await update.message.reply_text("Disclaimer: Users are advised not to make any medical decision based solely on this chat. For an accurate diagnosis, appropriate treatment, and further evaluation, always consult a physician or licensed healthcare professional")
 
     loop = asyncio.get_event_loop()
+
     last_history = []
     if user_id in memory and isinstance(memory[user_id], list) and memory[user_id]:
-        last_history = memory[user_id][-1:]  # ambil satu item terakhir sebagai list
-    else:
-        last_history = []
-
-    result = await loop.run_in_executor(executor, run_crew_blocking, user_text, last_history)
-
-    formatted_result = format_agent_output(result)
-    cleaned_result = remove_character(formatted_result)
-    await update.message.reply_text(cleaned_result)
-    memory = load_memory()
+        last_history = memory[user_id][-5:]  
     
-    if user_id not in memory:
-        memory[user_id] = []
-        
-    memory[user_id].append({
-        "user": user_text,
-        "agent": cleaned_result
-        # "agent": parse_agent_text(cleaned_result)
-    })
-    save_memory(memory)
+    try:
+        result = await loop.run_in_executor(executor, run_crew_blocking, user_text, last_history)
+
+        formatted_result = format_agent_output(result)
+        cleaned_result = remove_character(formatted_result)
+
+        if last_history:
+            remembered = "\n".join([f"- {h['user']}" for h in last_history])
+            await update.message.reply_text(f"Saya mengingat percakapan sebelumnya:\n{remembered}")
+
+        await update.message.reply_text(cleaned_result) 
+
+        memory = load_memory()
+        if user_id not in memory:
+            memory[user_id] = []
+        memory[user_id].append({
+            "user": user_text,
+            "agent": cleaned_result
+        })
+        save_memory(memory)
+
+    except Exception as e:
+        await update.message.reply_text(f"Terjadi error saat mengambil konteks: {e}")
 
 async def error(update: Update, context: CallbackContext):
-    print(f"Error terjadi: {context.error}")
+    error_msg = str(context.error)
+    print(f"Error terjadi: {error_msg}")
+
+    errorMappings = {
+        "invalid_request_error": ("400", "Your request was malformed or missing some required parameters."),
+        "rate_limit_error": ("429", "You have hit your assigned rate limit."),
+        "tokens_exceeded_error": ("403", "You have exceeded the allowed number of tokens in your request."),
+        "authentication_error": ("401", "Your API key or token was invalid, expired, or revoked."),
+        "not_found_error": ("404", "The requested resource was not found."),
+        "server_error": ("500", "An issue occurred on the OpenAI server side."),
+        "permission_error": ("403", "Your API key or token lacks the required permissions for the requested action.")
+    }
+
+    for key, (code, description) in errorMappings.items():
+        if key in error_msg or code in error_msg:
+            await update.message.reply_text(f"Error {code}: {description}")
+            return
+
+    # fallback jika tidak terdeteksi
+    await update.message.reply_text("Terjadi error yang tidak terduga. Silakan coba lagi.")
 
 async def history(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = str(update.message.from_user.id)

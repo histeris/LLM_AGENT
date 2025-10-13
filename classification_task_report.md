@@ -1,6 +1,6 @@
 {
   "label": "gejala",
   "data": {
-    "gejala_user": "Saya Merasa Stress dan cemas"
+    "gejala_user": "sakit kepala sebelah"
   }
 }

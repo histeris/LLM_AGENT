@@ -2,7 +2,11 @@
     "started_users": [
         "7116300622",
         "5708441153",
-        "7594404608"
+        "7594404608",
+        "1380018602",
+        "5716416138",
+        "1388133614",
+        "567373130"
     ],
     "7116300622": [
         {
@@ -37,6 +41,46 @@
                     "e_rekomendasi_obat_5": "Obat Anti-inflamasi (Hydroxyzine)"
                 }
             ]
+        },
+        {
+            "user": "kayaknya gw kena gerd deh bang",
+            "agent": "Nama Penyakit: Gastroesophageal Reflux Disease (GERD)  \n- Tingkat Risiko: Tinggi  \n- Gejala Terkait:  \n  - Nyeri dada  \n  - Kesulitan menelan  \n  - Rasa asam di mulut  \n  - Mual  \n  - Sering bersendawa  \n\nA. Rekomendasi Obat 1: Omeprazole  \n  - Dosis: 20 mg sekali sehari  \n  - Aturan Pakai: Diminum sebelum makan  \n  - Efek Samping Obat: Sakit kepala, mual, diare  \n\nB. Rekomendasi Obat 2: Lansoprazole  \n  - Dosis: 30 mg sekali sehari  \n  - Aturan Pakai: Diminum sebelum makan  \n  - Efek Samping Obat: Sakit kepala, sakit perut, sembelit  \n\nC. Rekomendasi Obat 3: Esomeprazole  \n  - Dosis: 40 mg sekali sehari  \n  - Aturan Pakai: Diminum sebelum makan  \n  - Efek Samping Obat: Nyeri kepala, mual, diare  \n\nD. Rekomendasi Obat 4: Ranitidine  \n  - Dosis: 150 mg dua kali sehari  \n  - Aturan Pakai: Diminum setelah makan  \n  - Efek Samping Obat: Sakit kepala, pusing, konstipasi  \n\nE. Rekomendasi Obat 5: Famotidine  \n  - Dosis: 20 mg dua kali sehari  \n  - Aturan Pakai: Diminum setelah makan  \n  - Efek Samping Obat: Diare, pusing, kelelahan"
+        },
+        {
+            "user": "Leher sakit tenggorokan seret",
+            "agent": "Nama Penyakit: Sakit Tenggorokan  \n- Tingkat Risiko: Medium  \n- Gejala Terkait: Leher sakit, tenggorokan seret  \n\nA. Rekomendasi Obat 1: Paracetamol  \n  - Dosis: 500 mg  \n  - Aturan Pakai: Setiap 4-6 jam sesuai kebutuhan, maksimal 4 gram per hari  \n  - Efek Samping Obat: Mual, reaksi alergi  \n\nB. Rekomendasi Obat 2: Ibuprofen  \n  - Dosis: 400 mg  \n  - Aturan Pakai: Setiap 6-8 jam sesuai kebutuhan, maksimum 1200 mg per hari  \n  - Efek Samping Obat: Sakit perut, pusing  \n\nC. Rekomendasi Obat 3: Antihistamin (Loratadine)  \n  - Dosis: 10 mg  \n  - Aturan Pakai: Sekali sehari  \n  - Efek Samping Obat: Mengantuk, mulut kering  \n\nD. Rekomendasi Obat 4: Pseudophedrine  \n  - Dosis: 30 mg  \n  - Aturan Pakai: Setiap 4-6 jam sesuai kebutuhan, maksimum 240 mg per hari  \n  - Efek Samping Obat: Gelisah, insomnia  \n\nE. Rekomendasi Obat 5: GeloDox spray  \n  - Dosis: 1-2 semprotan  \n  - Aturan Pakai: Semprotkan ke tenggorokan 3-4 kali sehari  \n  - Efek Samping Obat: Iritasi tenggorokan, rasa pahit"
+        },
+        {
+            "user": "Kulit saya gatal",
+            "agent": "Name of Disease: Allergic Dermatitis  \n\n- Risk Level: Moderate (depends on individual sensitivity and exposure to allergens)  \n- Related Symptoms: Itching, redness, swelling, rashes  \n\nA. Recommendation Medication 1: Diphenhydramine (Benadryl)  \n  - Dosage: 25-50 mg orally every 4-6 hours as needed  \n  - Usage Instructions: Do not exceed 300 mg per day; often used at bedtime due to sedative effects.  \n  - Side Effects: Drowsiness, dry mouth, dizziness, constipation  \n\nB. Recommendation Medication 2: Hydrocortisone (topical corticosteroid)  \n  - Dosage: Apply a thin layer 1-2 times daily for up to 2 weeks  \n  - Usage Instructions: Should be applied to affected areas as needed; do not use on facial or genital skin without guidance.  \n  - Side Effects: Skin thinning, irritation, acne, increased hair growth  \n\nC. Recommendation Medication 3: Loratadine (Claritin)  \n  - Dosage: 10 mg once daily  \n  - Usage Instructions: Can be taken with or without food.  \n  - Side Effects: Headache, dry mouth, fatigue  \n\nD. Recommendation Medication 4: Cetirizine (Zyrtec)  \n  - Dosage: 10 mg once daily  \n  - Usage Instructions: Preferably taken in the evening to minimize sedation.  \n  - Side Effects: Drowsiness, dry mouth, dizziness, stomach pain  \n\nE. Recommendation Medication 5: Clobetasol (super high potency corticosteroid)  \n  - Dosage: Apply a small amount to the affected area once or twice daily for no more than 2 weeks  \n  - Usage Instructions: Only for short-term use to avoid side effects; do not use on face or underarms without medical advice.  \n  - Side Effects: Skin atrophy, burning, itching, folliculitis"
+        },
+        {
+            "user": "Oiya mata saya juga sakit bang selain kulit saya yang gatal",
+            "agent": "Nama Penyakit: Allergic Conjunctivitis and Eczema  \n- Tingkat Risiko: Moderate  \n- Gejala Terkait: Itchy skin, Sore eyes, Redness, Swelling, Excessive tearing, Rash on the skin  \n\nA. Rekomendasi Obat 1: Antihistamine  \n  - Dosis: As directed by a healthcare professional  \n  - Aturan Pakai: Take orally once or twice a day  \n  - Efek Samping Obat: Drowsiness, Dry mouth, Nausea  \n\nB. Rekomendasi Obat 2: Topical Corticosteroid  \n  - Dosis: As prescribed by a healthcare professional  \n  - Aturan Pakai: Apply to affected area once or twice daily  \n  - Efek Samping Obat: Skin thinning, Burning, Itching  \n\nC. Rekomendasi Obat 3: Artificial Tears  \n  - Dosis: As needed  \n  - Aturan Pakai: Use multiple times throughout the day  \n  - Efek Samping Obat: Blurred vision, Eye irritation  \n\nD. Rekomendasi Obat 4: Moisturizer  \n  - Dosis: As needed  \n  - Aturan Pakai: Apply regularly to prevent dryness  \n  - Efek Samping Obat: Rarely causes skin irritation  \n\nE. Rekomendasi Obat 5: Immunotherapy (if recurrent)  \n  - Dosis: Based on healthcare provider's recommendation  \n  - Aturan Pakai: Administered over a period of time  \n  - Efek Samping Obat: Swelling at injection site, Allergic reactions"
+        },
+        {
+            "user": "Saya merasa sakit di punggung saya",
+            "agent": "Disease Name: Back Pain  \n- Risk Level: Varies based on underlying conditions  \n- Related Symptoms:  \n  A. Medication Recommendation 1: Acetaminophen  \n  - Dosage: 500 mg every 4-6 hours as needed  \n  - Usage Instructions: Do not exceed 3000 mg in 24 hours  \n  - Side Effects of Medication: Nausea, liver damage with high doses  \n\n  B. Medication Recommendation 2: Ibuprofen  \n  - Dosage: 400 mg every 6-8 hours as needed  \n  - Usage Instructions: Take with food to avoid stomach upset  \n  - Side Effects of Medication: Stomach pain, nausea, increased risk of bleeding  \n\n  C. Medication Recommendation 3: Muscle Relaxants  \n  - Dosage: As prescribed by a healthcare provider  \n  - Usage Instructions: Follow doctor's instructions closely  \n  - Side Effects of Medication: Drowsiness, dizziness, dry mouth  \n\n  D. Medication Recommendation 4: Topical Analgesics (e.g., Lidocaine patch)  \n  - Dosage: Apply to affected area as directed  \n  - Usage Instructions: Use for up to 12 hours  \n  - Side Effects of Medication: Skin irritation, allergic reaction  \n\n  E. Medication Recommendation 5: Anti-inflammatory medication (e.g., Naproxen)  \n  - Dosage: 250 mg to 500 mg every 12 hours  \n  - Usage Instructions: Take with food to reduce gastrointestinal discomfort  \n  - Side Effects of Medication: Heartburn, stomach ulcers, headache"
+        },
+        {
+            "user": "Oiya Saya juga pusing sekali",
+            "agent": "Nama Penyakit: - Tingkat Risiko:  \n - Gejala Terkait: Pusing  \nA. Rekomendasi Obat 1:   \n  - Dosis:   \n  - Aturan Pakai:   \n  - Efek Samping Obat:   \nB. Rekomendasi Obat 2:   \n  - Dosis:   \n  - Aturan Pakai:   \n  - Efek Samping Obat:   \nC. Rekomendasi Obat 3:   \n  - Dosis:   \n  - Aturan Pakai:   \n  - Efek Samping Obat:   \nD. Rekomendasi Obat 4:   \n  - Dosis:   \n  - Aturan Pakai:   \n  - Efek Samping Obat:   \nE. Rekomendasi Obat 5:   \n  - Dosis:   \n  - Aturan Pakai:   \n  - Efek Samping Obat:"
+        },
+        {
+            "user": "gejala saya radang tenggrookan",
+            "agent": "Nama Penyakit: Faringitis Akut  \n- Tingkat Risiko: Umumnya berisiko rendah, tetapi dapat meningkat pada individu dengan sistem kekebalan yang lemah atau komplikasi yang tidak ditangani.  \n- Gejala Terkait: Sakit tenggorokan, kesulitan menelan, pembengkakan tonsil, demam, nyeri kepala, dan kelelahan.  \n\nA. Rekomendasi Obat 1: Paracetamol  \n  - Dosis: Dewasa 500 mg setiap 6-8 jam, maksimal 4g/hari.  \n  - Aturan Pakai: Diminum dengan air setelah makan.  \n  - Efek Samping Obat: Reaksi alergi, kerusakan hati.  \n\nB. Rekomendasi Obat 2: Ibuprofen  \n  - Dosis: Dewasa 200-400 mg setiap 4-6 jam, maksimal 1200 mg/hari.  \n  - Aturan Pakai: Diminum dengan makanan atau susu.  \n  - Efek Samping Obat: Sakit perut, mual, pusing.  \n\nC. Rekomendasi Obat 3: Amoxicillin  \n  - Dosis: Dewasa 250-500 mg setiap 8 jam.  \n  - Aturan Pakai: Diminum dengan atau tanpa makanan.  \n  - Efek Samping Obat: Ruam kulit, diare, alergi.  \n\nD. Rekomendasi Obat 4: Throat Lozenges (permen pelega tenggorokan)  \n  - Dosis: Sesuai petunjuk pada kemasan, biasanya 1 lozenge setiap 2-4 jam.  \n  - Aturan Pakai: Hisap sampai larut di mulut.  \n  - Efek Samping Obat: Mual atau gangguan pencernaan jika dikonsumsi berlebihan.  \n\nE. Rekomendasi Obat 5: Antihistamin (seperti Diphenhydramine)  \n  - Dosis: Dewasa 25-50 mg sebelum tidur.  \n  - Aturan Pakai: Diminum dengan air.  \n  - Efek Samping Obat: Kantuk, mulut kering.  \n\nInformasi ini bersifat umum. Harap konsultasikan dengan dokter atau apoteker sebelum menggunakan obat-obatan."
+        },
+        {
+            "user": "saya juga pilek dan sering batuk",
+            "agent": "Nama Penyakit: Tidak ditemukan  \n\n- Tingkat Risiko: Tidak ditemukan  \n- Gejala Terkait: Pilek dan sering batuk  \n\nA. Rekomendasi Obat 1:  \n- Dosis:  \n- Aturan Pakai:  \n- Efek Samping Obat:  \n\nB. Rekomendasi Obat 2:  \n- Dosis:  \n- Aturan Pakai:  \n- Efek Samping Obat:  \n\nC. Rekomendasi Obat 3:  \n- Dosis:  \n- Aturan Pakai:  \n- Efek Samping Obat:  \n\nD. Rekomendasi Obat 4:  \n- Dosis:  \n- Aturan Pakai:  \n- Efek Samping Obat:  \n\nE. Rekomendasi Obat 5:  \n- Dosis:  \n- Aturan Pakai:  \n- Efek Samping Obat:"
+        },
+        {
+            "user": "saya juga mimisan",
+            "agent": "Disease Name: Nasal Hemorrhage  \n\n- Risk Level: Low to Moderate (may increase blood pressure in sensitive individuals)  \n- Related Symptoms: Nasal congestion, dry nose, headache  \n\nA. Medication 1: Oxymetazoline  \n  - Dosage: 1-2 sprays in each nostril every 12 hours as needed  \n  - Usage Instructions: Do not use for more than 3 consecutive days to avoid rebound congestion  \n  - Common Side Effects: Nasal irritation, headache, dry nasal mucosa  \n\nB. Medication 2: Phenylephrine  \n  - Dosage: 10 mg orally every 4 hours as needed (maximum 60 mg per day)  \n  - Usage Instructions: Take with food to minimize stomach upset  \n  - Common Side Effects: Dizziness, increased heart rate, nausea  \n\nC. Medication 3: Saline nasal spray  \n  - Dosage: Use as often as needed  \n  - Usage Instructions: Spray into each nostril as needed  \n  - Common Side Effects: None  \n\nD. Medication 4: Acetaminophen  \n  - Dosage: 500 mg every 4-6 hours as needed (maximum 3000 mg per day)  \n  - Usage Instructions: Do not exceed the recommended dose for prolonged use  \n  - Common Side Effects: Nausea, rash  \n\nE. Medication 5: Ibuprofen  \n  - Dosage: 200-400 mg every 6-8 hours as needed (maximum 1200 mg per day without doctor\u2019s supervision)  \n  - Usage Instructions: Take with food or milk to reduce stomach irritation  \n  - Common Side Effects: Stomach upset, headache, dizziness"
+        },
+        {
+            "user": "saya pusing banget",
+            "agent": "Nama Penyakit: Primary Headache Disorders\n\n- Tingkat Risiko: Generally low; however, if headaches are severe, persistent, or associated with other alarming symptoms, consult a healthcare professional immediately.  \n- Gejala Terkait: Nausea, sensitivity to light, sensitivity to sound, neck stiffness, visual disturbances.  \n\nA. Rekomendasi Obat 1: Ibuprofen  \n  - Dosis: 200-400 mg every 4-6 hours as needed (not to exceed 1200 mg per day)  \n  - Aturan Pakai: Take with food to minimize gastrointestinal upset.  \n  - Efek Samping Obat: Gastrointestinal upset, dizziness, drowsiness, increased risk of bleeding.  \n\nB. Rekomendasi Obat 2: Acetaminophen  \n  - Dosis: 500-1000 mg every 4-6 hours as needed (not to exceed 3000 mg per day)  \n  - Aturan Pakai: Can be taken with or without food.  \n  - Efek Samping Obat: Liver damage in high doses, allergic reactions.  \n\nC. Rekomendasi Obat 3: Aspirin  \n  - Dosis: 325-650 mg every 4-6 hours as needed (not to exceed 4000 mg per day)  \n  - Aturan Pakai: Take with food or milk to reduce gastric irritation.  \n  - Efek Samping Obat: Stomach upset, increased risk of bleeding.  \n\nD. Rekomendasi Obat 4: Naproxen  \n  - Dosis: 250-500 mg twice daily  \n  - Aturan Pakai: Can be taken with or without food.  \n  - Efek Samping Obat: Gastrointestinal issues, headache, dizziness.  \n\nE. Rekomendasi Obat 5: Sumatriptan  \n  - Dosis: 50-100 mg taken as a single dose, may repeat after 2 hours if necessary (not to exceed 200 mg in 24 hours)  \n  - Aturan Pakai: Take at the first sign of a headache.  \n  - Efek Samping Obat: Dizziness, drowsiness, tingling or flushing sensations.  \n\nPlease consult a healthcare professional before starting any medications."
         }
     ],
     "5708441153": [
@@ -129,6 +173,51 @@
                     "e_rekomendasi_obat_5": "Streptomisin"
                 }
             ]
+        },
+        {
+            "user": "Jantung saya berdebar-debar setelah melakukan sedikit aktivitas. Setelah itu, saya juga berkeringat dingin",
+            "agent": "Nama Penyakit: Takikardia (dengan nama lokal jika ada)  \n- Tingkat Risiko: Tingkat Risiko Penyakit  \n- Gejala Terkait: Jantung berdebar-debar setelah sedikit aktivitas, berkeringat dingin  \n\nA. Rekomendasi Obat 1: Beta blocker  \n  - Dosis: 25-50 mg per hari  \n  - Aturan Pakai: Minum dengan air setelah makan  \n  - Efek Samping Obat: Kelelahan, pusing, dan penurunan tekanan darah  \n\nB. Rekomendasi Obat 2: Calcium channel blocker  \n  - Dosis: 30 mg per hari  \n  - Aturan Pakai: Minum dengan atau tanpa makanan  \n  - Efek Samping Obat: Sakit kepala, bengkak pada pergelangan kaki  \n\nC. Rekomendasi Obat 3: Antiaritmia  \n  - Dosis: 150 mg per hari  \n  - Aturan Pakai: Minum setelah makan  \n  - Efek Samping Obat: Mual, diare, dan pusing  \n\nD. Rekomendasi Obat 4: Statin (untuk gejala jantung)  \n  - Dosis: 10-40 mg per hari  \n  - Aturan Pakai: Minum pada malam hari  \n  - Efek Samping Obat: Nyeri otot, gangguan pencernaan  \n\nE. Rekomendasi Obat 5: Aspirin (jika ada risiko kardiovaskular)  \n  - Dosis: 75-100 mg per hari  \n  - Aturan Pakai: Minum dengan air setelah makan  \n  - Efek Samping Obat: Mual, perdarahan lambung"
+        },
+        {
+            "user": "saya sakit maag",
+            "agent": "Nama Penyakit: Gastritis  \n- Tingkat Risiko: Moderate risk, especially if associated with chronic inflammation  \n- Gejala Terkait: Nausea, vomiting, bloating, abdominal pain, loss of appetite  \n\nA. Rekomendasi Obat 1: Omeprazole  \n  - Dosis: 20 mg per day  \n  - Aturan Pakai: Take before meals  \n  - Efek Samping Obat: Headache, nausea, diarrhea  \n\nB. Rekomendasi Obat 2: Antacids (such as Magnesium Hydroxide)  \n  - Dosis: As directed on the package, typically every 1-2 hours as needed  \n  - Aturan Pakai: Take after meals and at bedtime  \n  - Efek Samping Obat: Constipation or diarrhea  \n\nC. Rekomendasi Obat 3: Ranitidine  \n  - Dosis: 150 mg twice daily  \n  - Aturan Pakai: Take before meals  \n  - Efek Samping Obat: Drowsiness, dizziness  \n\nD. Rekomendasi Obat 4: Sucralfate  \n  - Dosis: 1 gram four times a day  \n  - Aturan Pakai: Take on an empty stomach  \n  - Efek Samping Obat: Constipation  \n\nE. Rekomendasi Obat 5: Lansoprazole  \n  - Dosis: 30 mg per day  \n  - Aturan Pakai: Take before meals  \n  - Efek Samping Obat: Nausea, headache"
+        }
+    ],
+    "1380018602": [
+        {
+            "user": "batuk berdahak",
+            "agent": "Nama Penyakit: Tidak ada penyakit yang dapat diidentifikasi  \n\n- Tingkat Risiko: Tidak ada risiko yang dapat ditentukan  \n- Gejala Terkait:  \n  A. Rekomendasi Obat 1:  \n  - Dosis:   \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n  B. Rekomendasi Obat 2:  \n  - Dosis:   \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n  C. Rekomendasi Obat 3:  \n  - Dosis:   \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n  D. Rekomendasi Obat 4:  \n  - Dosis:   \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n  E. Rekomendasi Obat 5:  \n  - Dosis:   \n  - Aturan Pakai:  \n  - Efek Samping Obat:"
+        }
+    ],
+    "5716416138": [],
+    "history_backup": {
+        "5716416138_20250929_035245": [
+            {
+                "user": "can you code",
+                "agent": "Disease: Bleeding Scrape on the Hand  \n- Risk Level: Variable depending on hygiene and treatment  \n- Related Symptoms: Redness, swelling, pus in the area  \n\nA. Medication 1: Hydrogen Peroxide  \n  - Dosage: Apply lightly to the scraped area 1-2 times daily  \n  - Usage Guidelines: Clean the area before application; do not apply to large wounds  \n  - Common Side Effects: Skin irritation, stinging sensation  \n\nB. Medication 2: Antibiotic Ointment (e.g., Neosporin)  \n  - Dosage: Apply a small amount to the scraped area 1-3 times daily  \n  - Usage Guidelines: Cover with a bandage after application  \n  - Common Side Effects: Rash, itching  \n\nC. Medication 3: Sterile Bandage  \n  - Dosage: Use as needed for coverage  \n  - Usage Guidelines: Change daily or when wet/dirty  \n  - Common Side Effects: None  \n\nD. Medication 4: Ibuprofen (for Pain Relief)  \n  - Dosage: 200-400 mg every 4-6 hours as needed  \n  - Usage Guidelines: Do not exceed 1200 mg/day without doctor supervision  \n  - Common Side Effects: Stomach upset, headache  \n\nE. Medication 5: Tetanus Vaccine (if necessary)  \n  - Dosage: Consult healthcare provider  \n  - Usage Guidelines: Based on the injury and vaccination history  \n  - Common Side Effects: Soreness at injection site, fatigue"
+            }
+        ],
+        "5716416138_20250929_040130": [
+            {
+                "user": "hari ini saya bangun pusing sekali, saya rasa saya memiliki darah rendah",
+                "agent": "Nama Penyakit: Tidak ada informasi penyakit  \n- Tingkat Risiko: Tidak ada informasi tingkat risiko  \n- Gejala Terkait: pusing  \n\nA. Rekomendasi Obat 1:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n\nB. Rekomendasi Obat 2:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n\nC. Rekomendasi Obat 3:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n\nD. Rekomendasi Obat 4:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n\nE. Rekomendasi Obat 5:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:"
+            },
+            {
+                "user": "gejala saya pusing dan mual",
+                "agent": "Nama Penyakit: Tidak Ditemukan  \n - Tingkat Risiko: Tidak Ditemukan  \n - Gejala Terkait: Pusing, mual  \n  \nA. Rekomendasi Obat 1:   \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \nB. Rekomendasi Obat 2:   \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \nC. Rekomendasi Obat 3:   \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \nD. Rekomendasi Obat 4:   \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \nE. Rekomendasi Obat 5:   \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:"
+            }
+        ]
+    },
+    "1388133614": [
+        {
+            "user": "Demam 3 hari dengan batuk pilek",
+            "agent": "Nama Penyakit: Tidak ditemukan  \n\n- Tingkat Risiko: Tidak ditemukan  \n- Gejala Terkait: demam 3 hari dengan batuk pilek  \n\nA. Rekomendasi Obat 1:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n\nB. Rekomendasi Obat 2:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n\nC. Rekomendasi Obat 3:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n\nD. Rekomendasi Obat 4:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n\nE. Rekomendasi Obat 5:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:"
+        }
+    ],
+    "567373130": [
+        {
+            "user": "saya mengalami sakit kepala sebelah",
+            "agent": "Nama Penyakit: Sakit kepala sebelah  \n- Tingkat Risiko: Tidak ditemukan  \n- Gejala Terkait: Sakit kepala sebelah  \n  \nA. Rekomendasi Obat 1:  \n- Dosis:  \n- Aturan Pakai:  \n- Efek Samping Obat:  \n  \nB. Rekomendasi Obat 2:  \n- Dosis:  \n- Aturan Pakai:  \n- Efek Samping Obat:  \n  \nC. Rekomendasi Obat 3:  \n- Dosis:  \n- Aturan Pakai:  \n- Efek Samping Obat:  \n  \nD. Rekomendasi Obat 4:  \n- Dosis:  \n- Aturan Pakai:  \n- Efek Samping Obat:  \n  \nE. Rekomendasi Obat 5:  \n- Dosis:  \n- Aturan Pakai:  \n- Efek Samping Obat:"
         }
     ]
 }
