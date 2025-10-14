@@ -1,6 +1,6 @@
 {
   "label": "gejala",
   "data": {
-    "gejala_user": "sakit kepala sebelah"
+    "gejala_user": "nyeri di dada"
   }
 }

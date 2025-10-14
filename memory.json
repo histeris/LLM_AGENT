@@ -81,6 +81,22 @@
         {
             "user": "saya pusing banget",
             "agent": "Nama Penyakit: Primary Headache Disorders\n\n- Tingkat Risiko: Generally low; however, if headaches are severe, persistent, or associated with other alarming symptoms, consult a healthcare professional immediately.  \n- Gejala Terkait: Nausea, sensitivity to light, sensitivity to sound, neck stiffness, visual disturbances.  \n\nA. Rekomendasi Obat 1: Ibuprofen  \n  - Dosis: 200-400 mg every 4-6 hours as needed (not to exceed 1200 mg per day)  \n  - Aturan Pakai: Take with food to minimize gastrointestinal upset.  \n  - Efek Samping Obat: Gastrointestinal upset, dizziness, drowsiness, increased risk of bleeding.  \n\nB. Rekomendasi Obat 2: Acetaminophen  \n  - Dosis: 500-1000 mg every 4-6 hours as needed (not to exceed 3000 mg per day)  \n  - Aturan Pakai: Can be taken with or without food.  \n  - Efek Samping Obat: Liver damage in high doses, allergic reactions.  \n\nC. Rekomendasi Obat 3: Aspirin  \n  - Dosis: 325-650 mg every 4-6 hours as needed (not to exceed 4000 mg per day)  \n  - Aturan Pakai: Take with food or milk to reduce gastric irritation.  \n  - Efek Samping Obat: Stomach upset, increased risk of bleeding.  \n\nD. Rekomendasi Obat 4: Naproxen  \n  - Dosis: 250-500 mg twice daily  \n  - Aturan Pakai: Can be taken with or without food.  \n  - Efek Samping Obat: Gastrointestinal issues, headache, dizziness.  \n\nE. Rekomendasi Obat 5: Sumatriptan  \n  - Dosis: 50-100 mg taken as a single dose, may repeat after 2 hours if necessary (not to exceed 200 mg in 24 hours)  \n  - Aturan Pakai: Take at the first sign of a headache.  \n  - Efek Samping Obat: Dizziness, drowsiness, tingling or flushing sensations.  \n\nPlease consult a healthcare professional before starting any medications."
+        },
+        {
+            "user": "Saya mengalami sakit kepala sebelah",
+            "agent": "Nama Penyakit: - Tingkat Risiko:  \n- Gejala Terkait: sakit kepala sebelah  \nA. Rekomendasi Obat 1:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \nB. Rekomendasi Obat 2:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \nC. Rekomendasi Obat 3:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \nD. Rekomendasi Obat 4:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \nE. Rekomendasi Obat 5:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:"
+        },
+        {
+            "user": "Gejala saya sakit kepala sebelah",
+            "agent": "Nama Penyakit: Tidak ada kaitannya dengan penyakit, gejala, dan obat.  \n\n- Tingkat Risiko: Tidak ditemukan  \n\n- Gejala Terkait: Sakit kepala sebelah  \n\nA. Rekomendasi Obat 1:  \n\n  - Dosis:  \n\n  - Aturan Pakai:  \n\n  - Efek Samping Obat:  \n\nB. Rekomendasi Obat 2:  \n\n  - Dosis:  \n\n  - Aturan Pakai:  \n\n  - Efek Samping Obat:  \n\nC. Rekomendasi Obat 3:  \n\n  - Dosis:  \n\n  - Aturan Pakai:  \n\n  - Efek Samping Obat:  \n\nD. Rekomendasi Obat 4:  \n\n  - Dosis:  \n\n  - Aturan Pakai:  \n\n  - Efek Samping Obat:  \n\nE. Rekomendasi Obat 5:  \n\n  - Dosis:  \n\n  - Aturan Pakai:  \n\n  - Efek Samping Obat:"
+        },
+        {
+            "user": "Gejala saya nyeri di dada",
+            "agent": "Nama Penyakit: Nyeri Dada  \n - Tingkat Risiko: Tidak Ada Data Terkait Risiko  \n - Gejala Terkait: Nyeri di dada  \n\nA. Rekomendasi Obat 1:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n\nB. Rekomendasi Obat 2:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n\nC. Rekomendasi Obat 3:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n\nD. Rekomendasi Obat 4:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n\nE. Rekomendasi Obat 5:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:"
+        },
+        {
+            "user": "Gejala saya nyeri di dada",
+            "agent": "Nama Penyakit: Nyeri Dada  \n- Tingkat Risiko: Tidak ditemukan  \n- Gejala Terkait: Nyeri di dada  \n\nA. Rekomendasi Obat 1:   \n  - Dosis:   \n  - Aturan Pakai:   \n  - Efek Samping Obat:   \n\nB. Rekomendasi Obat 2:   \n  - Dosis:   \n  - Aturan Pakai:   \n  - Efek Samping Obat:   \n\nC. Rekomendasi Obat 3:   \n  - Dosis:   \n  - Aturan Pakai:   \n  - Efek Samping Obat:   \n\nD. Rekomendasi Obat 4:   \n  - Dosis:   \n  - Aturan Pakai:   \n  - Efek Samping Obat:   \n\nE. Rekomendasi Obat 5:   \n  - Dosis:   \n  - Aturan Pakai:   \n  - Efek Samping Obat:"
         }
     ],
     "5708441153": [
@@ -181,6 +197,14 @@
         {
             "user": "saya sakit maag",
             "agent": "Nama Penyakit: Gastritis  \n- Tingkat Risiko: Moderate risk, especially if associated with chronic inflammation  \n- Gejala Terkait: Nausea, vomiting, bloating, abdominal pain, loss of appetite  \n\nA. Rekomendasi Obat 1: Omeprazole  \n  - Dosis: 20 mg per day  \n  - Aturan Pakai: Take before meals  \n  - Efek Samping Obat: Headache, nausea, diarrhea  \n\nB. Rekomendasi Obat 2: Antacids (such as Magnesium Hydroxide)  \n  - Dosis: As directed on the package, typically every 1-2 hours as needed  \n  - Aturan Pakai: Take after meals and at bedtime  \n  - Efek Samping Obat: Constipation or diarrhea  \n\nC. Rekomendasi Obat 3: Ranitidine  \n  - Dosis: 150 mg twice daily  \n  - Aturan Pakai: Take before meals  \n  - Efek Samping Obat: Drowsiness, dizziness  \n\nD. Rekomendasi Obat 4: Sucralfate  \n  - Dosis: 1 gram four times a day  \n  - Aturan Pakai: Take on an empty stomach  \n  - Efek Samping Obat: Constipation  \n\nE. Rekomendasi Obat 5: Lansoprazole  \n  - Dosis: 30 mg per day  \n  - Aturan Pakai: Take before meals  \n  - Efek Samping Obat: Nausea, headache"
+        },
+        {
+            "user": "sakit kepala sebelah",
+            "agent": "Nama Penyakit: -   \n- Tingkat Risiko: -  \n- Gejala Terkait: sakit kepala sebelah  \n\nA. Rekomendasi Obat 1: -   \n  - Dosis: -  \n  - Aturan Pakai: -  \n  - Efek Samping Obat: -  \nB. Rekomendasi Obat 2: -   \n  - Dosis: -  \n  - Aturan Pakai: -  \n  - Efek Samping Obat: -  \nC. Rekomendasi Obat 3: -   \n  - Dosis: -  \n  - Aturan Pakai: -  \n  - Efek Samping Obat: -  \nD. Rekomendasi Obat 4: -   \n  - Dosis: -  \n  - Aturan Pakai: -  \n  - Efek Samping Obat: -  \nE. Rekomendasi Obat 5: -   \n  - Dosis: -  \n  - Aturan Pakai: -  \n  - Efek Samping Obat: -"
+        },
+        {
+            "user": "saya sakit kepala sebelah",
+            "agent": "Nama Penyakit: Sakit Kepala Sebelah  \n- Tingkat Risiko: Tidak Diketahui  \n- Gejala Terkait: Sakit kepala sebelah  \n\nA. Rekomendasi Obat 1: (Kosong)  \n  - Dosis: (Kosong)  \n  - Aturan Pakai: (Kosong)  \n  - Efek Samping Obat: (Kosong)  \n\nB. Rekomendasi Obat 2: (Kosong)  \n  - Dosis: (Kosong)  \n  - Aturan Pakai: (Kosong)  \n  - Efek Samping Obat: (Kosong)  \n\nC. Rekomendasi Obat 3: (Kosong)  \n  - Dosis: (Kosong)  \n  - Aturan Pakai: (Kosong)  \n  - Efek Samping Obat: (Kosong)  \n\nD. Rekomendasi Obat 4: (Kosong)  \n  - Dosis: (Kosong)  \n  - Aturan Pakai: (Kosong)  \n  - Efek Samping Obat: (Kosong)  \n\nE. Rekomendasi Obat 5: (Kosong)  \n  - Dosis: (Kosong)  \n  - Aturan Pakai: (Kosong)  \n  - Efek Samping Obat: (Kosong)"
         }
     ],
     "1380018602": [
@@ -206,7 +230,8 @@
                 "user": "gejala saya pusing dan mual",
                 "agent": "Nama Penyakit: Tidak Ditemukan  \n - Tingkat Risiko: Tidak Ditemukan  \n - Gejala Terkait: Pusing, mual  \n  \nA. Rekomendasi Obat 1:   \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \nB. Rekomendasi Obat 2:   \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \nC. Rekomendasi Obat 3:   \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \nD. Rekomendasi Obat 4:   \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \nE. Rekomendasi Obat 5:   \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:"
             }
-        ]
+        ],
+        "567373130_20251013_132947": []
     },
     "1388133614": [
         {
@@ -214,10 +239,5 @@
             "agent": "Nama Penyakit: Tidak ditemukan  \n\n- Tingkat Risiko: Tidak ditemukan  \n- Gejala Terkait: demam 3 hari dengan batuk pilek  \n\nA. Rekomendasi Obat 1:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n\nB. Rekomendasi Obat 2:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n\nC. Rekomendasi Obat 3:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n\nD. Rekomendasi Obat 4:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:  \n\nE. Rekomendasi Obat 5:  \n  - Dosis:  \n  - Aturan Pakai:  \n  - Efek Samping Obat:"
         }
     ],
-    "567373130": [
-        {
-            "user": "saya mengalami sakit kepala sebelah",
-            "agent": "Nama Penyakit: Sakit kepala sebelah  \n- Tingkat Risiko: Tidak ditemukan  \n- Gejala Terkait: Sakit kepala sebelah  \n  \nA. Rekomendasi Obat 1:  \n- Dosis:  \n- Aturan Pakai:  \n- Efek Samping Obat:  \n  \nB. Rekomendasi Obat 2:  \n- Dosis:  \n- Aturan Pakai:  \n- Efek Samping Obat:  \n  \nC. Rekomendasi Obat 3:  \n- Dosis:  \n- Aturan Pakai:  \n- Efek Samping Obat:  \n  \nD. Rekomendasi Obat 4:  \n- Dosis:  \n- Aturan Pakai:  \n- Efek Samping Obat:  \n  \nE. Rekomendasi Obat 5:  \n- Dosis:  \n- Aturan Pakai:  \n- Efek Samping Obat:"
-        }
-    ]
+    "567373130": []
 }

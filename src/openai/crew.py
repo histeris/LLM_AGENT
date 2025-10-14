@@ -104,13 +104,6 @@ class researcher():
         	verbose=True,
     	)
   
-	from crewai import CrewBase
-
-	crew = CrewBase.from_yaml("crew.yaml")
-
-	for agent in crew.agents:
-		print(f"Agent: {agent.name}")
-		print(f"Model: {agent.llm.model if agent.llm else 'Default model'}")
 	# def run(self, inputs: dict):
 
 	# 	result_text = self.classification_agent().execute_task(
