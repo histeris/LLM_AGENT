@@ -1,6 +1,6 @@
 {
   "label": "gejala",
   "data": {
-    "gejala_user": "nyeri di dada"
+    "gejala_user": "sesak nafas dan kejang kejang"
   }
 }
